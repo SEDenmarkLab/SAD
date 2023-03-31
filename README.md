@@ -2,7 +2,7 @@
 
 This repository acts as documentation for code applied for Literature Scraping, Descriptor Calculation, and Modeling of the Sharpless Asymmetric Database written by Blake Ocampo. 
 
-This utilizes 4 python packages:
+Relevant packages Utilized for Descriptor Calculation and Analysis:
 
 * Molli 0.2 developed by Alex Shved for easy maintenance of 3D coordinates with personal modifications for High-Throughput DFT Calculations
 * Radial Distribution Function developed by Nicholas "Ian" Rinehart with personal modifications for alkene carbon RDF descriptor calculations.
