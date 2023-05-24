@@ -410,9 +410,9 @@ prod_can_smiles_map:
   (R)-1-(4-fluorophenyl)ethane-1,2-diol: OC[C@H](O)c1ccc(F)cc1
   (R)-1-(4-methoxyphenyl)ethane-1,2-diol: COc1ccc([C@@H](O)CO)cc1
   (R)-1-(5-(2-(((tert-butyldimethylsilyl)oxy)methyl)-4,6-dimethoxyphenyl)furan-2-yl)ethan-1-ol: COc1cc(CO[Si](C)(C)C(C)(C)C)c(-c2ccc([C@@H](C)O)o2)c(OC)c1
-  (R)-1-(5-(2-(((tert-butyldimethylsilyl)oxy)methyl)phenyl)furan-2-yl)ethan-1-ol: C[C@@H](O)c1ccc(-c2ccccc2CO[Si](C)(C)C(C)(C)C)o1
+  (R)-1-(5-(2-(((tert-butyldimethylsilyl)oxy)methyl)phenyl)furan-2-yl)ethane-1,2-diol: CC(C)(C)[Si](C)(C)OCc1ccccc1-c1ccc([C@H](O)CO)o1
   (R)-1-(5-(2-(hydroxymethyl)-4,6-dimethoxyphenyl)furan-2-yl)ethan-1-ol: COc1cc(CO)c(-c2ccc([C@@H](C)O)o2)c(OC)c1
-  (R)-1-(5-(2-(hydroxymethyl)phenyl)furan-2-yl)ethan-1-ol: C[C@@H](O)c1ccc(-c2ccccc2CO)o1
+  (R)-1-(5-(2-(hydroxymethyl)phenyl)furan-2-yl)ethane-1,2-diol: OCc1ccccc1-c1ccc([C@H](O)CO)o1
   (R)-1-(5-bromopyridin-2-yl)-1-phenylethane-1,2-diol: OC[C@@](O)(c1ccccc1)c1ccc(Br)cn1
   (R)-1-(benzo[d][1,3]dioxol-5-yl(hydroxy)methyl)cyclopropan-1-ol: O[C@H](c1ccc2c(c1)OCO2)C1(O)CC1
   (R)-1-(furan-2-yl)ethane-1,2-diol: OC[C@@H](O)c1ccco1
@@ -1704,8 +1704,8 @@ prod_id_smiles_map:
   C[C@@H](O)[C@H](O)CCl: prod_402
   C[C@@H](O)[C@H](O)c1ccc(-c2ccccc2)c(F)c1: prod_62
   C[C@@H](O)[C@]1(O)C(=O)OCc2ccccc21: prod_339
-  C[C@@H](O)c1ccc(-c2ccccc2CO)o1: prod_123
-  C[C@@H](O)c1ccc(-c2ccccc2CO[Si](C)(C)C(C)(C)C)o1: prod_124
+  OCc1ccccc1-c1ccc([C@H](O)CO)o1: prod_123
+  CC(C)(C)[Si](C)(C)OCc1ccccc1-c1ccc([C@H](O)CO)o1: prod_124
   C[C@@](O)(C#Cc1ccccc1)CO: prod_164
   C[C@@](O)(CC(F)(F)F)[C@H](O)c1ccc(S(C)(=O)=O)cc1: prod_969
   C[C@@](O)(CO)C1CCCCC1: prod_395
