@@ -116,14 +116,14 @@ New Molecule Library Written To: {new_mlib}
 
             new_mlib[name] = m
 
-max_mlib = ml.MoleculeLibrary("5_6_Realign_MaxVol.mlib")
-max_clib = ml.ConformerLibrary("5_7_0_CRESTScreen_MaxAlign.clib")
-new_max_mlib = ml.MoleculeLibrary("5_7_1_RDF_Realign_MaxVol.mlib", readonly=False, overwrite=True)
+max_mlib = ml.MoleculeLibrary("6_7_Realign_MaxVol.mlib")
+max_clib = ml.ConformerLibrary("6_8_1_CRESTScreen_MaxAlign.clib")
+new_max_mlib = ml.MoleculeLibrary("6_8_2_RDF_Realign_MaxVol.mlib", readonly=False, overwrite=True)
 
 calc_alk_rdf(ref_mlib=max_mlib, align_clib=max_clib, new_mlib=new_max_mlib)
 
-bfs_mlib = ml.MoleculeLibrary("5_6_Realign_BFSVol.mlib")
-bfs_clib = ml.ConformerLibrary("5_7_0_CRESTScreen_BFSAlign.clib")
-new_bfs_mlib = ml.MoleculeLibrary("5_7_1_RDF_Realign_BFSVol.mlib", readonly=False, overwrite=True)
+bfs_mlib = ml.MoleculeLibrary("6_7_Realign_3BFSVol.mlib")
+bfs_clib = ml.ConformerLibrary("6_8_1_CRESTScreen_BFSAlign.clib")
+new_bfs_mlib = ml.MoleculeLibrary("6_8_2_RDF_Realign_BFSVol.mlib", readonly=False, overwrite=True)
 
 calc_alk_rdf(ref_mlib=bfs_mlib, align_clib=bfs_clib, new_mlib=new_bfs_mlib)

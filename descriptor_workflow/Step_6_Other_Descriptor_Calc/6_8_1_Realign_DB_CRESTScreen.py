@@ -92,15 +92,15 @@ New Conformer Library Written To: {new_clib}
 
 
 
-bfs_mlib = ml.MoleculeLibrary("5_6_Realign_BFSVol.mlib")
-clib = ml.ConformerLibrary("5_3_2_DB_CRESTScreen_Align.clib")
-bfs_clib = ml.ConformerLibrary("5_7_0_CRESTScreen_BFSAlign.clib", readonly=False, overwrite=True)
+bfs_mlib = ml.MoleculeLibrary("6_7_Realign_3BFSVol.mlib")
+clib = ml.ConformerLibrary("6_4_2_DB_CRESTScreen.clib")
+bfs_clib = ml.ConformerLibrary("6_8_1_CRESTScreen_BFSAlign.clib", readonly=False, overwrite=True)
 
 #Realigns the New Conformer Library based on the Alignment Via 3-BFS Vol Search
 realign_clib(ref_mlib=bfs_mlib, old_clib=clib, new_clib=bfs_clib)
 
-max_mlib = ml.MoleculeLibrary("5_6_Realign_MaxVol.mlib")
-max_clib = ml.ConformerLibrary("5_7_0_CRESTScreen_MaxAlign.clib", readonly=False, overwrite=True)
+max_mlib = ml.MoleculeLibrary("6_7_Realign_MaxVol.mlib")
+max_clib = ml.ConformerLibrary("6_8_1_CRESTScreen_MaxAlign.clib", readonly=False, overwrite=True)
 
 #Realigns the New Conformer Library based on the Alignment via Max Vol Search
 realign_clib(ref_mlib=max_mlib, old_clib=clib, new_clib=max_clib)
