@@ -43,6 +43,7 @@ prod_can_smiles_map:
   (((1R,2S)-1,2-dihydroxycyclohexyl)methyl)diphenylphosphine oxide: O=P(C[C@@]1(O)CCCC[C@@H]1O)(c1ccccc1)c1ccccc1
   (((1S,2R)-1,2-dihydroxycyclohexyl)methyl)diphenylphosphine oxide: O=P(C[C@]1(O)CCCC[C@H]1O)(c1ccccc1)c1ccccc1
   ((1S,2S)-1,2-dihydroxy-4,4-dimethoxycyclohexyl)methyl 4-bromobenzoate: COC1(OC)CC[C@](O)(COC(=O)c2ccc(Br)cc2)[C@@H](O)C1
+  methyl (2S,3R)-3-(4-(benzyloxy)-3-methoxyphenyl)-2,3-dihydroxypropanoate: COC(=O)[C@@H](O)[C@H](O)c1ccc(OCc2ccccc2)c(OC)c1
   ((1S,2S)-1,2-dihydroxy-4,4-dimethoxycyclohexyl)methyl 4-methoxybenzoate: COc1ccc(C(=O)OC[C@@]2(O)CCC(OC)(OC)C[C@@H]2O)cc1
   ((1S,2S)-1,2-dihydroxy-4,4-dimethoxycyclohexyl)methyl 4-nitrobenzoate: COC1(OC)CC[C@](O)(COC(=O)c2ccc([N+](=O)[O-])cc2)[C@@H](O)C1
   ((1S,2S)-1,2-dihydroxy-4,4-dimethoxycyclohexyl)methyl acetate: COC1(OC)CC[C@](O)(COC(C)=O)[C@@H](O)C1
@@ -130,6 +131,7 @@ prod_can_smiles_map:
   (1R,2S)-cyclohepta-3,5-diene-1,2-diol: O[C@H]1C=CC=CC[C@H]1O
   (1R,2S)-cyclohex-3-ene-1,2-diol: O[C@H]1C=CCC[C@H]1O
   (1R,2S)-cyclopent-3-ene-1,2-diol: O[C@H]1C=CC[C@H]1O
+  ethyl (3R,4R)-3,4-dihydroxyhexanoate: CCOC(=O)C[C@@H](O)[C@H](O)CC
   (1R,2S)-spiro[4.4]non-3-ene-1,2-diol: O[C@H]1C=CC2(CCCC2)[C@H]1O
   (1R,2S,E)-5-(2,2-dimethylpropylidene)cyclopent-3-ene-1,2-diol: CC(C)(C)/C=C1\C=C[C@H](O)[C@@H]1O
   (1R,2S,E)-5-octylidenecyclopent-3-ene-1,2-diol: CCCCCCC/C=C1\C=C[C@H](O)[C@@H]1O
@@ -191,7 +193,7 @@ prod_can_smiles_map:
   (2R,3R)-1-(4-methoxyphenoxy)octadec-5-yne-2,3-diol: CCCCCCCCCCCCC#CC[C@@H](O)[C@H](O)COc1ccc(OC)cc1
   (2R,3R)-1-(benzyloxy)-4-((tert-butyldimethylsilyl)oxy)butane-2,3-diol: CC(C)(C)[Si](C)(C)OC[C@@H](O)[C@H](O)COCc1ccccc1
   (2R,3R)-1-(trimethylsilyl)octane-2,3-diol: CCCCC[C@@H](O)[C@@H](O)C[Si](C)(C)C
-  (2R,3R)-1-chloro-3-methylpent-4-yne-2,3-diol: ''
+  (2R,3R)-1-chloro-3-methylpent-4-yne-2,3-diol: C#C[C@@](C)(O)[C@@H](O)CCl
   (2R,3R)-2,3-dihydroxy-2-methylbutane-1,4-diyl-1,1,4,4-d4 diacetate: '[2H]C([2H])(OC(C)=O)[C@@H](O)[C@](C)(O)C([2H])([2H])OC(C)=O'
   (2R,3R)-2,3-dihydroxyundecyl benzoate: CCCCCCCC[C@@H](O)[C@H](O)COC(=O)c1ccccc1
   (2R,3R)-2,3-dimethyl-1,4-diphenylbutane-2,3-diol: C[C@@](O)(Cc1ccccc1)[C@](C)(O)Cc1ccccc1
@@ -346,7 +348,7 @@ prod_can_smiles_map:
   (4S,5R)-6-((tert-butyldimethylsilyl)oxy)-4,5-dihydroxy-4-methylhexan-3-one: CCC(=O)[C@@](C)(O)[C@H](O)CO[Si](C)(C)C(C)(C)C
   (4S,5S)-hexane-1,4,5-triol: C[C@H](O)[C@@H](O)CCCO
   (4S,5S,E)-1,1-dimethoxydec-2-ene-4,5-diol: CCCCC[C@@H](O)[C@H](O)/C=C/C(OC)OC
-  (4S,5S,E)-4,5-dihydroxy-N-methoxy-5-phenylpent-2-enamide: CONC(=O)/C=C/[C@H](O)[C@@H](O)c1ccccc1
+  (4S,5S,E)-4,5-dihydroxy-N-methoxy-N-methyl-5-phenylpent-2-enamide: CON(C)C(=O)/C=C/[C@H](O)[C@@H](O)c1ccccc1
   ? (4bR,11bS)-4b,11b-dihydroxy-1,2-dimethoxy-4b,5,6,11b-tetrahydro-13H-[1,3]dioxolo[4',5':4,5]benzo[1,2-h]benzo[c]chromen-13-one
   : COc1ccc2c(c1OC)C(=O)O[C@@]1(O)c3cc4c(cc3CC[C@@]21O)OCO4
   ? (4bS,11bR)-4b,11b-dihydroxy-1,2-dimethoxy-4b,5,6,11b-tetrahydro-13H-[1,3]dioxolo[4',5':4,5]benzo[1,2-h]benzo[c]chromen-13-one
@@ -404,10 +406,14 @@ prod_can_smiles_map:
   (R)-1-(3,4-dimethoxyphenyl)ethane-1,2-diol: COc1ccc([C@@H](O)CO)cc1OC
   (R)-1-(3-(tert-butyl)phenyl)ethane-1,2-diol: CC(C)(C)c1cccc([C@@H](O)CO)c1
   (R)-1-(3-methoxyphenyl)ethane-1,2-diol: COc1cccc([C@@H](O)CO)c1
+  (R)-1-(4-(methylthio)phenyl)-1-phenylethane-1,2-diol: CSc1ccc([C@@](O)(CO)c2ccccc2)cc1
   (R)-1-(4-(tert-butyl)phenyl)ethane-1,2-diol: CC(C)(C)c1ccc([C@@H](O)CO)cc1
   (R)-1-(4-bromophenyl)ethane-1,2-diol: OC[C@H](O)c1ccc(Br)cc1
   (R)-1-(4-chlorophenyl)ethane-1,2-diol: OC[C@H](O)c1ccc(Cl)cc1
+  (R)-1-(4-fluorophenyl)-1-(4-(methylthio)phenyl)ethane-1,2-diol: CSc1ccc([C@@](O)(CO)c2ccc(F)cc2)cc1
   (R)-1-(4-fluorophenyl)ethane-1,2-diol: OC[C@H](O)c1ccc(F)cc1
+  (R)-1-(4-methoxyphenyl)-1-(4-(methylthio)phenyl)ethane-1,2-diol: COc1ccc([C@](O)(CO)c2ccc(SC)cc2)cc1
+  (R)-1-(4-methoxyphenyl)-1-phenylethane-1,2-diol: COc1ccc([C@@](O)(CO)c2ccccc2)cc1
   (R)-1-(4-methoxyphenyl)ethane-1,2-diol: COc1ccc([C@@H](O)CO)cc1
   (R)-1-(5-(2-(((tert-butyldimethylsilyl)oxy)methyl)-4,6-dimethoxyphenyl)furan-2-yl)ethane-1,2-diol: COc1cc(CO[Si](C)(C)C(C)(C)C)c(-c2ccc([C@H](O)CO)o2)c(OC)c1
   (R)-1-(5-(2-(((tert-butyldimethylsilyl)oxy)methyl)phenyl)furan-2-yl)ethane-1,2-diol: CC(C)(C)[Si](C)(C)OCc1ccccc1-c1ccc([C@H](O)CO)o1
@@ -415,6 +421,7 @@ prod_can_smiles_map:
   (R)-1-(5-(2-(hydroxymethyl)phenyl)furan-2-yl)ethane-1,2-diol: OCc1ccccc1-c1ccc([C@H](O)CO)o1
   (R)-1-(5-bromopyridin-2-yl)-1-phenylethane-1,2-diol: OC[C@@](O)(c1ccccc1)c1ccc(Br)cn1
   (R)-1-(benzo[d][1,3]dioxol-5-yl(hydroxy)methyl)cyclopropan-1-ol: O[C@H](c1ccc2c(c1)OCO2)C1(O)CC1
+  (R)-1-(furan-2-yl)-1-phenylethane-1,2-diol: OC[C@](O)(c1ccccc1)c1ccco1
   (R)-1-(furan-2-yl)ethane-1,2-diol: OC[C@@H](O)c1ccco1
   (R)-1-(hydroxy(2-methoxyphenyl)methyl)cyclopropan-1-ol: COc1ccccc1[C@@H](O)C1(O)CC1
   (R)-1-(hydroxy(4-methoxyphenyl)methyl)cyclopropan-1-ol: COc1ccc([C@@H](O)C2(O)CC2)cc1
@@ -424,12 +431,13 @@ prod_can_smiles_map:
   (R)-1-(hydroxymethyl)-2,3-dihydro-1H-inden-1-ol: OC[C@@]1(O)CCc2ccccc21
   (R)-1-(methyldiphenylsilyl)ethane-1,2-diol: C[Si](c1ccccc1)(c1ccccc1)[C@@H](O)CO
   (R)-1-(naphthalen-1-yl)ethane-1,2-diol: OC[C@H](O)c1cccc2ccccc12
+  (R)-1-(naphthalen-2-yl)-1-phenylethane-1,2-diol: OC[C@@](O)(c1ccccc1)c1ccc2ccccc2c1
   (R)-1-(naphthalen-2-yl)ethane-1,2-diol: OC[C@H](O)c1ccc2ccccc2c1
   (R)-1-(p-tolyl)ethane-1,2-diol: Cc1ccc([C@@H](O)CO)cc1
   (R)-1-(triisopropylsilyl)ethane-1,2-diol: CC(C)[Si](C(C)C)(C(C)C)[C@@H](O)CO
   (R)-1-(trimethylsilyl)ethane-1,2-diol: C[Si](C)(C)[C@@H](O)CO
   (R)-1-(triphenylsilyl)ethane-1,2-diol: OC[C@H](O)[Si](c1ccccc1)(c1ccccc1)c1ccccc1
-  (S)-3-chloro-2-phenylpropane-1,2-diol: OC[C@](O)(CCl)c1ccccc1
+  (R)-3-chloro-2-phenylpropane-1,2-diol: OC[C@@](O)(CCl)c1ccccc1
   (R)-1-cyclobutyl-1-phenylethane-1,2-diol: OC[C@](O)(c1ccccc1)C1CCC1
   (R)-1-cyclohexyl-1-phenylethane-1,2-diol: OC[C@](O)(c1ccccc1)C1CCCCC1
   (R)-1-cyclohexylethane-1,2-diol: OC[C@H](O)C1CCCCC1
@@ -527,7 +535,7 @@ prod_can_smiles_map:
   (R)-5,6-dihydroxy-2-methyl-2-(phenylthio)hexan-3-one: CC(C)(Sc1ccccc1)C(=O)C[C@@H](O)CO
   (R)-5,6-dihydroxy-6-methylheptan-2-one: CC(=O)CC[C@@H](O)C(C)(C)O
   (R)-6-azidohexane-1,2-diol: '[N-]=[N+]=NCCCC[C@@H](O)CO'
-  (S)-5-bromopentane-1,2-diol: OC[C@@H](O)CCCBr
+  (R)-6-bromohexan-3-ol: CC[C@@H](O)CCCBr
   (R)-8-(1,3-dioxolan-2-yl)octane-1,2-diol: OC[C@H](O)CCCCCCC1OCCO1
   (R)-9,10-dihydroxydecan-2-one: CC(=O)CCCCCC[C@@H](O)CO
   (R)-9,10-dihydroxydecanenitrile: N#CCCCCCCC[C@@H](O)CO
@@ -574,11 +582,12 @@ prod_can_smiles_map:
   (S)-1-(1-(tert-butyldimethylsilyl)-2-methyl-1H-indol-7-yl)ethane-1,2-diol: Cc1cc2cccc([C@H](O)CO)c2n1[Si](C)(C)C(C)(C)C
   (S)-1-(1-hydroxy-3-phenylpropyl)cyclopropan-1-ol: O[C@@H](CCc1ccccc1)C1(O)CC1
   (S)-1-(1-hydroxyundecyl)cyclopropan-1-ol: CCCCCCCCCC[C@H](O)C1(O)CC1
-  (R)-1-(1-hydroxy-1-phenylethyl)cyclopropan-1-ol: C[C@@](O)(c1ccccc1)C1(O)CC1
+  (S)-1-(1-hydroxy-1-phenylethyl)cyclopropan-1-ol: C[C@](O)(c1ccccc1)C1(O)CC1
   (S)-1-(2,3-dimethyl-1H-indol-4-yl)ethane-1,2-diol: Cc1[nH]c2cccc([C@H](O)CO)c2c1C
   (S)-1-(2,3-dimethylbenzofuran-4-yl)ethane-1,2-diol: Cc1oc2cccc([C@H](O)CO)c2c1C
   (S)-1-(2,3-dimethylbenzofuran-7-yl)ethane-1,2-diol: Cc1oc2c([C@H](O)CO)cccc2c1C
   (S)-1-(2,3-dimethylquinolin-8-yl)ethane-1,2-diol: Cc1cc2cccc([C@H](O)CO)c2nc1C
+  (S)-1-(2,4-difluorophenyl)-1-phenylethane-1,2-diol: OC[C@](O)(c1ccccc1)c1ccc(F)cc1F
   (S)-1-(2-(tert-butyl)benzo[d]oxazol-7-yl)ethane-1,2-diol: CC(C)(C)c1nc2cccc([C@H](O)CO)c2o1
   (S)-1-(2-(trifluoromethyl)quinolin-8-yl)ethane-1,2-diol: OC[C@@H](O)c1cccc2ccc(C(F)(F)F)nc12
   (S)-1-(2-bromophenyl)ethane-1,2-diol: OC[C@@H](O)c1ccccc1Br
@@ -586,12 +595,20 @@ prod_can_smiles_map:
   (S)-1-(2-ethyl-3-methylbenzo[b]thiophen-7-yl)ethane-1,2-diol: CCc1sc2c([C@H](O)CO)cccc2c1C
   (S)-1-(2-ethyl-3-methylquinolin-8-yl)ethane-1,2-diol: CCc1nc2c([C@H](O)CO)cccc2cc1C
   (S)-1-(2-ethylquinolin-8-yl)ethane-1,2-diol: CCc1ccc2cccc([C@H](O)CO)c2n1
+  (S)-1-(2-fluorophenyl)-1-phenylethane-1,2-diol: OC[C@](O)(c1ccccc1)c1ccccc1F
+  (S)-1-(2-methoxyphenyl)-1-phenylethane-1,2-diol: COc1ccccc1[C@](O)(CO)c1ccccc1
   (S)-1-(2-methoxyphenyl)ethane-1,2-diol: COc1ccccc1[C@H](O)CO
   (S)-1-(2-vinyl-1,3-dioxolan-2-yl)ethane-1,2-diol: C=CC1([C@@H](O)CO)OCCO1
   (S)-1-(3,4,5-trimethoxyphenyl)ethane-1,2-diol: COc1cc([C@H](O)CO)cc(OC)c1OC
+  (S)-1-(3,4-difluorophenyl)-1-phenylethane-1,2-diol: OC[C@](O)(c1ccccc1)c1ccc(F)c(F)c1
   (S)-1-(3,5-bis(benzyloxy)-4-methoxyphenyl)ethane-1,2-diol: COc1c(OCc2ccccc2)cc([C@H](O)CO)cc1OCc1ccccc1
   (S)-1-(3-bromo-4-methoxyphenyl)ethane-1,2-diol: COc1ccc([C@H](O)CO)cc1Br
   (S)-1-(4-(benzyloxy)phenyl)ethane-1,2-diol: OC[C@@H](O)c1ccc(OCc2ccccc2)cc1
+  (S)-1-(4-(methylsulfonyl)phenyl)-1-phenylethane-1,2-diol: CS(=O)(=O)c1ccc([C@](O)(CO)c2ccccc2)cc1
+  (S)-1-(4-bromophenyl)-1-phenylethane-1,2-diol: OC[C@](O)(c1ccccc1)c1ccc(Br)cc1
+  (S)-1-(4-chlorophenyl)-1-phenylethane-1,2-diol: OC[C@](O)(c1ccccc1)c1ccc(Cl)cc1
+  (S)-1-(4-fluorophenyl)-1-(4-methoxyphenyl)ethane-1,2-diol: COc1ccc([C@@](O)(CO)c2ccc(F)cc2)cc1
+  (S)-1-(4-fluorophenyl)-1-phenylethane-1,2-diol: OC[C@](O)(c1ccccc1)c1ccc(F)cc1
   (S)-1-(5-bromo-1-tosyl-1H-indol-3-yl)ethane-1,2-diol: Cc1ccc(S(=O)(=O)n2cc([C@H](O)CO)c3cc(Br)ccc32)cc1
   (S)-1-(6-bromo-1-tosyl-1H-indol-3-yl)ethane-1,2-diol: Cc1ccc(S(=O)(=O)n2cc([C@H](O)CO)c3ccc(Br)cc32)cc1
   (S)-1-(9-methyl-9H-carbazol-1-yl)ethane-1,2-diol: Cn1c2ccccc2c2cccc([C@H](O)CO)c21
@@ -632,7 +649,7 @@ prod_can_smiles_map:
   (S)-2-(2,3-dihydroxypropyl)-N,N-diethyl-4,6-dimethoxybenzamide: CCN(CC)C(=O)c1c(C[C@H](O)CO)cc(OC)cc1OC
   (S)-2-(2,3-dihydroxypropyl)-N,N-diethyl-6-methoxybenzamide: CCN(CC)C(=O)c1c(C[C@H](O)CO)cccc1OC
   (S)-2-(2,3-dihydroxypropyl)-N,N-diethylbenzamide: CCN(CC)C(=O)c1ccccc1C[C@H](O)CO
-  (S)-2-(2,4-difluorophenyl)-2,3-dihydroxypropyl acetate: CC(=O)OC[C@@](O)(CO)c1ccc(F)cc1F
+  (R)-2-(2,4-difluorophenyl)-2,3-dihydroxypropyl acetate: CC(=O)OC[C@](O)(CO)c1ccc(F)cc1F
   (S)-2-(2,4-difluorophenyl)propane-1,2-diol: C[C@@](O)(CO)c1ccc(F)cc1F
   (S)-2-(2-(methylthio)thiazol-5-yl)propane-1,2-diol: CSc1ncc([C@@](C)(O)CO)s1
   (S)-2-(3-(((tert-butyldimethylsilyl)oxy)methyl)-2-methoxypyridin-4-yl)butane-1,2-diol: CC[C@@](O)(CO)c1ccnc(OC)c1CO[Si](C)(C)C(C)(C)C
@@ -1019,901 +1036,907 @@ prod_can_smiles_map:
   tert-butyl (tert-butoxycarbonyl)((2R,3R)-2,3-dihydroxyhexyl)carbamate: CCC[C@@H](O)[C@H](O)CN(C(=O)OC(C)(C)C)C(=O)OC(C)(C)C
   tert-butyl (tert-butoxycarbonyl)((2R,3S)-4-chloro-2,3-dihydroxybutyl)carbamate: CC(C)(C)OC(=O)N(C[C@@H](O)[C@H](O)CCl)C(=O)OC(C)(C)C
   tert-butyl (tert-butoxycarbonyl)((3R,4R)-3,4-dihydroxy-4-phenylbutyl)carbamate: CC(C)(C)OC(=O)N(CC[C@@H](O)[C@H](O)c1ccccc1)C(=O)OC(C)(C)C
-  (2R,3R)-1-chloro-3-methylpent-4-yne-2,3-diol: C#C[C@@](C)(O)[C@@H](O)CCl
   tert-butyl (tert-butoxycarbonyl)((3R,4R)-3,4-dihydroxyhexyl)carbamate: CC[C@@H](O)[C@H](O)CCN(C(=O)OC(C)(C)C)C(=O)OC(C)(C)C
 prod_id_smiles_map:
-  C#C[C@@](C)(O)[C@@H](O)CCl: prod_973
-  C#CCOC[C@](O)(CO)COC(=O)c1ccc(N(C)C)cc1: prod_952
-  C#CC[C@H](O)[C@@H](O)CC(=O)OC: prod_623
-  C#C[C@@](C)(O)[C@@H](O)CC(=O)OC: prod_596
-  C#C[C@@](C)(O)[C@@H](O)CO[Si](C)(C)C(C)(C)C(C)C: prod_975
-  C#C[C@@](C)(O)[C@@H](O)COc1ccc(OC)cc1: prod_974
-  C#C[C@@](C)(O)[C@H](O)COCc1ccc(OC)cc1: prod_508
-  C#C[C@](C)(O)[C@@H](O)CCl: prod_972
-  C#C[C@](C)(O)[C@@H](O)Cc1ccc(OC)cc1: prod_931
-  C/C(=C\CO)CC[C@@H](O)C(C)(C)O: prod_786
-  C/C=C/C1([C@@H](O)[C@@H](C)O)OCCO1: prod_440
-  C/C=C/[C@@H](O)[C@@H](C)O: prod_443
-  C/C=C\CC/C=C(/CC)CC[C@@H](O)C(C)(C)O: prod_794
-  C=C(C)CC[C@@H](O)C(C)(C)O: prod_784
-  C=CC1([C@@H](O)CO)OCCO1: prod_441
-  C=CCCCCCCCC[C@@H](O)[C@H](O)CCCO: prod_795
+  C#CCOC[C@](O)(CO)COC(=O)c1ccc(N(C)C)cc1: prod_951
+  C#CC[C@H](O)[C@@H](O)CC(=O)OC: prod_622
+  C#C[C@@](C)(O)[C@@H](O)CC(=O)OC: prod_595
+  C#C[C@@](C)(O)[C@@H](O)CCl: prod_972
+  C#C[C@@](C)(O)[C@@H](O)CO[Si](C)(C)C(C)(C)C(C)C: prod_974
+  C#C[C@@](C)(O)[C@@H](O)COc1ccc(OC)cc1: prod_973
+  C#C[C@@](C)(O)[C@H](O)COCc1ccc(OC)cc1: prod_507
+  C#C[C@](C)(O)[C@@H](O)CCl: prod_971
+  C#C[C@](C)(O)[C@@H](O)Cc1ccc(OC)cc1: prod_930
+  C/C(=C\CO)CC[C@@H](O)C(C)(C)O: prod_785
+  C/C=C/C1([C@@H](O)[C@@H](C)O)OCCO1: prod_439
+  C/C=C/[C@@H](O)[C@@H](C)O: prod_442
+  C/C=C\CC/C=C(/CC)CC[C@@H](O)C(C)(C)O: prod_793
+  C=C(C)CC[C@@H](O)C(C)(C)O: prod_783
+  C=CC1([C@@H](O)CO)OCCO1: prod_440
+  C=CCCCCCCCC[C@@H](O)[C@H](O)CCCO: prod_794
   C=CCCC[C@@H](O)C(C)(C)O: prod_113
-  C=CCCC[C@@H](O)CO: prod_781
-  C=CCCC[C@H](O)C(C)(C)O: prod_785
-  C=CCCC[C@H](O)CO: prod_782
-  C=CCC[C@@H](O)C(C)(C)O: prod_783
-  C=CC[C@@H](O)[C@H](O)CCC(=O)OCC: prod_788
-  C=CC[C@H](O)[C@@H](O)CCC(=O)OCC: prod_787
-  C=CC[C@H](O)[C@](C)(O)O[Si](C)(C)C: prod_757
-  C=C[C@H](O)[C@@H](O)CCCC(=O)OCC: prod_765
-  CC#CC[C@@](C)(O)[C@@H](C)O: prod_548
-  CC(=O)CCCCCCCC[C@@H](O)CO: prod_35
-  CC(=O)CCCCCC[C@@H](O)CO: prod_739
-  CC(=O)CC[C@@H](O)C(C)(C)O: prod_308
-  CC(=O)CC[C@H](O)C(C)(C)O: prod_307
-  CC(=O)Nc1nc(=O)n(C[C@](O)(CO)c2ccccc2)cc1Br: prod_565
-  CC(=O)OC/C=C(/C)CC[C@@H](O)C(C)(C)O: prod_791
-  CC(=O)OC/C=C(/C)CC[C@H](O)C(C)(C)O: prod_790
-  CC(=O)OC/C=C(\C)CC[C@@H](O)C(C)(C)O: prod_729
-  CC(=O)OC/C=C(\C)CC[C@H](O)C(C)(C)O: prod_792
-  CC(=O)OC[C@@](O)(CO)c1ccc(F)cc1F: prod_155
+  C=CCCC[C@@H](O)CO: prod_780
+  C=CCCC[C@H](O)C(C)(C)O: prod_784
+  C=CCCC[C@H](O)CO: prod_781
+  C=CCC[C@@H](O)C(C)(C)O: prod_782
+  C=CC[C@@H](O)[C@H](O)CCC(=O)OCC: prod_787
+  C=CC[C@H](O)[C@@H](O)CCC(=O)OCC: prod_786
+  C=CC[C@H](O)[C@](C)(O)O[Si](C)(C)C: prod_756
+  C=C[C@H](O)[C@@H](O)CCCC(=O)OCC: prod_764
+  CC#CC[C@@](C)(O)[C@@H](C)O: prod_547
+  CC(=O)CCCCCCCC[C@@H](O)CO: prod_34
+  CC(=O)CCCCCC[C@@H](O)CO: prod_738
+  CC(=O)CC[C@@H](O)C(C)(C)O: prod_307
+  CC(=O)CC[C@H](O)C(C)(C)O: prod_306
+  CC(=O)Nc1nc(=O)n(C[C@](O)(CO)c2ccccc2)cc1Br: prod_564
+  CC(=O)OC/C=C(/C)CC[C@@H](O)C(C)(C)O: prod_790
+  CC(=O)OC/C=C(/C)CC[C@H](O)C(C)(C)O: prod_789
+  CC(=O)OC/C=C(\C)CC[C@@H](O)C(C)(C)O: prod_728
+  CC(=O)OC/C=C(\C)CC[C@H](O)C(C)(C)O: prod_791
+  CC(=O)C[C@@](O)(CO)c1ccccc1: prod_155
   CC(=O)OC[C@](O)(CO)c1ccccc1: prod_154
-  CC(=O)[C@@H](O)[C@H](O)c1ccccc1: prod_432
-  CC(=O)[C@H](O)[C@@H](O)CCO[Si](C)(C)C(C)(C)C: prod_644
-  CC(=O)[C@]1(O)CCCC[C@H]1O: prod_304
-  CC(C)(C)/C=C1\C=C[C@H](O)[C@@H]1O: prod_713
-  CC(C)(C)C(=O)OCC/C=C(/CC[C@H](O)C(C)(C)O)C[Si](C)(C)C: prod_796
+  CC(=O)[C@@H](O)[C@H](O)c1ccccc1: prod_431
+  CC(=O)[C@H](O)[C@@H](O)CCO[Si](C)(C)C(C)(C)C: prod_643
+  CC(=O)[C@]1(O)CCCC[C@H]1O: prod_303
+  CC(C)(C)/C=C1\C=C[C@H](O)[C@@H]1O: prod_712
+  CC(C)(C)C(=O)OCC/C=C(/CC[C@H](O)C(C)(C)O)C[Si](C)(C)C: prod_795
   CC(C)(C)C(=O)OC[C@@](C)(O)CO: prod_131
-  CC(C)(C)OC(=O)CC[C@@H](O)[C@H](O)CCC(=O)OC(C)(C)C: prod_878
-  CC(C)(C)OC(=O)N(C(=O)OC(C)(C)C)c1ccn(C[C@H](O)CO)c(=O)n1: prod_450
-  CC(C)(C)OC(=O)N(C(=O)OC(C)(C)C)c1ccn(C[C@](O)(CO)c2ccccc2)c(=O)n1: prod_448
-  CC(C)(C)OC(=O)N(C(=O)OC(C)(C)C)c1nc(=O)n(C[C@](O)(CO)c2ccccc2)cc1Br: prod_564
-  CC(C)(C)OC(=O)N(CC[C@@H](O)[C@H](O)c1ccccc1)C(=O)OC(C)(C)C: prod_747
-  CC(C)(C)OC(=O)N(C[C@@H](O)C(C)(C)O)C(=O)OC(C)(C)C: prod_510
-  CC(C)(C)OC(=O)N(C[C@@H](O)CO)C(=O)OC(C)(C)C: prod_272
-  CC(C)(C)OC(=O)N(C[C@@H](O)[C@H](O)CCl)C(=O)OC(C)(C)C: prod_745
-  CC(C)(C)OC(=O)N(C[C@@H](O)[C@H](O)c1ccccc1)C(=O)OC(C)(C)C: prod_742
-  CC(C)(C)OC(=O)NCC[C@@H](O)[C@H](O)C(=O)OCc1ccccc1: prod_640
-  CC(C)(C)OC(=O)NCC[C@H](O)[C@@H](O)C(=O)OCc1ccccc1: prod_639
-  CC(C)(C)OC(=O)Nc1cc(OCc2ccccc2)c(NC(=O)OC(C)(C)C)c(C#N)c1C[C@@H](O)CO: prod_295
-  CC(C)(C)OC(=O)Oc1ccc(C[C@@H](O)C(C)(C)O)c(OCc2ccccc2)c1: prod_542
-  CC(C)(C)OC(=O)Oc1ccc(C[C@H](O)C(C)(C)O)c(OCc2ccccc2)c1: prod_541
+  CC(C)(C)OC(=O)CC[C@@H](O)[C@H](O)CCC(=O)OC(C)(C)C: prod_877
+  CC(C)(C)OC(=O)N(C(=O)OC(C)(C)C)c1ccn(C[C@H](O)CO)c(=O)n1: prod_449
+  CC(C)(C)OC(=O)N(C(=O)OC(C)(C)C)c1ccn(C[C@](O)(CO)c2ccccc2)c(=O)n1: prod_447
+  CC(C)(C)OC(=O)N(C(=O)OC(C)(C)C)c1nc(=O)n(C[C@](O)(CO)c2ccccc2)cc1Br: prod_563
+  CC(C)(C)OC(=O)N(CC[C@@H](O)[C@H](O)c1ccccc1)C(=O)OC(C)(C)C: prod_746
+  CC(C)(C)OC(=O)N(C[C@@H](O)C(C)(C)O)C(=O)OC(C)(C)C: prod_509
+  CC(C)(C)OC(=O)N(C[C@@H](O)CO)C(=O)OC(C)(C)C: prod_271
+  CC(C)(C)OC(=O)N(C[C@@H](O)[C@H](O)CCl)C(=O)OC(C)(C)C: prod_744
+  CC(C)(C)OC(=O)N(C[C@@H](O)[C@H](O)c1ccccc1)C(=O)OC(C)(C)C: prod_741
+  CC(C)(C)OC(=O)NCC[C@@H](O)[C@H](O)C(=O)OCc1ccccc1: prod_639
+  CC(C)(C)OC(=O)NCC[C@H](O)[C@@H](O)C(=O)OCc1ccccc1: prod_638
+  CC(C)(C)OC(=O)Nc1cc(OCc2ccccc2)c(NC(=O)OC(C)(C)C)c(C#N)c1C[C@@H](O)CO: prod_294
+  CC(C)(C)OC(=O)Oc1ccc(C[C@@H](O)C(C)(C)O)c(OCc2ccccc2)c1: prod_541
+  CC(C)(C)OC(=O)Oc1ccc(C[C@H](O)C(C)(C)O)c(OCc2ccccc2)c1: prod_540
   CC(C)(C)[C@@H](O)CO: prod_112
-  CC(C)(C)[C@@](O)(CO)Cn1ccc(NC(=O)c2ccccc2)nc1=O: prod_446
+  CC(C)(C)[C@@](O)(CO)Cn1ccc(NC(=O)c2ccccc2)nc1=O: prod_445
   CC(C)(C)[C@H](O)CO: prod_109
-  CC(C)(C)[C@H](O)[C@@H](O)CO: prod_813
+  CC(C)(C)[C@H](O)[C@@H](O)CO: prod_812
   CC(C)(C)[C@](O)(CO)c1ccccc1: prod_170
-  CC(C)(C)[Si](C)(C)OCCCCCCCCC[C@@H](O)CO: prod_41
-  CC(C)(C)[Si](C)(C)OCCCCCCC[C@@H](O)CO: prod_740
-  CC(C)(C)[Si](C)(C)OCC[C@@H](O)[C@H](O)CCO[Si](C)(C)C(C)(C)C: prod_894
-  CC(C)(C)[Si](C)(C)OCC[C@@](O)(c1ccccc1)[C@H](O)N1CCOC1=O: prod_963
-  CC(C)(C)[Si](C)(C)OCC[C@@](O)(c1cccs1)[C@H](O)N1CCOC1=O: prod_965
+  CC(C)(C)[Si](C)(C)OCCCCCCCCC[C@@H](O)CO: prod_40
+  CC(C)(C)[Si](C)(C)OCCCCCCC[C@@H](O)CO: prod_739
+  CC(C)(C)[Si](C)(C)OCC[C@@H](O)[C@H](O)CCO[Si](C)(C)C(C)(C)C: prod_893
+  CC(C)(C)[Si](C)(C)OCC[C@@](O)(c1ccccc1)[C@H](O)N1CCOC1=O: prod_962
+  CC(C)(C)[Si](C)(C)OCC[C@@](O)(c1cccs1)[C@H](O)N1CCOC1=O: prod_964
   CC(C)(C)[Si](C)(C)OCC[C@](O)(CO)c1ccc(Cl)c(Cl)c1: prod_199
   CC(C)(C)[Si](C)(C)OCC[C@](O)(CO)c1ccc(Cl)cc1: prod_200
   CC(C)(C)[Si](C)(C)OCC[C@](O)(CO)c1ccc(F)c(F)c1: prod_201
   CC(C)(C)[Si](C)(C)OCC[C@](O)(CO)c1ccc(F)cc1: prod_202
-  CC(C)(C)[Si](C)(C)OC[C@@H](O)[C@H](O)CC(=O)O: prod_839
-  CC(C)(C)[Si](C)(C)OC[C@@H](O)[C@H](O)COCc1ccccc1: prod_406
+  CC(C)(C)[Si](C)(C)OC[C@@H](O)[C@H](O)CC(=O)O: prod_838
+  CC(C)(C)[Si](C)(C)OC[C@@H](O)[C@H](O)COCc1ccccc1: prod_405
   CC(C)(C)[Si](C)(C)OC[C@@](C)(O)CO: prod_130
-  CC(C)(C)[Si](C)(C)OCc1ccccc1[C@@H](O)CO: prod_282
-  CC(C)(C)[Si](C)(C)O[C@@](O)(c1ccccc1)[C@@](C)(O)c1ccccc1: prod_376
-  CC(C)(C)[Si](C)(C)O[C@@](O)(c1ccccc1)[C@](C)(O)c1ccccc1: prod_373
-  CC(C)(C)[Si](C)(C)O[C@@]1(O)c2ccccc2CC[C@@]1(O)c1ccccc1: prod_368
-  CC(C)(C)[Si](C)(C)O[C@@]1(O)c2ccccc2CC[C@]1(C)O: prod_366
-  CC(C)(C)[Si](C)(C)O[C@@]1(O)c2ccccc2C[C@@]1(O)c1ccccc1: prod_372
-  CC(C)(C)[Si](C)(C)O[C@@]1(O)c2ccccc2C[C@]1(C)O: prod_370
-  CC(C)(C)[Si](C)(C)O[C@](O)(c1ccccc1)[C@@](C)(O)c1ccccc1: prod_374
-  CC(C)(C)[Si](C)(C)O[C@](O)(c1ccccc1)[C@](C)(O)c1ccccc1: prod_375
-  CC(C)(C)[Si](C)(C)O[C@]1(O)c2ccccc2CC[C@@]1(C)O: prod_367
-  CC(C)(C)[Si](C)(C)O[C@]1(O)c2ccccc2CC[C@]1(O)c1ccccc1: prod_369
-  CC(C)(C)[Si](C)(C)O[C@]1(O)c2ccccc2C[C@@]1(C)O: prod_371
+  CC(C)(C)[Si](C)(C)OCc1ccccc1[C@@H](O)CO: prod_281
+  CC(C)(C)[Si](C)(C)O[C@@](O)(c1ccccc1)[C@@](C)(O)c1ccccc1: prod_375
+  CC(C)(C)[Si](C)(C)O[C@@](O)(c1ccccc1)[C@](C)(O)c1ccccc1: prod_372
+  CC(C)(C)[Si](C)(C)O[C@@]1(O)c2ccccc2CC[C@@]1(O)c1ccccc1: prod_367
+  CC(C)(C)[Si](C)(C)O[C@@]1(O)c2ccccc2CC[C@]1(C)O: prod_365
+  CC(C)(C)[Si](C)(C)O[C@@]1(O)c2ccccc2C[C@@]1(O)c1ccccc1: prod_371
+  CC(C)(C)[Si](C)(C)O[C@@]1(O)c2ccccc2C[C@]1(C)O: prod_369
+  CC(C)(C)[Si](C)(C)O[C@](O)(c1ccccc1)[C@@](C)(O)c1ccccc1: prod_373
+  CC(C)(C)[Si](C)(C)O[C@](O)(c1ccccc1)[C@](C)(O)c1ccccc1: prod_374
+  CC(C)(C)[Si](C)(C)O[C@]1(O)c2ccccc2CC[C@@]1(C)O: prod_366
+  CC(C)(C)[Si](C)(C)O[C@]1(O)c2ccccc2CC[C@]1(O)c1ccccc1: prod_368
+  CC(C)(C)[Si](C)(C)O[C@]1(O)c2ccccc2C[C@@]1(C)O: prod_370
   CC(C)(C)[Si](OC[C@@](C)(O)CO)(c1ccccc1)c1ccccc1: prod_129
-  CC(C)(C)c1ccc([C@@H](O)CO)cc1: prod_266
-  CC(C)(C)c1ccc([C@]2(O)CCCC[C@H]2O)cc1: prod_519
-  CC(C)(C)c1cccc([C@@H](O)CO)c1: prod_263
-  CC(C)(C)c1nc2cccc([C@H](O)CO)c2o1: prod_269
-  CC(C)(O)C1=C[C@@H](O)[C@@](C)(O)CC1: prod_553
-  CC(C)(O)C1=C[C@H](O)[C@](C)(O)CC1: prod_554
-  CC(C)(O)[C@@H](O)[C@H](O)C(C)(C)O: prod_817
-  CC(C)(O)[C@@H](O)[C@H](O)CCc1ccccc1: prod_855
-  CC(C)(O)[C@@H](O)[C@H](O)c1ccccc1: prod_837
+  CC(C)(C)c1ccc([C@@H](O)CO)cc1: prod_265
+  CC(C)(C)c1ccc([C@]2(O)CCCC[C@H]2O)cc1: prod_518
+  CC(C)(C)c1cccc([C@@H](O)CO)c1: prod_262
+  CC(C)(C)c1nc2cccc([C@H](O)CO)c2o1: prod_268
+  CC(C)(O)C1=C[C@@H](O)[C@@](C)(O)CC1: prod_552
+  CC(C)(O)C1=C[C@H](O)[C@](C)(O)CC1: prod_553
+  CC(C)(O)[C@@H](O)[C@H](O)C(C)(C)O: prod_816
+  CC(C)(O)[C@@H](O)[C@H](O)CCc1ccccc1: prod_854
+  CC(C)(O)[C@@H](O)[C@H](O)c1ccccc1: prod_836
   CC(C)(O)[C@H](O)CCl: prod_105
-  CC(C)(O)[C@H](O)COC(=O)c1ccc([N+](=O)[O-])cc1: prod_347
-  CC(C)(O)[C@H](O)c1nc(C(=O)OCC[Si](C)(C)C)cs1: prod_575
-  CC(C)(O)[C@](C)(O)c1ccccc1: prod_358
-  CC(C)(Sc1ccccc1)C(=O)C[C@@H](O)CO: prod_37
-  CC(C)=C1C=C[C@H](O)[C@@H]1O: prod_714
-  CC(C)=CC(=O)[C@@H](O)C(C)(C)O: prod_433
-  CC(C)=CC1([C@@H](O)C(C)(C)O)OCCO1: prod_442
-  CC(C)=C[C@@H](O)C(C)(C)O: prod_764
-  CC(C)C(=O)Nc1ccn(C[C@H](O)CO)c(=O)n1: prod_451
-  CC(C)C1=CC[C@](C)(O)[C@H](O)C1: prod_789
-  CC(C)CCO[C@]1(O)c2ccccc2OC[C@H]1O: prod_684
-  CC(C)CO[C@]1(O)c2ccccc2CC[C@H]1O: prod_691
-  CC(C)CO[C@]1(O)c2ccccc2OC[C@H]1O: prod_683
-  CC(C)C[C@@](C)(O)CO: prod_396
-  CC(C)C[C@](C)(O)CO: prod_706
-  CC(C)C[C@](O)(O[Si](C)(C)C(C)(C)C)[C@H](O)C(C)C: prod_425
+  CC(C)(O)[C@H](O)COC(=O)c1ccc([N+](=O)[O-])cc1: prod_346
+  CC(C)(O)[C@H](O)c1nc(C(=O)OCC[Si](C)(C)C)cs1: prod_574
+  CC(C)(O)[C@](C)(O)c1ccccc1: prod_357
+  CC(C)(Sc1ccccc1)C(=O)C[C@@H](O)CO: prod_36
+  CC(C)=C1C=C[C@H](O)[C@@H]1O: prod_713
+  CC(C)=CC(=O)[C@@H](O)C(C)(C)O: prod_432
+  CC(C)=CC1([C@@H](O)C(C)(C)O)OCCO1: prod_441
+  CC(C)=C[C@@H](O)C(C)(C)O: prod_763
+  CC(C)C(=O)Nc1ccn(C[C@H](O)CO)c(=O)n1: prod_450
+  CC(C)C1=CC[C@](C)(O)[C@H](O)C1: prod_788
+  CC(C)CCO[C@]1(O)c2ccccc2OC[C@H]1O: prod_683
+  CC(C)CO[C@]1(O)c2ccccc2CC[C@H]1O: prod_690
+  CC(C)CO[C@]1(O)c2ccccc2OC[C@H]1O: prod_682
+  CC(C)C[C@@](C)(O)CO: prod_395
+  CC(C)C[C@](C)(O)CO: prod_705
+  CC(C)C[C@](O)(O[Si](C)(C)C(C)(C)C)[C@H](O)C(C)C: prod_424
   CC(C)Cc1ccc([C@](C)(O)CO)cc1: prod_182
-  CC(C)O[C@@]1(O)c2ccccc2CCC[C@@H]1O: prod_671
-  CC(C)O[C@@]1(O)c2ccccc2CC[C@@H]1O: prod_668
-  CC(C)O[C@@]1(O)c2ccccc2OC[C@@H]1O: prod_665
-  CC(C)O[C@]1(O)c2ccccc2CCC[C@H]1O: prod_696
-  CC(C)O[C@]1(O)c2ccccc2CC[C@H]1O: prod_690
-  CC(C)O[C@]1(O)c2ccccc2OC[C@H]1O: prod_682
-  CC(C)[C@@H](O)[C@@H](O)CO: prod_82
-  CC(C)[C@@H](O)[C@H](O)C(=O)OCc1ccccc1: prod_860
-  CC(C)[C@@](O)(CO)Cn1ccc(NC(=O)c2ccccc2)nc1=O: prod_557
-  CC(C)[C@H](O)[C@@H](O)C[Si](C)(C)C: prod_533
+  CC(C)O[C@@]1(O)c2ccccc2CCC[C@@H]1O: prod_670
+  CC(C)O[C@@]1(O)c2ccccc2CC[C@@H]1O: prod_667
+  CC(C)O[C@@]1(O)c2ccccc2OC[C@@H]1O: prod_664
+  CC(C)O[C@]1(O)c2ccccc2CCC[C@H]1O: prod_695
+  CC(C)O[C@]1(O)c2ccccc2CC[C@H]1O: prod_689
+  CC(C)O[C@]1(O)c2ccccc2OC[C@H]1O: prod_681
+  CC(C)[C@@H](O)[C@@H](O)CO: prod_81
+  CC(C)[C@@H](O)[C@H](O)C(=O)OCc1ccccc1: prod_859
+  CC(C)[C@@](O)(CO)Cn1ccc(NC(=O)c2ccccc2)nc1=O: prod_556
+  CC(C)[C@H](O)[C@@H](O)C[Si](C)(C)C: prod_532
   CC(C)[C@](O)(CO)c1ccccc1: prod_168
-  CC(C)[Si](C(C)C)(C(C)C)[C@@H](O)CO: prod_257
-  CC(C)[Si](C[C@H](O)CO)(C(C)C)C(C)C: prod_264
-  CC(C)[Si](OC[C@](O)(CO)COC(=O)c1ccc(N(C)C)cc1)(C(C)C)C(C)C: prod_949
+  CC(C)[Si](C(C)C)(C(C)C)[C@H](O)CO: prod_256
+  CC(C)[Si](C[C@H](O)CO)(C(C)C)C(C)C: prod_263
+  CC(C)[Si](OC[C@](O)(CO)COC(=O)c1ccc(N(C)C)cc1)(C(C)C)C(C)C: prod_948
   CC1(C)CCc2ccccc2[C@]1(O)CO: prod_181
   CC1(CCC[C@](C)(O)CO)OCCO1: prod_146
-  C[C@@](O)(c1ccccc1)C1(O)CC1: prod_379
-  CC1=C[C@H](O)[C@H](O)C1: prod_708
-  CCC#CCCCCCCCCCCC[C@@H](O)[C@H](O)C(=O)OCC: prod_900
-  CCC(=O)/C=C/[C@@H](O)[C@@H](C)O: prod_650
-  CCC(=O)CCCCCCCC[C@@H](O)CO: prod_39
-  CCC(=O)[C@@H](O)CO: prod_392
-  CCC(=O)[C@@](C)(O)[C@H](O)CO[Si](C)(C)C(C)(C)C: prod_434
-  CCC(=O)[C@H](O)CO: prod_393
-  CCC1(CCC[C@H](O)[C@H](C)O)OCC(C)(C)CO1: prod_61
-  CCC1(CC[C@H](O)[C@H](C)O)OCC(C)(C)CO1: prod_871
-  CCCCC/C=C\C=C\[C@@H](O)CO: prod_768
-  CCCCCC#CC[C@@H](O)[C@H](O)CC(=O)OC: prod_913
-  CCCCCC#CC[C@H](O)[C@@H](O)CC(=O)OC: prod_627
-  CCCCCC(=O)[C@@H](O)[C@H](O)CC(=O)OC: prod_588
-  CCCCCC(=O)[C@H](O)[C@@H](O)CC(=O)OC: prod_587
-  CCCCCCC#C[C@@H](O)CO: prod_241
-  CCCCCCC/C=C1\C=C[C@H](O)[C@@H]1O: prod_712
-  CCCCCCCCC(O)C1(O)CC1: prod_349
-  CCCCCCCCCCC#CCCC[C@@H](O)[C@H](O)C(=O)OCC: prod_73
-  CCCCCCCCCCC/C=C(/C(=O)OC)[C@@H](O)[C@H](C)O: prod_594
-  CCCCCCCCCCC/C=C(\C(=O)OC)[C@@H](O)[C@H](C)O: prod_595
-  CCCCCCCCCCCCC#CC[C@@H](O)[C@H](O)COc1ccc(OC)cc1: prod_908
-  CCCCCCCCCCCCC#CC[C@H](O)[C@@H](O)COc1ccc(OC)cc1: prod_909
-  CCCCCCCCCCCCCC#CCC(O)CO: prod_290
-  CCCCCCCCCCCCCC#C[C@@H](O)[C@H](O)C(=O)OCC: prod_72
-  CCCCCCCCCCCCCCC/C=C(/C(=O)OC)[C@H](O)[C@H](C)O: prod_592
-  CCCCCCCCCCCCCCC/C=C(\C(=O)OC)[C@H](O)[C@H](C)O: prod_593
-  CCCCCCCCCCCCCCC[C@H](O)[C@@H](O)C(=O)OCC: prod_70
-  CCCCCCCCCCCCCC[C@@H](O)CO: prod_657
-  CCCCCCCCCCCCCC[C@@H](O)[C@H](O)C(=O)OCC: prod_899
-  CCCCCCCCCCCCCC[C@@H](O)[C@H](O)CO[Si](C)(C)C(C)(C)C: prod_74
+  C[C@](O)(c1ccccc1)C1(O)CC1: prod_378
+  CC1=C[C@H](O)[C@H](O)C1: prod_707
+  CCC#CCCCCCCCCCCC[C@@H](O)[C@H](O)C(=O)OCC: prod_899
+  CCC(=O)/C=C/[C@@H](O)[C@@H](C)O: prod_649
+  CCC(=O)CCCCCCCC[C@@H](O)CO: prod_38
+  CCC(=O)[C@@H](O)CO: prod_391
+  CCC(=O)[C@@](C)(O)[C@H](O)CO[Si](C)(C)C(C)(C)C: prod_433
+  CCC(=O)[C@H](O)CO: prod_392
+  CCC1(CCC[C@H](O)[C@H](C)O)OCC(C)(C)CO1: prod_60
+  CCC1(CC[C@H](O)[C@H](C)O)OCC(C)(C)CO1: prod_870
+  CCCCC/C=C\C=C\[C@@H](O)CO: prod_767
+  CCCCCC#CC[C@@H](O)[C@H](O)CC(=O)OC: prod_912
+  CCCCCC#CC[C@H](O)[C@@H](O)CC(=O)OC: prod_626
+  CCCCCC(=O)[C@@H](O)[C@H](O)CC(=O)OC: prod_587
+  CCCCCC(=O)[C@H](O)[C@@H](O)CC(=O)OC: prod_586
+  CCCCCCC#C[C@@H](O)CO: prod_240
+  CCCCCCC/C=C1\C=C[C@H](O)[C@@H]1O: prod_711
+  CCCCCCCC[C@H](O)C1(O)CC1: prod_348
+  CCCCCCCCCCC#CCCC[C@@H](O)[C@H](O)C(=O)OCC: prod_72
+  CCCCCCCCCCC/C=C(/C(=O)OC)[C@@H](O)[C@H](C)O: prod_593
+  CCCCCCCCCCC/C=C(\C(=O)OC)[C@@H](O)[C@H](C)O: prod_594
+  CCCCCCCCCCCCC#CC[C@@H](O)[C@H](O)COc1ccc(OC)cc1: prod_907
+  CCCCCCCCCCCCC#CC[C@H](O)[C@@H](O)COc1ccc(OC)cc1: prod_908
+  CCCCCCCCCCCCCC#CC[C@@H](O)CO: prod_289
+  CCCCCCCCCCCCCC#C[C@@H](O)[C@H](O)C(=O)OCC: prod_71
+  CCCCCCCCCCCCCCC/C=C(/C(=O)OC)[C@H](O)[C@H](C)O: prod_591
+  CCCCCCCCCCCCCCC/C=C(\C(=O)OC)[C@H](O)[C@H](C)O: prod_592
+  CCCCCCCCCCCCCCC[C@H](O)[C@@H](O)C(=O)OCC: prod_69
+  CCCCCCCCCCCCCC[C@@H](O)CO: prod_656
+  CCCCCCCCCCCCCC[C@@H](O)[C@H](O)C(=O)OCC: prod_898
+  CCCCCCCCCCCCCC[C@@H](O)[C@H](O)CO[Si](C)(C)C(C)(C)C: prod_73
   CCCCCCCCCCCCCC[C@@](O)(CO)C(=O)OC: prod_207
-  CCCCCCCCCCCCCC[C@H](O)[C@@H](O)C(=O)OCC: prod_897
+  CCCCCCCCCCCCCC[C@H](O)[C@@H](O)C(=O)OCC: prod_896
   CCCCCCCCCCCCCC[C@](O)(CO)C(=O)OC: prod_206
-  CCCCCCCCCCCCC[C@@H](O)[C@H](O)CC(=O)OC: prod_912
-  CCCCCCCCCCCCC[C@H](O)[C@@H](O)CC(=O)OC: prod_911
-  CCCCCCCCCCCC[C@@H](O)CO: prod_658
-  CCCCCCCCCCCC[C@@H](O)[C@H](O)CCC(=O)OCC: prod_971
-  CCCCCCCCCCCC[C@H](O)[C@@H](O)CCC(=O)OCC: prod_970
-  CCCCCCCCCCCC[C@H](O)[C@@H](O)CO: prod_876
-  CCCCCCCCCCC[C@H](O)[C@@H](O)CO: prod_872
-  CCCCCCCCCCO[C@]1(O)c2ccccc2OC[C@H]1O: prod_681
-  CCCCCCCCCC[C@@H](O)C1(O)CC1: prod_502
+  CCCCCCCCCCCCC[C@@H](O)[C@H](O)CC(=O)OC: prod_911
+  CCCCCCCCCCCCC[C@H](O)[C@@H](O)CC(=O)OC: prod_910
+  CCCCCCCCCCCC[C@@H](O)CO: prod_657
+  CCCCCCCCCCCC[C@@H](O)[C@H](O)CCC(=O)OCC: prod_970
+  CCCCCCCCCCCC[C@H](O)[C@@H](O)CCC(=O)OCC: prod_969
+  CCCCCCCCCCCC[C@H](O)[C@@H](O)CO: prod_875
+  CCCCCCCCCCC[C@H](O)[C@@H](O)CO: prod_871
+  CCCCCCCCCCO[C@]1(O)c2ccccc2OC[C@H]1O: prod_680
+  CCCCCCCCCC[C@@H](O)C1(O)CC1: prod_501
   CCCCCCCCCC[C@@H](O)[C@@H](O)CCCC(=O)OC: prod_104
-  CCCCCCCCCC[C@@H](O)[C@H](O)CC(=O)OC: prod_928
-  CCCCCCCCCC[C@@H](O)[C@H](O)CCC(=O)OCC: prod_887
-  CCCCCCCCCC[C@H](O)C1(O)CC1: prod_503
-  CCCCCCCCCC[C@H](O)[C@@H](O)CC(=O)OC: prod_927
-  CCCCCCCCCC[C@H](O)[C@@H](O)CCC(=O)OCC: prod_888
-  CCCCCCCCCC[C@H](O)[C@@H](O)CO: prod_862
-  CCCCCCCCCC[C@H](O)[C@@H](O)CO[Si](C)(C)C(C)(C)C: prod_760
-  CCCCCCCCCC[C@H](O)[C@H](O)CO: prod_735
-  CCCCCCCCC[C@@H](O)C(O)(OC)OC: prod_496
-  CCCCCCCCC[C@H](O)C(O)(OC)OC: prod_495
-  CCCCCCCCC[C@H](O)[C@@H](O)CC(=O)OC: prod_628
-  CCCCCCCCC[C@H](O)[C@@H](O)CCCCC(=O)OC: prod_886
-  CCCCCCCCC[C@H](O)[C@@H](O)CO: prod_852
-  CCCCCCCC[C@@H](O)CO: prod_23
-  CCCCCCCC[C@@H](O)[C@H](O)CC(=O)OC: prod_481
-  CCCCCCCC[C@@H](O)[C@H](O)CCCCCCCC(=O)OC: prod_68
-  CCCCCCCC[C@@H](O)[C@H](O)CO: prod_537
-  CCCCCCCC[C@@H](O)[C@H](O)COC(=O)c1ccccc1: prod_891
-  CCCCCCCC[C@H](O)CO: prod_24
-  CCCCCCCC[C@H](O)[C@@H](O)CC(=O)OC: prod_910
-  CCCCCCCC[C@H](O)[C@@H](O)CCCCCCCC(=O)OC: prod_69
-  CCCCCCCC[C@H](O)[C@@H](O)CO: prod_838
-  CCCCCCC[C@@H](O)C1(O)CC1: prod_344
-  CCCCCCC[C@@H](O)[C@H](O)C(=O)OCC: prod_53
-  CCCCCCC[C@@H](O)[C@H](O)P(=O)(OCC)OCC: prod_800
-  CCCCCCC[C@H](O)[C@@H](O)C(=O)OCC: prod_54
-  CCCCCCC[C@H](O)[C@@H](O)CO: prod_830
-  CCCCCCC[C@H](O)[C@@H](O)P(=O)(OCC)OCC: prod_799
-  CCCCCCOC(=O)[C@H](O)[C@H](C)O: prod_468
-  CCCCCC[C@@H](O)CO: prod_659
+  CCCCCCCCCC[C@@H](O)[C@H](O)CC(=O)OC: prod_927
+  CCCCCCCCCC[C@@H](O)[C@H](O)CCC(=O)OCC: prod_886
+  CCCCCCCCCC[C@H](O)C1(O)CC1: prod_502
+  CCCCCCCCCC[C@H](O)[C@@H](O)CC(=O)OC: prod_926
+  CCCCCCCCCC[C@H](O)[C@@H](O)CCC(=O)OCC: prod_887
+  CCCCCCCCCC[C@H](O)[C@@H](O)CO: prod_861
+  CCCCCCCCCC[C@H](O)[C@@H](O)CO[Si](C)(C)C(C)(C)C: prod_759
+  CCCCCCCCCC[C@H](O)[C@H](O)CO: prod_734
+  CCCCCCCCC[C@@H](O)C(O)(OC)OC: prod_495
+  CCCCCCCCC[C@H](O)C(O)(OC)OC: prod_494
+  CCCCCCCCC[C@H](O)[C@@H](O)CC(=O)OC: prod_627
+  CCCCCCCCC[C@H](O)[C@@H](O)CCCCC(=O)OC: prod_885
+  CCCCCCCCC[C@H](O)[C@@H](O)CO: prod_851
+  CCCCCCCC[C@@H](O)CO: prod_995
+  CCCCCCCC[C@@H](O)[C@H](O)CC(=O)OC: prod_480
+  CCCCCCCC[C@@H](O)[C@H](O)CCCCCCCC(=O)OC: prod_67
+  CCCCCCCC[C@@H](O)[C@H](O)CO: prod_536
+  CCCCCCCC[C@@H](O)[C@H](O)COC(=O)c1ccccc1: prod_890
+  CCCCCCCC[C@H](O)CO: prod_23
+  CCCCCCCC[C@H](O)[C@@H](O)CC(=O)OC: prod_909
+  CCCCCCCC[C@H](O)[C@@H](O)CCCCCCCC(=O)OC: prod_68
+  CCCCCCCC[C@H](O)[C@@H](O)CO: prod_837
+  CCCCCCC[C@@H](O)C1(O)CC1: prod_343
+  CCCCCCC[C@@H](O)[C@H](O)C(=O)OCC: prod_52
+  CCCCCCC[C@@H](O)[C@H](O)P(=O)(OCC)OCC: prod_799
+  CCCCCCC[C@H](O)[C@@H](O)C(=O)OCC: prod_53
+  CCCCCCC[C@H](O)[C@@H](O)CO: prod_829
+  CCCCCCC[C@H](O)[C@@H](O)P(=O)(OCC)OCC: prod_798
+  CCCCCCOC(=O)[C@H](O)[C@H](C)O: prod_467
+  CCCCCC[C@@H](O)CO: prod_658
   CCCCCC[C@@H](O)[C@@H](O)[Si](C)(C)C: prod_100
-  CCCCCC[C@@H](O)[C@H](O)C#C[Si](C)(C)C: prod_728
-  CCCCCC[C@@H](O)[C@H](O)CC(=O)OC: prod_485
-  CCCCCC[C@@H](O)[C@H](O)c1c(C(=O)OC)cc(OCc2ccccc2)c(OCc2ccccc2)c1OCc1ccccc1: prod_661
-  CCCCCC[C@@](C)(O)CO: prod_530
-  CCCCCC[C@@](O)(c1cccc(C(=O)OCC)c1)[C@H](O)N1CCOC1=O: prod_966
-  CCCCCC[C@H](O)[C@@H](O)CC(=O)OC: prod_753
-  CCCCCC[C@H](O)[C@@H](O)CCO[Si](C)(C)C(C)(C)C: prod_63
-  CCCCCC[C@H](O)[C@@H](O)CO: prod_822
-  CCCCCC[C@H](O)[C@H](O)[Si](C)(C)C: prod_99
-  CCCCCC[C@](O)(CO)COC(=O)c1ccc(N(C)C)cc1: prod_946
+  CCCCCC[C@@H](O)[C@H](O)C#C[Si](C)(C)C: prod_727
+  CCCCCC[C@@H](O)[C@H](O)CC(=O)OC: prod_484
+  CCCCCC[C@@H](O)[C@H](O)c1c(C(=O)OC)cc(OCc2ccccc2)c(OCc2ccccc2)c1OCc1ccccc1: prod_660
+  CCCCCC[C@@](C)(O)CO: prod_529
+  CCCCCC[C@@](O)(c1cccc(C(=O)OCC)c1)[C@H](O)N1CCOC1=O: prod_965
+  CCCCCC[C@H](O)[C@@H](O)CC(=O)OC: prod_752
+  CCCCCC[C@H](O)[C@@H](O)CCO[Si](C)(C)C(C)(C)C: prod_62
+  CCCCCC[C@H](O)[C@@H](O)CO: prod_821
+  CCCCCC[C@H](O)[C@H](O)[Si](C)(C)C: prod_98
+  CCCCCC[C@](O)(CO)COC(=O)c1ccc(N(C)C)cc1: prod_945
   CCCCCC[C@](O)(CO)c1ccccc1: prod_174
-  CCCCCO[C@@]1(O)CCCCC[C@@H]1O: prod_700
-  CCCCCO[C@@]1(O)CCCC[C@@H]1O: prod_698
-  CCCCCO[C@@]1(O)c2ccccc2CCC[C@@H]1O: prod_670
-  CCCCCO[C@@]1(O)c2ccccc2CC[C@@H]1O: prod_667
-  CCCCCO[C@@]1(O)c2ccccc2OC[C@@H]1O: prod_664
-  CCCCCO[C@]1(O)CCCCC[C@H]1O: prod_675
-  CCCCCO[C@]1(O)CCCC[C@H]1O: prod_673
-  CCCCCO[C@]1(O)c2ccccc2CCC[C@H]1O: prod_695
-  CCCCCO[C@]1(O)c2ccccc2CC[C@H]1O: prod_689
-  CCCCCO[C@]1(O)c2ccccc2OC[C@H]1O: prod_680
-  CCCCC[C@@H](O)CO: prod_230
-  CCCCC[C@@H](O)[C@@H](O)C[Si](C)(C)C: prod_98
-  CCCCC[C@@H](O)[C@H](O)/C=C/C(=O)OCC: prod_769
-  CCCCC[C@@H](O)[C@H](O)/C=C/C(OC)OC: prod_771
-  CCCCC[C@@H](O)[C@H](O)/C=C/C=O: prod_767
-  CCCCC[C@@H](O)[C@H](O)C(=O)OC(C)(C)C: prod_51
-  CCCCC[C@@H](O)[C@H](O)C(=O)OCC: prod_47
-  CCCCC[C@@H](O)[C@H](O)C(C)(C)O: prod_829
-  CCCCC[C@@H](O)[C@H](O)C(C)=O: prod_431
-  CCCCC[C@@H](O)[C@H](O)CC(=O)N(C)OC: prod_831
-  CCCCC[C@@H](O)[C@H](O)CC(=O)OC: prod_625
-  CCCCC[C@@H](O)[C@H](O)CCC(=O)OCC: prod_848
-  CCCCC[C@@H](O)[C@H](O)CO[Si](C)(C)C(C)(C)C: prod_60
-  CCCCC[C@@H](O)[C@H](O)C[Si](C)(C)C: prod_539
-  CCCCC[C@@](C)(O)C(C)(C)O: prod_357
+  CCCCCO[C@@]1(O)CCCCC[C@@H]1O: prod_699
+  CCCCCO[C@@]1(O)CCCC[C@@H]1O: prod_697
+  CCCCCO[C@@]1(O)c2ccccc2CCC[C@@H]1O: prod_669
+  CCCCCO[C@@]1(O)c2ccccc2CC[C@@H]1O: prod_666
+  CCCCCO[C@@]1(O)c2ccccc2OC[C@@H]1O: prod_663
+  CCCCCO[C@]1(O)CCCCC[C@H]1O: prod_674
+  CCCCCO[C@]1(O)CCCC[C@H]1O: prod_672
+  CCCCCO[C@]1(O)c2ccccc2CCC[C@H]1O: prod_694
+  CCCCCO[C@]1(O)c2ccccc2CC[C@H]1O: prod_688
+  CCCCCO[C@]1(O)c2ccccc2OC[C@H]1O: prod_679
+  CCCCC[C@@H](O)CO: prod_229
+  CCCCC[C@@H](O)[C@@H](O)C[Si](C)(C)C: prod_97
+  CCCCC[C@@H](O)[C@H](O)/C=C/C(=O)OCC: prod_768
+  CCCCC[C@@H](O)[C@H](O)/C=C/C(OC)OC: prod_770
+  CCCCC[C@@H](O)[C@H](O)/C=C/C=O: prod_766
+  CCCCC[C@@H](O)[C@H](O)C(=O)OC(C)(C)C: prod_50
+  CCCCC[C@@H](O)[C@H](O)C(=O)OCC: prod_46
+  CCCCC[C@@H](O)[C@H](O)C(C)(C)O: prod_828
+  CCCCC[C@@H](O)[C@H](O)C(C)=O: prod_430
+  CCCCC[C@@H](O)[C@H](O)CC(=O)N(C)OC: prod_830
+  CCCCC[C@@H](O)[C@H](O)CC(=O)OC: prod_624
+  CCCCC[C@@H](O)[C@H](O)CCC(=O)OCC: prod_847
+  CCCCC[C@@H](O)[C@H](O)CO[Si](C)(C)C(C)(C)C: prod_59
+  CCCCC[C@@H](O)[C@H](O)C[Si](C)(C)C: prod_538
+  CCCCC[C@@](C)(O)C(C)(C)O: prod_356
   CCCCC[C@@](C)(O)CO: prod_19
-  CCCCC[C@@](C)(O)[C@@H](O)CC(=O)OC: prod_621
-  CCCCC[C@@](C)(O)[C@H](O)C(C)(C)O: prod_346
-  CCCCC[C@@](C)(O)[C@H](O)CC(=O)OC: prod_620
-  CCCCC[C@@](O)(OC)[C@@H](O)CCCC: prod_417
-  CCCCC[C@@](O)(O[Si](C)(C)C(C)(C)C)[C@@H](O)CCCC: prod_418
-  CCCCC[C@H](O)[C@@H](O)/C=C/C(=O)OCC: prod_770
-  CCCCC[C@H](O)[C@@H](O)C(=O)OCC: prod_399
-  CCCCC[C@H](O)[C@@H](O)CC(=O)N(C)OC: prod_832
-  CCCCC[C@H](O)[C@@H](O)CC(=O)OC: prod_624
-  CCCCC[C@H](O)[C@@H](O)CCC(=O)OCC: prod_849
-  CCCCC[C@H](O)[C@@H](O)CCl: prod_814
-  CCCCC[C@H](O)[C@@H](O)CO: prod_818
-  CCCCC[C@H](O)[C@@H](O)C[Si](C)(C)C: prod_536
-  CCCCC[C@H](O)[C@@H](O)P(=O)(OCc1ccccc1)OCc1ccccc1: prod_479
-  CCCCC[C@H](O)[C@H](C)O: prod_647
-  CCCCC[C@H](O)[C@H](O)C[Si](C)(C)C: prod_97
+  CCCCC[C@@](C)(O)[C@@H](O)CC(=O)OC: prod_620
+  CCCCC[C@@](C)(O)[C@H](O)C(C)(C)O: prod_345
+  CCCCC[C@@](C)(O)[C@H](O)CC(=O)OC: prod_619
+  CCCCC[C@@](O)(OC)[C@@H](O)CCCC: prod_416
+  CCCCC[C@@](O)(O[Si](C)(C)C(C)(C)C)[C@@H](O)CCCC: prod_417
+  CCCCC[C@H](O)[C@@H](O)/C=C/C(=O)OCC: prod_769
+  CCCCC[C@H](O)[C@@H](O)C(=O)OCC: prod_398
+  CCCCC[C@H](O)[C@@H](O)CC(=O)N(C)OC: prod_831
+  CCCCC[C@H](O)[C@@H](O)CC(=O)OC: prod_623
+  CCCCC[C@H](O)[C@@H](O)CCC(=O)OCC: prod_848
+  CCCCC[C@H](O)[C@@H](O)CCl: prod_813
+  CCCCC[C@H](O)[C@@H](O)CO: prod_817
+  CCCCC[C@H](O)[C@@H](O)C[Si](C)(C)C: prod_535
+  CCCCC[C@H](O)[C@@H](O)P(=O)(OCc1ccccc1)OCc1ccccc1: prod_478
+  CCCCC[C@H](O)[C@H](C)O: prod_646
+  CCCCC[C@H](O)[C@H](O)C[Si](C)(C)C: prod_96
   CCCCC[C@](C)(O)CO: prod_20
-  CCCCC[C@](C)(O)[C@@H](O)CC(=O)OC: prod_619
-  CCCCC[C@](C)(O)[C@@H](O)CO[Si](C)(C)C(C)(C)C: prod_513
-  CCCCC[C@](C)(O)[C@H](O)CC(=O)OC: prod_622
-  CCCCC[C@](O)(CO)COC(=O)c1ccc(N(C)C)cc1: prod_945
+  CCCCC[C@](C)(O)[C@@H](O)CC(=O)OC: prod_618
+  CCCCC[C@](C)(O)[C@@H](O)CO[Si](C)(C)C(C)(C)C: prod_512
+  CCCCC[C@](C)(O)[C@H](O)CC(=O)OC: prod_621
+  CCCCC[C@](O)(CO)COC(=O)c1ccc(N(C)C)cc1: prod_944
   CCCCC[C@](O)(CO)c1ccccc1: prod_172
-  CCCCC[C@](O)(OC)[C@H](O)CCCC: prod_416
-  CCCCC[C@](O)(O[Si](C)(C)C(C)(C)C)[C@H](O)CCCC: prod_419
-  CCCCO[C@@]1(O)c2ccccc2OC[C@@H]1O: prod_663
-  CCCCO[C@]1(O)c2ccccc2OC[C@H]1O: prod_679
-  CCCC[C@@H](O)C(C)(C)O: prod_7
-  CCCC[C@@H](O)CO: prod_385
+  CCCCC[C@](O)(OC)[C@H](O)CCCC: prod_415
+  CCCCC[C@](O)(O[Si](C)(C)C(C)(C)C)[C@H](O)CCCC: prod_418
+  CCCCO[C@@]1(O)c2ccccc2OC[C@@H]1O: prod_662
+  CCCCO[C@]1(O)c2ccccc2OC[C@H]1O: prod_678
+  CCCC[C@@H](O)C(C)(C)O: prod_6
+  CCCC[C@@H](O)CO: prod_384
   CCCC[C@@H](O)[C@@H](O)[Si](CC)(CC)CC: prod_102
-  CCCC[C@@H](O)[C@H](O)C(=O)N(C)OC: prod_824
-  CCCC[C@@H](O)[C@H](O)C(=O)OC: prod_815
+  CCCC[C@@H](O)[C@H](O)C(=O)N(C)OC: prod_823
+  CCCC[C@@H](O)[C@H](O)C(=O)OC: prod_814
   CCCC[C@@H](O)[C@H](O)C(=O)OCC: prod_13
-  CCCC[C@@H](O)[C@H](O)CC#CC(=O)OC: prod_759
-  CCCC[C@@H](O)[C@H](O)CC(=O)N(C)OC: prod_430
-  CCCC[C@@H](O)[C@H](O)CC(=O)OC: prod_483
+  CCCC[C@@H](O)[C@H](O)CC#CC(=O)OC: prod_758
+  CCCC[C@@H](O)[C@H](O)CC(=O)N(C)OC: prod_429
+  CCCC[C@@H](O)[C@H](O)CC(=O)OC: prod_482
   CCCC[C@@H](O)[C@H](O)CCCC: prod_11
-  CCCC[C@@H](O)[C@H](O)CCl: prod_405
-  CCCC[C@@H](O)[C@H](O)CNC(=O)C(Cl)(Cl)Cl: prod_741
-  CCCC[C@@](O)(CO)Cn1ccc(NC(=O)c2ccccc2)nc1=O: prod_556
-  CCCC[C@H](O)C(C)(C)O: prod_8
-  CCCC[C@H](O)[C@@H](O)C#CCCCCO: prod_52
-  CCCC[C@H](O)[C@@H](O)C(=O)OC: prod_816
+  CCCC[C@@H](O)[C@H](O)CCl: prod_404
+  CCCC[C@@H](O)[C@H](O)CNC(=O)C(Cl)(Cl)Cl: prod_740
+  CCCC[C@@](O)(CO)Cn1ccc(NC(=O)c2ccccc2)nc1=O: prod_555
+  CCCC[C@H](O)C(C)(C)O: prod_7
+  CCCC[C@H](O)[C@@H](O)C#CCCCCO: prod_51
+  CCCC[C@H](O)[C@@H](O)C(=O)OC: prod_815
   CCCC[C@H](O)[C@@H](O)C(=O)OCC: prod_14
-  CCCC[C@H](O)[C@@H](O)CC#CC(=O)OC: prod_758
-  CCCC[C@H](O)[C@@H](O)CC(=O)OC: prod_755
+  CCCC[C@H](O)[C@@H](O)CC#CC(=O)OC: prod_757
+  CCCC[C@H](O)[C@@H](O)CC(=O)OC: prod_754
   CCCC[C@H](O)[C@@H](O)CCCC: prod_12
-  CCCC[C@H](O)[C@@H](O)CP(=O)(c1ccccc1)c1ccccc1: prod_895
-  CCCC[C@H](O)[C@@H](O)C[Si](C)(C)C: prod_825
-  CCCC[C@](O)(CO)COC(=O)c1ccc(N(C)C)cc1: prod_944
+  CCCC[C@H](O)[C@@H](O)CP(=O)(c1ccccc1)c1ccccc1: prod_894
+  CCCC[C@H](O)[C@@H](O)C[Si](C)(C)C: prod_824
+  CCCC[C@](O)(CO)COC(=O)c1ccc(N(C)C)cc1: prod_943
   CCCC[C@](O)(CO)c1ccccc1: prod_169
-  CCCO[C@]1(O)c2ccccc2CCC[C@H]1O: prod_694
-  CCCO[C@]1(O)c2ccccc2CC[C@H]1O: prod_688
-  CCCO[C@]1(O)c2ccccc2OC[C@H]1O: prod_678
+  CCCO[C@]1(O)c2ccccc2CCC[C@H]1O: prod_693
+  CCCO[C@]1(O)c2ccccc2CC[C@H]1O: prod_687
+  CCCO[C@]1(O)c2ccccc2OC[C@H]1O: prod_677
   CCC[C@@H](O)CO: prod_107
-  CCC[C@@H](O)[C@@H](O)CO: prod_732
-  CCC[C@@H](O)[C@H](O)/C=C\CCCCCCCOC(C)=O: prod_778
-  CCC[C@@H](O)[C@H](O)CCC(=O)OCC: prod_826
-  CCC[C@@H](O)[C@H](O)CN(C(=O)OC(C)(C)C)C(=O)OC(C)(C)C: prod_744
-  CCC[C@@H](O)[C@H](O)CSc1ccccc1: prod_437
-  CCC[C@@H](O)[C@H](O)C[Se]c1ccc([N+](=O)[O-])cc1: prod_841
-  CCC[C@@H](O)[C@H](O)C[Se]c1ccccc1: prod_840
-  CCC[C@@H](O)[C@H](O)C[Se]c1ccccc1[N+](=O)[O-]: prod_49
-  CCC[C@@H](O)[C@H](O)c1cc(OC)cc(OC)c1: prod_861
-  CCC[C@@H](O)[C@H](O)c1cn(CC)c(C(C)=O)n1: prod_55
+  CCC[C@@H](O)[C@@H](O)CO: prod_731
+  CCC[C@@H](O)[C@H](O)/C=C\CCCCCCCOC(C)=O: prod_777
+  CCC[C@@H](O)[C@H](O)CCC(=O)OCC: prod_825
+  CCC[C@@H](O)[C@H](O)CN(C(=O)OC(C)(C)C)C(=O)OC(C)(C)C: prod_743
+  CCC[C@@H](O)[C@H](O)CSc1ccccc1: prod_436
+  CCC[C@@H](O)[C@H](O)C[Se]c1ccc([N+](=O)[O-])cc1: prod_840
+  CCC[C@@H](O)[C@H](O)C[Se]c1ccccc1: prod_839
+  CCC[C@@H](O)[C@H](O)C[Se]c1ccccc1[N+](=O)[O-]: prod_48
+  CCC[C@@H](O)[C@H](O)c1cc(OC)cc(OC)c1: prod_860
+  CCC[C@@H](O)[C@H](O)c1cn(CC)c(C(C)=O)n1: prod_54
   CCC[C@@](O)(CO)C(=O)OCC: prod_141
-  CCC[C@@](O)(CO)Cn1ccc(NC(=O)c2ccccc2)nc1=O: prod_555
-  CCC[C@H](O)[C@@H](O)CCC(=O)OCC: prod_827
-  CCC[C@H](O)[C@@H](O)C[Se]c1ccc([N+](=O)[O-])cc1: prod_842
-  CCC[C@H](O)[C@@H](O)C[Se]c1ccccc1[N+](=O)[O-]: prod_50
-  CCC[C@H](O)[C@@H](O)c1cn(CC)c(C(C)=O)n1: prod_56
-  CCC[C@H](O)[C@H](O)CO: prod_733
-  CCC[C@](O)(CO)COC(=O)c1ccc(N(C)C)cc1: prod_943
+  CCC[C@@](O)(CO)Cn1ccc(NC(=O)c2ccccc2)nc1=O: prod_554
+  CCC[C@H](O)[C@@H](O)CCC(=O)OCC: prod_826
+  CCC[C@H](O)[C@@H](O)C[Se]c1ccc([N+](=O)[O-])cc1: prod_841
+  CCC[C@H](O)[C@@H](O)C[Se]c1ccccc1[N+](=O)[O-]: prod_49
+  CCC[C@H](O)[C@@H](O)c1cn(CC)c(C(C)=O)n1: prod_55
+  CCC[C@H](O)[C@H](O)CO: prod_732
+  CCC[C@](O)(CO)COC(=O)c1ccc(N(C)C)cc1: prod_942
   CCC[C@](O)(CO)c1ccccc1: prod_167
   CCCc1cc(OC)ccc1OCC[C@](C)(O)CO: prod_192
   CCCc1cc(OC)ccc1OC[C@](C)(O)CO: prod_186
-  CCN(CC)C(=O)[C@@H](O)[C@H](O)CCc1ccccc1: prod_856
-  CCN(CC)C(=O)c1c(C[C@@H](O)CO)cc(OC)cc1OC: prod_286
-  CCN(CC)C(=O)c1c(C[C@H](O)CO)cc(OC)cc1OC: prod_285
-  CCN(CC)C(=O)c1c(C[C@H](O)CO)cccc1OC: prod_281
-  CCN(CC)C(=O)c1c(C[C@H](O)[C@@H](O)CC(C)C)cccc1OC: prod_896
-  CCN(CC)C(=O)c1cc(OC)cc(OC)c1C[C@H](O)CO: prod_287
-  CCN(CC)C(=O)c1ccccc1C[C@H](O)CO: prod_275
-  CCOC(=O)/C(C)=C/[C@@H](O)[C@H](O)COCc1ccc(OC)cc1: prod_545
-  CCOC(=O)/C=C/C1([C@@H](O)[C@H](O)C(=O)OCC)OCCO1: prod_793
-  CCOC(=O)/C=C/C=C/[C@@H](O)[C@@H](C)O: prod_766
-  CCOC(=O)/C=C/[C@@H](O)[C@@H](C)O: prod_648
-  CCOC(=O)/C=C/[C@H](O)[C@@H](O)CCO[Si](C)(C)C(C)(C)C: prod_638
-  CCOC(=O)/C=C/[C@H](O)[C@@H](O)COCc1ccc(OC)cc1: prod_777
-  CCOC(=O)/C=C/[C@H](O)[C@H](C)O: prod_763
-  CCOC(=O)C(CC)(CC)[C@H](O)CO: prod_591
-  CCOC(=O)C1=C[C@@H](O)[C@@](C)(O)CC1: prod_551
-  CCOC(=O)C1=C[C@H](O)[C@](C)(O)CC1: prod_552
-  CCOC(=O)CCCCCC[C@@H](O)CO: prod_737
-  CCOC(=O)CC[C@@H](O)[C@H](O)CCCOCc1ccccc1: prod_889
-  CCOC(=O)CC[C@@H](O)[C@H](O)Cc1ccccc1: prod_868
-  CCOC(=O)CC[C@H](O)[C@@H](O)CCCOCc1ccccc1: prod_890
-  CCOC(=O)C[C@@H](O)[C@H](O)Cc1ccc(O[Si](C)(C)C(C)(C)C)c(OC)c1: prod_920
-  CCOC(=O)C[C@@H](O)[C@H](O)Cc1ccccc1: prod_488
-  CCOC(=O)C[C@@H](O)[C@H](O)[Si](C)(C)C: prod_589
-  CCOC(=O)C[C@@](O)(C(=O)OCC)[C@@H](O)c1ccccc1: prod_611
-  CCOC(=O)C[C@@](O)(C(=O)OCC)[C@H](OCC)c1ccccc1: prod_618
-  CCOC(=O)C[C@H](O)[C@@H](O)CC: prod_484
-  CCOC(=O)C[C@](O)(C(=O)OCC)[C@@H](O)c1ccccc1: prod_617
-  CCOC(=O)C[C@](O)(C(=O)OCC)[C@H](O)c1ccccc1: prod_612
-  CCOC(=O)[C@@H](O)CO: prod_704
-  CCOC(=O)[C@@H](O)[C@H](O)C(C)C: prod_45
-  CCOC(=O)[C@@H](O)[C@H](O)Cc1cc(-c2ccccc2)cs1: prod_471
-  CCOC(=O)[C@@H](O)[C@H](O)Cc1cc2ccccc2s1: prod_472
-  CCOC(=O)[C@@H](O)[C@H](O)Cc1cccs1: prod_470
-  CCOC(=O)[C@@H](O)[C@H](O)Cc1csc2ccccc12: prod_473
-  CCOC(=O)[C@@H](O)[C@H](O)c1ccc(-c2ccccc2)s1: prod_469
+  CCN(CC)C(=O)[C@@H](O)[C@H](O)CCc1ccccc1: prod_855
+  CCN(CC)C(=O)c1c(C[C@@H](O)CO)cc(OC)cc1OC: prod_285
+  CCN(CC)C(=O)c1c(C[C@H](O)CO)cc(OC)cc1OC: prod_284
+  CCN(CC)C(=O)c1c(C[C@H](O)CO)cccc1OC: prod_280
+  CCN(CC)C(=O)c1c(C[C@H](O)[C@@H](O)CC(C)C)cccc1OC: prod_895
+  CCN(CC)C(=O)c1cc(OC)cc(OC)c1C[C@H](O)CO: prod_286
+  CCN(CC)C(=O)c1ccccc1C[C@H](O)CO: prod_274
+  CCOC(=O)/C(C)=C/[C@@H](O)[C@H](O)COCc1ccc(OC)cc1: prod_544
+  CCOC(=O)/C=C/C1([C@@H](O)[C@H](O)C(=O)OCC)OCCO1: prod_792
+  CCOC(=O)/C=C/C=C/[C@@H](O)[C@@H](C)O: prod_765
+  CCOC(=O)/C=C/[C@@H](O)[C@@H](C)O: prod_647
+  CCOC(=O)/C=C/[C@H](O)[C@@H](O)CCO[Si](C)(C)C(C)(C)C: prod_637
+  CCOC(=O)/C=C/[C@H](O)[C@@H](O)COCc1ccc(OC)cc1: prod_776
+  CCOC(=O)/C=C/[C@H](O)[C@H](C)O: prod_762
+  CCOC(=O)C(CC)(CC)[C@H](O)CO: prod_590
+  CCOC(=O)C1=C[C@@H](O)[C@@](C)(O)CC1: prod_550
+  CCOC(=O)C1=C[C@H](O)[C@](C)(O)CC1: prod_551
+  CCOC(=O)CCCCCC[C@@H](O)CO: prod_736
+  CCOC(=O)CC[C@@H](O)[C@H](O)CCCOCc1ccccc1: prod_888
+  CCOC(=O)CC[C@@H](O)[C@H](O)Cc1ccccc1: prod_867
+  CCOC(=O)CC[C@H](O)[C@@H](O)CCCOCc1ccccc1: prod_889
+  CCOC(=O)C[C@@H](O)[C@H](O)Cc1ccc(O[Si](C)(C)C(C)(C)C)c(OC)c1: prod_919
+  CCOC(=O)C[C@@H](O)[C@H](O)Cc1ccccc1: prod_487
+  CCOC(=O)C[C@@H](O)[C@H](O)[Si](C)(C)C: prod_588
+  CCOC(=O)C[C@@](O)(C(=O)OCC)[C@@H](O)c1ccccc1: prod_610
+  CCOC(=O)C[C@@](O)(C(=O)OCC)[C@H](O)c1ccccc1: prod_617
+  CCOC(=O)C[C@H](O)[C@@H](O)CC: prod_483
+  CCOC(=O)C[C@](O)(C(=O)OCC)[C@@H](O)c1ccccc1: prod_616
+  CCOC(=O)C[C@](O)(C(=O)OCC)[C@H](O)c1ccccc1: prod_611
+  CCOC(=O)[C@@H](O)CO: prod_703
+  CCOC(=O)[C@@H](O)[C@H](O)C(C)C: prod_44
+  CCOC(=O)[C@@H](O)[C@H](O)Cc1cc(-c2ccccc2)cs1: prod_470
+  CCOC(=O)[C@@H](O)[C@H](O)Cc1cc2ccccc2s1: prod_471
+  CCOC(=O)[C@@H](O)[C@H](O)Cc1cccs1: prod_469
+  CCOC(=O)[C@@H](O)[C@H](O)Cc1csc2ccccc12: prod_472
+  CCOC(=O)[C@@H](O)[C@H](O)c1ccc(-c2ccccc2)s1: prod_468
   CCOC(=O)[C@@H](O)[C@H](O)c1ccccc1: prod_15
-  CCOC(=O)[C@@H](O)[C@](C)(O)/C=C/C=C(C)/C=C/c1c(C)cc(OC)c(C)c1C: prod_779
-  CCOC(=O)[C@@H](O)[C@](C)(O)CCNC(=O)OCc1ccccc1: prod_701
-  CCOC(=O)[C@@]1(O)Cc2ccccc2[C@@H]1O: prod_355
-  CCOC(=O)[C@H](O)CO: prod_705
-  CCOC(=O)[C@H](O)[C@@H](O)C(C)(C)CSc1ccccc1: prod_875
-  CCOC(=O)[C@H](O)[C@@H](O)C(C)C: prod_44
-  CCOC(=O)[C@H](O)[C@@H](O)CC(C)C: prod_820
-  CCOC(=O)[C@H](O)[C@@H](O)CCCOCc1ccc(OC)cc1: prod_574
-  CCOC(=O)[C@H](O)[C@@H](O)CCOCc1ccc(OC)cc1: prod_546
-  CCOC(=O)[C@H](O)[C@@H](O)CCOCc1ccccc1: prod_59
-  CCOC(=O)[C@H](O)[C@@H](O)CCO[Si](C)(C)C(C)(C)C: prod_57
-  CCOC(=O)[C@H](O)[C@@H](O)CCO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C: prod_577
-  CCOC(=O)[C@H](O)[C@@H](O)COCc1ccccc1: prod_859
-  CCOC(=O)[C@H](O)[C@@H](O)Cc1ccc(OCc2ccccc2)cc1: prod_977
-  CCOC(=O)[C@H](O)[C@@H](O)c1cc(-c2ccccc2)cs1: prod_475
-  CCOC(=O)[C@H](O)[C@@H](O)c1cc(C)c(OC)c(O[Si](C)(C)C(C)(C)C)c1: prod_476
+  CCOC(=O)[C@@H](O)[C@](C)(O)/C=C/C=C(C)/C=C/c1c(C)cc(OC)c(C)c1C: prod_778
+  CCOC(=O)[C@@H](O)[C@](C)(O)CCNC(=O)OCc1ccccc1: prod_700
+  CCOC(=O)[C@@]1(O)Cc2ccccc2[C@@H]1O: prod_354
+  CCOC(=O)[C@H](O)CO: prod_704
+  CCOC(=O)[C@H](O)[C@@H](O)C(C)(C)CSc1ccccc1: prod_874
+  CCOC(=O)[C@H](O)[C@@H](O)C(C)C: prod_43
+  CCOC(=O)[C@H](O)[C@@H](O)CC(C)C: prod_819
+  CCOC(=O)[C@H](O)[C@@H](O)CCCOCc1ccc(OC)cc1: prod_573
+  CCOC(=O)[C@H](O)[C@@H](O)CCOCc1ccc(OC)cc1: prod_545
+  CCOC(=O)[C@H](O)[C@@H](O)CCOCc1ccccc1: prod_58
+  CCOC(=O)[C@H](O)[C@@H](O)CCO[Si](C)(C)C(C)(C)C: prod_56
+  CCOC(=O)[C@@H](O)[C@H](O)CCO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C: prod_576
+  CCOC(=O)[C@H](O)[C@@H](O)COCc1ccccc1: prod_858
+  CCOC(=O)[C@H](O)[C@@H](O)Cc1ccc(OCc2ccccc2)cc1: prod_976
+  CCOC(=O)[C@H](O)[C@@H](O)c1cc(-c2ccccc2)cs1: prod_474
+  CCOC(=O)[C@H](O)[C@@H](O)c1cc(C)c(OC)c(O[Si](C)(C)C(C)(C)C)c1: prod_475
   CCOC(=O)[C@H](O)[C@@H](O)c1cc2c(c(C)c1OC)OCO2: prod_115
-  CCOC(=O)[C@H](O)[C@@H](O)c1ccc(-c2ccccc2)s1: prod_474
-  CCOC(=O)[C@H](O)[C@@H](O)c1ccc(OC)cc1: prod_845
-  CCOC(=O)[C@H](O)[C@@H](O)c1ccc(S(C)(=O)=O)cc1: prod_465
+  CCOC(=O)[C@H](O)[C@@H](O)c1ccc(-c2ccccc2)s1: prod_473
+  CCOC(=O)[C@H](O)[C@@H](O)c1ccc(OC)cc1: prod_844
+  CCOC(=O)[C@H](O)[C@@H](O)c1ccc(S(C)(=O)=O)cc1: prod_464
   CCOC(=O)[C@H](O)[C@@H](O)c1ccccc1: prod_16
-  CCOC(=O)[C@H](O)[C@@](C)(O)/C=C/C=C(C)/C=C/c1c(C)cc(OC)c(C)c1C: prod_780
-  CCOC(=O)c1cccc([C@](O)(CCc2ccccc2)[C@H](O)N2CCOC2=O)c1: prod_962
-  CCOC(O)(OCC)[C@@H](O)/C=C/c1ccccc1: prod_775
-  CCOC(O)(OCC)[C@@H](O)CC(C)C: prod_316
-  CCOC(O)(OCC)[C@@H](O)CCc1ccccc1: prod_506
-  CCOC(O)(OCC)[C@@H](O)c1ccc(C(C)C)cc1: prod_512
-  CCOC(O)(OCC)[C@@H](O)c1ccc(N(C)C)cc1: prod_505
-  CCOC(O)(OCC)[C@@H](O)c1ccc(OC)cc1: prod_494
-  CCOC(O)(OCC)[C@@H](O)c1ccc2ccccc2c1: prod_522
-  CCOC(O)(OCC)[C@@H](O)c1cccc2ccccc12: prod_521
-  CCOC(O)(OCC)[C@H](O)/C=C/c1ccccc1: prod_774
-  CCOC(O)(OCC)[C@H](O)CC(C)C: prod_315
-  CCOC(O)(OCC)[C@H](O)CCc1ccccc1: prod_507
-  CCOC(O)(OCC)[C@H](O)c1ccc(C(C)C)cc1: prod_511
-  CCOC(O)(OCC)[C@H](O)c1ccc(N(C)C)cc1: prod_504
-  CCOC(O)(OCC)[C@H](O)c1ccc(OC)cc1: prod_493
-  CCOC(O)(OCC)[C@H](O)c1ccc2ccccc2c1: prod_523
-  CCOC(O)(OCC)[C@H](O)c1cccc2ccccc12: prod_520
-  CCOCc1c([C@@](O)(CC)[C@@H](O)OC)cc(-c2nc3ccccc3cc2COC)nc1OCC: prod_477
-  CCOCc1c([C@](C)(O)[C@@H](O)OC)cc(-c2cc3ccccc3cc2COC)nc1OCC: prod_573
-  CCOCn1cc([C@@H](O)[C@@H](O)CCO)nc1C(C)=O: prod_80
-  CCOCn1cc([C@@H](O)[C@H](O)CCO)nc1C(C)=O: prod_850
-  CCOCn1cc([C@@H](O)[C@H](O)CCO[Si](C)(C)C(C)(C)C)nc1C(C)=O: prod_892
-  CCOCn1cc([C@H](O)[C@@H](O)CCO)nc1C(C)=O: prod_851
-  CCOCn1cc([C@H](O)[C@@H](O)CCO[Si](C)(C)C(C)(C)C)nc1C(C)=O: prod_893
-  CCOP(=O)(C[C@@H](O)[C@H](O)c1ccccc1)OCC: prod_854
-  CCOP(=O)(C[C@H](O)[C@@H](O)c1ccccc1)OCC: prod_853
-  CCOP(=O)(OCC)[C@@H](O)[C@@H](C)O: prod_532
-  CCOP(=O)(OCC)[C@@H](O)[C@H](O)CO[Si](C)(C)C(C)(C)C: prod_798
-  CCOP(=O)(OCC)[C@@H](O)[C@H](O)c1ccc(OC)cc1: prod_804
-  CCOP(=O)(OCC)[C@@H](O)[C@H](O)c1ccccc1: prod_801
-  CCOP(=O)(OCC)[C@H](O)[C@@H](O)CC(=O)c1ccc(OC)cc1: prod_797
-  CCOP(=O)(OCC)[C@H](O)[C@@H](O)CCOCc1ccccc1: prod_873
-  CCOP(=O)(OCC)[C@H](O)[C@@H](O)CO[Si](C)(C)C(C)(C)C: prod_858
-  CCOP(=O)(OCC)[C@H](O)[C@@H](O)Cc1ccc(OC)cc1: prod_874
-  CCOP(=O)(OCC)[C@H](O)[C@@H](O)c1ccc(Cl)cc1: prod_806
-  CCOP(=O)(OCC)[C@H](O)[C@@H](O)c1ccc(OC)cc1: prod_803
-  CCOP(=O)(OCC)[C@H](O)[C@@H](O)c1cccc(OC)c1: prod_805
-  CCOP(=O)(OCC)[C@H](O)[C@@H](O)c1cccc2ccccc12: prod_807
-  CCOP(=O)(OCC)[C@H](O)[C@@H](O)c1ccccc1: prod_802
-  CCOP(=O)(OCC)[C@H](O)[C@@H](O)c1ccco1: prod_808
-  CCOP(=O)(OCC)[C@H](O)[C@H](C)O: prod_531
-  CCO[C@]1(O)c2ccccc2OC[C@H]1O: prod_677
-  CCOc1ccc(C(=O)OC[C@@](C)(O)CO)cc1: prod_937
-  OC[C@@H](O)CCCBr: prod_225
+  CCOC(=O)[C@H](O)[C@@](C)(O)/C=C/C=C(C)/C=C/c1c(C)cc(OC)c(C)c1C: prod_779
+  CCOC(=O)c1cccc([C@](O)(CCc2ccccc2)[C@H](O)N2CCOC2=O)c1: prod_961
+  CCOC(O)(OCC)[C@@H](O)/C=C/c1ccccc1: prod_774
+  CCOC(O)(OCC)[C@@H](O)CC(C)C: prod_315
+  CCOC(O)(OCC)[C@@H](O)CCc1ccccc1: prod_505
+  CCOC(O)(OCC)[C@@H](O)c1ccc(C(C)C)cc1: prod_511
+  CCOC(O)(OCC)[C@@H](O)c1ccc(N(C)C)cc1: prod_504
+  CCOC(O)(OCC)[C@@H](O)c1ccc(OC)cc1: prod_493
+  CCOC(O)(OCC)[C@@H](O)c1ccc2ccccc2c1: prod_521
+  CCOC(O)(OCC)[C@@H](O)c1cccc2ccccc12: prod_520
+  CCOC(O)(OCC)[C@H](O)/C=C/c1ccccc1: prod_773
+  CCOC(O)(OCC)[C@H](O)CC(C)C: prod_314
+  CCOC(O)(OCC)[C@H](O)CCc1ccccc1: prod_506
+  CCOC(O)(OCC)[C@H](O)c1ccc(C(C)C)cc1: prod_510
+  CCOC(O)(OCC)[C@H](O)c1ccc(N(C)C)cc1: prod_503
+  CCOC(O)(OCC)[C@H](O)c1ccc(OC)cc1: prod_492
+  CCOC(O)(OCC)[C@H](O)c1ccc2ccccc2c1: prod_522
+  CCOC(O)(OCC)[C@H](O)c1cccc2ccccc12: prod_519
+  CCOCc1c([C@@](O)(CC)[C@@H](O)OC)cc(-c2nc3ccccc3cc2COC)nc1OCC: prod_476
+  CCOCc1c([C@](C)(O)[C@@H](O)OC)cc(-c2cc3ccccc3cc2COC)nc1OCC: prod_572
+  CCOCn1cc([C@@H](O)[C@@H](O)CCO)nc1C(C)=O: prod_79
+  CCOCn1cc([C@@H](O)[C@H](O)CCO)nc1C(C)=O: prod_849
+  CCOCn1cc([C@@H](O)[C@H](O)CCO[Si](C)(C)C(C)(C)C)nc1C(C)=O: prod_891
+  CCOCn1cc([C@H](O)[C@@H](O)CCO)nc1C(C)=O: prod_850
+  CCOCn1cc([C@H](O)[C@@H](O)CCO[Si](C)(C)C(C)(C)C)nc1C(C)=O: prod_892
+  CCOP(=O)(C[C@@H](O)[C@H](O)c1ccccc1)OCC: prod_853
+  CCOP(=O)(C[C@H](O)[C@@H](O)c1ccccc1)OCC: prod_852
+  CCOP(=O)(OCC)[C@@H](O)[C@@H](C)O: prod_531
+  CCOP(=O)(OCC)[C@@H](O)[C@H](O)CO[Si](C)(C)C(C)(C)C: prod_797
+  CCOP(=O)(OCC)[C@@H](O)[C@H](O)c1ccc(OC)cc1: prod_803
+  CCOP(=O)(OCC)[C@@H](O)[C@H](O)c1ccccc1: prod_800
+  CCOP(=O)(OCC)[C@H](O)[C@@H](O)CC(=O)c1ccc(OC)cc1: prod_796
+  CCOP(=O)(OCC)[C@H](O)[C@@H](O)CCOCc1ccccc1: prod_872
+  CCOP(=O)(OCC)[C@H](O)[C@@H](O)CO[Si](C)(C)C(C)(C)C: prod_857
+  CCOP(=O)(OCC)[C@H](O)[C@@H](O)Cc1ccc(OC)cc1: prod_873
+  CCOP(=O)(OCC)[C@H](O)[C@@H](O)c1ccc(Cl)cc1: prod_805
+  CCOP(=O)(OCC)[C@H](O)[C@@H](O)c1ccc(OC)cc1: prod_802
+  CCOP(=O)(OCC)[C@H](O)[C@@H](O)c1cccc(OC)c1: prod_804
+  CCOP(=O)(OCC)[C@H](O)[C@@H](O)c1cccc2ccccc12: prod_806
+  CCOP(=O)(OCC)[C@H](O)[C@@H](O)c1ccccc1: prod_801
+  CCOP(=O)(OCC)[C@H](O)[C@@H](O)c1ccco1: prod_807
+  CCOP(=O)(OCC)[C@H](O)[C@H](C)O: prod_530
+  CCO[C@]1(O)c2ccccc2OC[C@H]1O: prod_676
+  CCOc1ccc(C(=O)OC[C@@](C)(O)CO)cc1: prod_936
   CC[C@@H](O)CO: prod_222
-  CC[C@@H](O)[C@@H](O)CCO: prod_81
-  CC[C@@H](O)[C@@H](O)CCOC: prod_83
-  CC[C@@H](O)[C@@H](O)CO: prod_78
-  CC[C@@H](O)[C@@](O)(CC)CC(=O)OC: prod_598
-  CC[C@@H](O)[C@H](O)/C=C/C=C/C(=O)OC: prod_654
-  CC[C@@H](O)[C@H](O)C(=O)CCC1(C)OCCO1: prod_48
-  CC[C@@H](O)[C@H](O)CC: prod_810
-  CC[C@@H](O)[C@H](O)CCCC1(C)OCCO1: prod_835
-  CC[C@@H](O)[C@H](O)CCN(C(=O)OC(C)(C)C)C(=O)OC(C)(C)C: prod_746
-  CC[C@@H](O)[C@H](O)CCSc1ccccc1: prod_438
-  CC[C@@H](O)[C@](C)(O)C(C)(C)O: prod_305
+  CC[C@@H](O)[C@@H](O)CCO: prod_80
+  CC[C@@H](O)[C@@H](O)CCOC: prod_82
+  CCC[C@@H](O)[C@@H](O)CO: prod_77
+  CC[C@@H](O)[C@@](O)(CC)CC(=O)OC: prod_597
+  CC[C@@H](O)[C@H](O)/C=C/C=C/C(=O)OC: prod_653
+  CC[C@@H](O)[C@H](O)C(=O)CCC1(C)OCCO1: prod_47
+  CC[C@@H](O)[C@H](O)CC: prod_809
+  CC[C@@H](O)[C@H](O)CCCC1(C)OCCO1: prod_834
+  CC[C@@H](O)[C@H](O)CCN(C(=O)OC(C)(C)C)C(=O)OC(C)(C)C: prod_745
+  CC[C@@H](O)[C@H](O)CCSc1ccccc1: prod_437
+  CC[C@@H](O)[C@](C)(O)C(C)(C)O: prod_304
   CC[C@@](O)(CO)COC(=O)C(C)(C)C: prod_145
   CC[C@@](O)(CO)COCc1ccccc1: prod_180
   CC[C@@](O)(CO)CO[Si](C)(C)C(C)(C)C: prod_166
   CC[C@@](O)(CO)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C: prod_210
-  CC[C@@](O)(CO)COc1ccccc1: prod_397
-  CC[C@@](O)(CO)Cn1ccc(NCc2ccccc2)nc1=O: prod_453
-  CC[C@@](O)(CO)OC(=O)C(C)(C)C: prod_128
+  CC[C@@](O)(CO)COc1ccccc1: prod_396
+  CC[C@@](O)(CO)Cn1ccc(NCc2ccccc2)nc1=O: prod_452
   CC[C@@](O)(CO)OCc1ccccc1: prod_127
   CC[C@@](O)(CO)O[Si](c1ccccc1)(c1ccccc1)C(C)(C)C: prod_126
-  CC[C@@](O)(CO)c1ccccc1: prod_150
-  CC[C@@](O)(CO)c1ccnc(OC)c1CO[Si](C)(C)C(C)(C)C: prod_466
-  CC[C@@]1(O)CCCO[C@@H]1O: prod_303
-  CC[C@@]1(O)c2ccccc2CO[C@@H]1O: prod_341
-  CC[C@@]1(O)c2ccccc2CO[C@@]1(O)OC(=O)C(C)(C)C: prod_380
-  CC[C@@]1(O)c2ccccc2CO[C@@]1(O)OC(=O)c1ccccc1: prod_382
-  CC[C@@]1(O)c2ccccc2CO[C@@]1(O)O[Si](C(C)C)(C(C)C)C(C)C: prod_383
-  CC[C@@]1(O)c2ccccc2CO[C@@]1(O)O[Si](C)(C)C(C)(C)C: prod_381
-  CC[C@H](O)[C@@H](O)CC#CC(=O)OC: prod_576
-  CC[C@H](O)[C@@H](O)CCCC(C)=O: prod_821
-  CC[C@H](O)[C@@H](O)CCCC1(C)OCCO1: prod_836
-  CC[C@H](O)[C@H](O)CCO: prod_89
-  CC[C@H](O)[C@H](O)CO: prod_88
-  CC[C@H](O)[C@](O)(CC)CC(=O)OC: prod_597
-  CC[C@](O)(CO)COC(=O)c1ccc(N(C)C)cc1: prod_942
+  CC[C@](O)(CO)c1ccccc1: prod_150
+  CC[C@@](O)(CO)c1ccnc(OC)c1CO[Si](C)(C)C(C)(C)C: prod_465
+  CC[C@@]1(O)CCCO[C@@H]1O: prod_302
+  CC[C@@]1(O)c2ccccc2CO[C@@H]1O: prod_340
+  CC[C@@]1(O)c2ccccc2CO[C@@]1(O)OC(=O)C(C)(C)C: prod_379
+  CC[C@@]1(O)c2ccccc2CO[C@@]1(O)OC(=O)c1ccccc1: prod_381
+  CC[C@@]1(O)c2ccccc2CO[C@@]1(O)O[Si](C(C)C)(C(C)C)C(C)C: prod_382
+  CC[C@@]1(O)c2ccccc2CO[C@@]1(O)O[Si](C)(C)C(C)(C)C: prod_380
+  CC[C@H](O)[C@@H](O)CC#CC(=O)OC: prod_575
+  CC[C@H](O)[C@@H](O)CCCC(C)=O: prod_820
+  CC[C@H](O)[C@@H](O)CCCC1(C)OCCO1: prod_835
+  CC[C@H](O)[C@H](O)CCO: prod_88
+  CC[C@H](O)[C@H](O)CO: prod_87
+  CC[C@H](O)[C@](O)(CC)CC(=O)OC: prod_596
+  CC[C@](O)(CO)COC(=O)c1ccc(N(C)C)cc1: prod_941
   CC[C@](O)(CO)CO[Si](C)(C)C(C)(C)C: prod_165
-  CC[C@](O)(c1ccccc1)[C@H](O)N1CCOC1=O: prod_959
-  CC[C@]1(O)CCCO[C@H]1O: prod_302
-  CC[C@]1(O)c2cc([Si](C)(C)C)nc(OC)c2CO[C@H]1O: prod_509
-  CC[C@]1(O)c2ccccc2CO[C@H]1O: prod_340
-  CC[C@]1(O)c2ccnc(OC)c2CO[C@H]1O: prod_750
-  CC[Si](CC)(CC)[C@H](O)CO: prod_232
-  CC[Si](CC)(CC)[C@](O)(CO)CCn1cnc2c(OCc3ccccc3)nc(N)nc21: prod_449
-  CCc1ccc2cccc([C@H](O)CO)c2n1: prod_270
-  CCc1ccc2cccc([C@H](O)[C@@H](O)CO)c2n1: prod_869
-  CCc1nc2c([C@H](O)CO)cccc2cc1C: prod_274
-  CCc1nc2c([C@H](O)CO)cccc2n1C: prod_262
-  CCc1sc2c([C@H](O)CO)cccc2c1C: prod_273
-  CCn1cc([C@@H](O)[C@H](O)CCO[Si](C)(C)C(C)(C)C)nc1C(C)=O: prod_65
-  CCn1cc([C@H](O)[C@@H](O)CCO[Si](C)(C)C(C)(C)C)nc1C(C)=O: prod_66
-  CN(C(=O)c1ccccc1)c1cc(OCc2ccccc2)c(N(C)C(=O)c2ccccc2)c(C#N)c1C[C@@H](O)CO: prod_297
-  CN(C)c1ccc(C(=O)OC[C@@](C)(O)CO)cc1: prod_939
-  CN(C)c1ccc(C(=O)OC[C@@](O)(CO)CCCl)cc1: prod_956
-  CN(C)c1ccc(C(=O)OC[C@@](O)(CO)CCF)cc1: prod_957
-  CN(C)c1ccc(C(=O)OC[C@@](O)(CO)CCOCc2ccccc2)cc1: prod_953
-  CN(C)c1ccc(C(=O)OC[C@@](O)(CO)CCO[Si](C)(C)C(C)(C)C)cc1: prod_955
-  CN(C)c1ccc(C(=O)OC[C@@](O)(CO)CCO[Si](c2ccccc2)(c2ccccc2)C(C)(C)C)cc1: prod_954
-  CN(C)c1ccc(C(=O)OC[C@@](O)(CO)COCc2ccccc2)cc1: prod_951
-  CN(C)c1ccc(C(=O)OC[C@@](O)(CO)CO[Si](C)(C)C(C)(C)C)cc1: prod_947
-  CN(C)c1ccc(C(=O)OC[C@@](O)(CO)CO[Si](c2ccccc2)(c2ccccc2)C(C)(C)C)cc1: prod_948
-  CN(C)c1ccc(C(=O)OC[C@](C)(O)CO)cc1: prod_941
-  CN(Cc1ccccc1)C(=O)C[C@@H](O)[C@H](O)c1ccccc1: prod_428
-  CN(Cc1ccccc1)C(=O)[C@@H](O)[C@H](O)c1ccccc1: prod_426
-  CN1C(=O)c2c(ccc3c2OCO3)[C@@]2(O)CCc3cc4c(cc3[C@@]12O)OCO4: prod_572
-  CN1C(=O)c2c(ccc3c2OCO3)[C@]2(O)CCc3cc4c(cc3[C@]12O)OCO4: prod_571
-  COC(=O)/C=C/C=C/[C@@H](O)[C@@H](C)O: prod_653
-  COC(=O)/C=C/C=C/[C@@H](O)[C@H](O)C(C)(C)C: prod_655
-  COC(=O)/C=C1\C=C[C@@H](O)[C@H]1O: prod_715
-  COC(=O)C(C)(C)[C@H](O)CO: prod_590
-  COC(=O)C1=C[C@H](O)[C@H](O)CC1: prod_718
-  COC(=O)CCCCCCCCCCCCCCC[C@@H](O)CO: prod_42
-  COC(=O)CCCCCCCCCCCCCCC[C@H](O)CO: prod_291
-  COC(=O)CCC[C@H](O)[C@@H](O)c1ccccc1: prod_863
-  COC(=O)CC[C@@H](O)[C@H](O)c1ccc(OC)c(OC)c1: prod_933
-  COC(=O)CC[C@@](C)(O)[C@@H](C)O: prod_313
-  COC(=O)CC[C@H](O)[C@@H](O)c1ccc(OC)c(OC)c1: prod_932
-  COC(=O)C[C@@H](O)[C@@H](C)O: prod_811
-  COC(=O)C[C@@H](O)[C@H](O)C(C)C: prod_925
-  COC(=O)C[C@@H](O)[C@H](O)CCCCCCCCCCOc1cc(OC)c2cccc(OC)c2c1OC: prod_930
-  COC(=O)C[C@@H](O)[C@H](O)CCOCc1ccccc1: prod_921
-  COC(=O)C[C@@H](O)[C@H](O)CCO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C: prod_923
-  COC(=O)C[C@@H](O)[C@H](O)CNC(=O)OCc1ccccc1: prod_915
-  COC(=O)C[C@@H](O)[C@H](O)CO[Si](C)(C)C(C)(C)C: prod_480
-  COC(=O)C[C@@H](O)[C@H](O)Cc1ccc(O[Si](C)(C)C(C)(C)C)c(OC)c1: prod_919
-  COC(=O)C[C@@H](O)[C@H](O)Cc1ccccc1: prod_918
-  COC(=O)C[C@@H](O)[C@H](O)[Si](C)(C)C: prod_926
-  COC(=O)C[C@@H](O)[C@H](O)c1cc2c3c(cccc3c1OC)OC(C)(C)O2: prod_626
-  COC(=O)C[C@@H](O)[C@H](O)c1ccc2c(c1)OCO2: prod_580
-  COC(=O)C[C@@H](O)[C@H](O)c1ccccc1: prod_486
-  COC(=O)C[C@@](C)(O)[C@H](O)C(C)(C)C: prod_604
-  COC(=O)C[C@@](C)(O)[C@H](O)C(C)C: prod_602
-  COC(=O)C[C@@](C)(O)[C@H](O)c1ccccc1: prod_606
-  COC(=O)C[C@@](O)(C(=O)OC)[C@@H](O)CC(C)C: prod_607
-  COC(=O)C[C@@](O)(C(=O)OC)[C@@H](O)c1ccccc1: prod_609
-  COC(=O)C[C@@](O)(C(=O)OC)[C@H](O)CC(C)C: prod_614
-  COC(=O)C[C@@](O)(C(=O)OC)[C@H](O)c1ccccc1: prod_616
-  COC(=O)C[C@@]1(O)CCC[C@@H]1O: prod_599
-  COC(=O)C[C@H](O)[C@@H](O)CCCCCCCCCCO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C: prod_924
-  COC(=O)C[C@H](O)[C@@H](O)CCCCCCCCCCOc1cc(OC)c2cccc(OC)c2c1OC: prod_929
-  COC(=O)C[C@H](O)[C@@H](O)CCO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C: prod_922
-  COC(=O)C[C@H](O)[C@@H](O)CNC(=O)OCc1ccccc1: prod_914
-  COC(=O)C[C@H](O)[C@@H](O)CO[Si](C)(C)C(C)(C)C: prod_754
-  COC(=O)C[C@H](O)[C@@H](O)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C: prod_916
-  COC(=O)C[C@H](O)[C@@H](O)CSc1ccccc1: prod_917
-  COC(=O)C[C@H](O)[C@@H](O)c1ccccc1: prod_487
-  COC(=O)C[C@H](O)[C@H](C)O: prod_482
-  COC(=O)C[C@](C)(O)[C@@H](O)C(C)(C)C: prod_603
-  COC(=O)C[C@](C)(O)[C@@H](O)C(C)C: prod_601
-  COC(=O)C[C@](C)(O)[C@@H](O)c1ccccc1: prod_605
-  COC(=O)C[C@](O)(C(=O)OC)[C@@H](O)CC(C)C: prod_613
-  COC(=O)C[C@](O)(C(=O)OC)[C@@H](O)c1ccccc1: prod_615
-  COC(=O)C[C@](O)(C(=O)OC)[C@H](O)CC(C)C: prod_608
-  COC(=O)C[C@](O)(C(=O)OC)[C@H](O)c1ccccc1: prod_610
-  COC(=O)C[C@]1(O)CCC[C@H]1O: prod_600
-  COC(=O)[C@@H](O)[C@H](O)CCC1([N+](=O)[O-])COC2(CCCCC2)OC1: prod_870
-  COC(=O)[C@@H](O)[C@](O)(Cc1ccc(O[Si](C)(C)C(C)(C)C)cc1)C(=O)OC: prod_528
-  COC(=O)[C@@](O)(C(C)C)[C@H](C)O: prod_309
-  COC(=O)[C@@]1(O)Cc2c(cccc2OC)C[C@@H]1O: prod_489
-  COC(=O)[C@H](O)[C@@H](O)c1ccc(OCc2ccccc2)c(OC)c1: prod_67
-  COC(=O)[C@H](O)[C@@H](O)c1ccc(S(C)(=O)=O)cc1: prod_464
-  COC(=O)[C@H](O)[C@H](C)O: prod_467
-  COC(=O)[C@](O)(C(C)C)[C@H](C)O: prod_310
+  CC[C@](O)(c1ccccc1)[C@H](O)N1CCOC1=O: prod_958
+  CC[C@]1(O)CCCO[C@H]1O: prod_301
+  CC[C@]1(O)c2cc([Si](C)(C)C)nc(OC)c2CO[C@H]1O: prod_508
+  CC[C@]1(O)c2ccccc2CO[C@H]1O: prod_339
+  CC[C@]1(O)c2ccnc(OC)c2CO[C@H]1O: prod_749
+  CC[Si](CC)(CC)[C@H](O)CO: prod_231
+  CC[Si](CC)(CC)[C@](O)(CO)CCn1cnc2c(OCc3ccccc3)nc(N)nc21: prod_448
+  CCc1ccc2cccc([C@H](O)CO)c2n1: prod_269
+  CCc1ccc2cccc([C@H](O)[C@@H](O)CO)c2n1: prod_868
+  CCc1nc2c([C@H](O)CO)cccc2cc1C: prod_273
+  CCc1nc2c([C@H](O)CO)cccc2n1C: prod_261
+  CCc1sc2c([C@H](O)CO)cccc2c1C: prod_272
+  CCn1cc([C@@H](O)[C@H](O)CCO[Si](C)(C)C(C)(C)C)nc1C(C)=O: prod_64
+  CCn1cc([C@H](O)[C@@H](O)CCO[Si](C)(C)C(C)(C)C)nc1C(C)=O: prod_65
+  CN(C(=O)c1ccccc1)c1cc(OCc2ccccc2)c(N(C)C(=O)c2ccccc2)c(C#N)c1C[C@H](O)CO: prod_296
+  CN(C)c1ccc(C(=O)OC[C@@](C)(O)CO)cc1: prod_938
+  CN(C)c1ccc(C(=O)OC[C@@](O)(CO)CCCl)cc1: prod_955
+  CN(C)c1ccc(C(=O)OC[C@@](O)(CO)CCF)cc1: prod_956
+  CN(C)c1ccc(C(=O)OC[C@@](O)(CO)CCOCc2ccccc2)cc1: prod_952
+  CN(C)c1ccc(C(=O)OC[C@@](O)(CO)CCO[Si](C)(C)C(C)(C)C)cc1: prod_954
+  CN(C)c1ccc(C(=O)OC[C@@](O)(CO)CCO[Si](c2ccccc2)(c2ccccc2)C(C)(C)C)cc1: prod_953
+  CN(C)c1ccc(C(=O)OC[C@@](O)(CO)COCc2ccccc2)cc1: prod_950
+  CN(C)c1ccc(C(=O)OC[C@@](O)(CO)CO[Si](C)(C)C(C)(C)C)cc1: prod_946
+  CN(C)c1ccc(C(=O)OC[C@@](O)(CO)CO[Si](c2ccccc2)(c2ccccc2)C(C)(C)C)cc1: prod_947
+  CN(C)c1ccc(C(=O)OC[C@](C)(O)CO)cc1: prod_940
+  CN(Cc1ccccc1)C(=O)C[C@@H](O)[C@H](O)c1ccccc1: prod_427
+  CN(Cc1ccccc1)C(=O)[C@@H](O)[C@H](O)c1ccccc1: prod_425
+  CN1C(=O)c2c(ccc3c2OCO3)[C@@]2(O)CCc3cc4c(cc3[C@@]12O)OCO4: prod_571
+  CN1C(=O)c2c(ccc3c2OCO3)[C@]2(O)CCc3cc4c(cc3[C@]12O)OCO4: prod_570
+  COC(=O)/C=C/C=C/[C@@H](O)[C@@H](C)O: prod_652
+  COC(=O)/C=C/C=C/[C@@H](O)[C@H](O)C(C)(C)C: prod_654
+  COC(=O)/C=C1\CC[C@@H](O)[C@H]1O: prod_714
+  COC(=O)C(C)(C)[C@H](O)CO: prod_589
+  COC(=O)C1=C[C@H](O)[C@H](O)CC1: prod_717
+  COC(=O)CCCCCCCCCCCCCCC[C@@H](O)CO: prod_41
+  COC(=O)CCCCCCCCCCCCCCC[C@H](O)CO: prod_290
+  COC(=O)CCC[C@H](O)[C@@H](O)c1ccccc1: prod_862
+  COC(=O)CC[C@@H](O)[C@H](O)c1ccc(OC)c(OC)c1: prod_932
+  COC(=O)CC[C@@](C)(O)[C@@H](C)O: prod_312
+  COC(=O)CC[C@H](O)[C@@H](O)c1ccc(OC)c(OC)c1: prod_931
+  COC(=O)C[C@@H](O)[C@@H](C)O: prod_810
+  COC(=O)C[C@@H](O)[C@H](O)C(C)C: prod_924
+  COC(=O)C[C@@H](O)[C@H](O)CCCCCCCCCCOc1cc(OC)c2cccc(OC)c2c1OC: prod_929
+  COC(=O)C[C@@H](O)[C@H](O)CCOCc1ccccc1: prod_920
+  COC(=O)C[C@@H](O)[C@H](O)CCO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C: prod_922
+  COC(=O)C[C@@H](O)[C@H](O)CNC(=O)OCc1ccccc1: prod_914
+  COC(=O)C[C@@H](O)[C@H](O)CO[Si](C)(C)C(C)(C)C: prod_479
+  COC(=O)C[C@@H](O)[C@H](O)Cc1ccc(O[Si](C)(C)C(C)(C)C)c(OC)c1: prod_918
+  COC(=O)C[C@@H](O)[C@H](O)Cc1ccccc1: prod_917
+  COC(=O)C[C@@H](O)[C@H](O)[Si](C)(C)C: prod_925
+  COC(=O)C[C@@H](O)[C@H](O)c1cc2c3c(cccc3c1OC)OC(C)(C)O2: prod_625
+  COC(=O)C[C@@H](O)[C@H](O)c1ccc2c(c1)OCO2: prod_579
+  COC(=O)C[C@@H](O)[C@H](O)c1ccccc1: prod_485
+  COC(=O)C[C@@](C)(O)[C@H](O)C(C)(C)C: prod_603
+  COC(=O)C[C@@](C)(O)[C@H](O)C(C)C: prod_601
+  COC(=O)C[C@@](C)(O)[C@H](O)c1ccccc1: prod_605
+  COC(=O)C[C@@](O)(C(=O)OC)[C@@H](O)CC(C)C: prod_606
+  COC(=O)C[C@@](O)(C(=O)OC)[C@@H](O)c1ccccc1: prod_608
+  COC(=O)C[C@@](O)(C(=O)OC)[C@H](O)CC(C)C: prod_613
+  COC(=O)C[C@@](O)(C(=O)OC)[C@H](O)c1ccccc1: prod_615
+  COC(=O)C[C@@]1(O)CCC[C@@H]1O: prod_598
+  COC(=O)C[C@H](O)[C@@H](O)CCCCCCCCCCO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C: prod_923
+  COC(=O)C[C@H](O)[C@@H](O)CCCCCCCCCCOc1cc(OC)c2cccc(OC)c2c1OC: prod_928
+  COC(=O)C[C@H](O)[C@@H](O)CCO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C: prod_921
+  COC(=O)C[C@H](O)[C@@H](O)CNC(=O)OCc1ccccc1: prod_913
+  COC(=O)C[C@H](O)[C@@H](O)CO[Si](C)(C)C(C)(C)C: prod_753
+  COC(=O)C[C@H](O)[C@@H](O)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C: prod_915
+  COC(=O)C[C@H](O)[C@@H](O)CSc1ccccc1: prod_916
+  COC(=O)C[C@H](O)[C@@H](O)c1ccccc1: prod_486
+  COC(=O)C[C@H](O)[C@H](C)O: prod_481
+  COC(=O)C[C@](C)(O)[C@@H](O)C(C)(C)C: prod_602
+  COC(=O)C[C@](C)(O)[C@@H](O)C(C)C: prod_600
+  COC(=O)C[C@](C)(O)[C@@H](O)c1ccccc1: prod_604
+  COC(=O)C[C@](O)(C(=O)OC)[C@@H](O)CC(C)C: prod_612
+  COC(=O)C[C@](O)(C(=O)OC)[C@@H](O)c1ccccc1: prod_614
+  COC(=O)C[C@](O)(C(=O)OC)[C@H](O)CC(C)C: prod_607
+  COC(=O)C[C@](O)(C(=O)OC)[C@H](O)c1ccccc1: prod_609
+  COC(=O)C[C@]1(O)CCC[C@H]1O: prod_599
+  COC(=O)[C@@H](O)[C@H](O)CCC1([N+](=O)[O-])COC2(CCCCC2)OC1: prod_869
+  COC(=O)[C@@H](O)[C@](O)(Cc1ccc(O[Si](C)(C)C(C)(C)C)cc1)C(=O)OC: prod_527
+  COC(=O)[C@@](O)(C(C)C)[C@H](C)O: prod_308
+  COC(=O)[C@@]1(O)Cc2c(cccc2OC)C[C@@H]1O: prod_488
+  COC(=O)[C@H](O)[C@@H](O)c1ccc(OCc2ccccc2)c(OC)c1: prod_66
+  COC(=O)[C@@H](O)[C@H](O)c1ccc(OCc2ccccc2)c(OC)c1: prod_996
+  COC(=O)[C@H](O)[C@@H](O)c1ccc(S(C)(=O)=O)cc1: prod_463
+  COC(=O)[C@H](O)[C@H](C)O: prod_466
+  COC(=O)[C@](O)(C(C)C)[C@H](C)O: prod_309
   COC(=O)[C@](O)(CO)c1ccc([N+](=O)[O-])cc1: prod_149
   COC(=O)[C@](O)(CO)c1ccccc1: prod_148
-  COC(=O)c1c(C)cc(OCc2ccccc2)c(C[C@@H](O)C(C)(C)O)c1OCOCC[Si](C)(C)C: prod_544
-  COC(=O)c1c(C)cc(OCc2ccccc2)c(C[C@H](O)C(C)(C)O)c1OCOCC[Si](C)(C)C: prod_543
-  COC(=O)c1c(OCc2ccccc2)cc(OCc2ccccc2)cc1[C@@H](O)[C@@H](C)O: prod_906
-  COC(=O)c1c(OCc2ccccc2)cc(OCc2ccccc2)cc1[C@H](O)[C@H](C)O: prod_907
-  COC(=O)c1cc(OC[C@@H](O)CO)ccc1OCCCCOC(C)=O: prod_547
-  COC(=O)c1cc2c([nH]c3ccccc32)c([C@@H](O)CO)n1: prod_643
-  COC(=O)c1cc2c([nH]c3ccccc32)c([C@H](O)CO)n1: prod_642
-  COC(=O)c1ccc([C@@H](O)[C@@H](C)O)cn1: prod_637
-  COC(=O)c1ccc([C@H](O)[C@H](C)O)cn1: prod_636
-  COC(C[C@@H](O)[C@H](O)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)OC: prod_904
-  COC(C[C@H](O)[C@@H](O)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)OC: prod_905
-  COC(O)(OC)[C@@H](O)c1ccc(C(C)C)cc1: prod_498
-  COC(O)(OC)[C@H](O)c1ccc(C(C)C)cc1: prod_499
+  COC(=O)c1c(C)cc(OCc2ccccc2)c(C[C@@H](O)C(C)(C)O)c1OCOCC[Si](C)(C)C: prod_543
+  COC(=O)c1c(C)cc(OCc2ccccc2)c(C[C@H](O)C(C)(C)O)c1OCOCC[Si](C)(C)C: prod_542
+  COC(=O)c1c(OCc2ccccc2)cc(OCc2ccccc2)cc1[C@@H](O)[C@@H](C)O: prod_905
+  COC(=O)c1c(OCc2ccccc2)cc(OCc2ccccc2)cc1[C@H](O)[C@H](C)O: prod_906
+  COC(=O)c1cc(OC[C@@H](O)CO)ccc1OCCCCOC(C)=O: prod_546
+  COC(=O)c1cc2c([nH]c3ccccc32)c([C@@H](O)CO)n1: prod_642
+  COC(=O)c1cc2c([nH]c3ccccc32)c([C@H](O)CO)n1: prod_641
+  COC(=O)c1ccc([C@@H](O)[C@@H](C)O)cn1: prod_636
+  COC(=O)c1ccc([C@H](O)[C@H](C)O)cn1: prod_635
+  COC(C[C@@H](O)[C@H](O)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)OC: prod_903
+  COC(C[C@H](O)[C@@H](O)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)OC: prod_904
+  COC(O)(OC)[C@@H](O)c1ccc(C(C)C)cc1: prod_497
+  COC(O)(OC)[C@H](O)c1ccc(C(C)C)cc1: prod_498
   COC1(OC)CC[C@](O)(CO)[C@@H](O)C1: prod_117
   COC1(OC)CC[C@](O)(COC(=O)C(C)(C)C)[C@@H](O)C1: prod_118
-  COC1(OC)CC[C@](O)(COC(=O)c2ccc(Br)cc2)[C@@H](O)C1: prod_517
-  COC1(OC)CC[C@](O)(COC(=O)c2ccc([N+](=O)[O-])cc2)[C@@H](O)C1: prod_516
-  COC1(OC)CC[C@](O)(COC(=O)c2ccccc2)[C@@H](O)C1: prod_515
+  COC1(OC)CC[C@](O)(COC(=O)c2ccc(Br)cc2)[C@@H](O)C1: prod_516
+  COC1(OC)CC[C@](O)(COC(=O)c2ccc([N+](=O)[O-])cc2)[C@@H](O)C1: prod_515
+  COC1(OC)CC[C@](O)(COC(=O)c2ccccc2)[C@@H](O)C1: prod_514
   COC1(OC)CC[C@](O)(COC(C)=O)[C@@H](O)C1: prod_120
   COC1(OC)CC[C@](O)(COCc2ccccc2)[C@@H](O)C1: prod_119
   COC1(OC)CC[C@](O)(CO[Si](C(C)C)(C(C)C)C(C)C)[C@@H](O)C1: prod_116
-  COCCO[C@]1(O)c2ccccc2OC[C@H]1O: prod_685
-  COCC[C@@H](O)[C@H](O)c1ccccc1: prod_538
-  COCOc1cc(OCOC)c(C[C@@H](O)[C@H](O)c2ccc(OCOC)c(OCOC)c2)c(OCOC)c1: prod_76
-  COCOc1cc(OCOC)c(C[C@H](O)[C@@H](O)c2ccc(OCOC)c(OCOC)c2)c(OCOC)c1: prod_75
-  COC[C@@H](O)[C@@H](O)COCc1ccccc1: prod_734
-  COC[C@H](O)[C@H](O)OCc1ccccc1: prod_87
-  COC[C@H](O)[C@H](O)c1ccccc1: prod_85
-  COC[C@](C)(O)[C@@H](O)c1ccccc1: prod_641
-  COC[C@](O)(CO)COC(=O)c1ccc(N(C)C)cc1: prod_950
+  COCCO[C@]1(O)c2ccccc2OC[C@H]1O: prod_684
+  COCC[C@@H](O)[C@H](O)c1ccccc1: prod_537
+  COCOc1cc(OCOC)c(C[C@@H](O)[C@H](O)c2ccc(OCOC)c(OCOC)c2)c(OCOC)c1: prod_75
+  COCOc1cc(OCOC)c(C[C@H](O)[C@@H](O)c2ccc(OCOC)c(OCOC)c2)c(OCOC)c1: prod_74
+  COC[C@@H](O)[C@@H](O)COCc1ccccc1: prod_733
+  COC[C@H](O)[C@H](O)OCc1ccccc1: prod_86
+  COC[C@H](O)[C@H](O)c1ccccc1: prod_84
+  COC[C@](C)(O)[C@@H](O)c1ccccc1: prod_640
+  COC[C@](O)(CO)COC(=O)c1ccc(N(C)C)cc1: prod_949
   COC[C@](O)(CO)c1ccccc1: prod_147
-  CON(C)C(=O)/C=C/[C@@H](O)[C@@H](C)O: prod_649
-  CON(C)C(=O)/C=C/[C@@H](O)[C@H](O)c1ccccc1: prod_652
-  CON(C)C(=O)C[C@@H](O)[C@H](O)c1ccccc1: prod_429
-  CON(C)C(=O)[C@@H](O)[C@H](O)c1ccccc1: prod_427
+  CON(C)C(=O)/C=C/[C@@H](O)[C@@H](C)O: prod_648
+  CON(C)C(=O)/C=C/[C@@H](O)[C@H](O)c1ccccc1: prod_651
+  CON(C)C(=O)C[C@@H](O)[C@H](O)c1ccccc1: prod_428
+  CON(C)C(=O)[C@@H](O)[C@H](O)c1ccccc1: prod_426
   CON(C)C(=O)[C@@](C)(O)CO: prod_136
-  CONC(=O)/C=C/[C@H](O)[C@@H](O)c1ccccc1: prod_656
-  COP(=O)(OC)OC[C@@H](O)[C@@](C)(O)CO[Si](C)(C)C(C)(C)C: prod_497
-  COP(=O)(OC)[C@@H](O)[C@H](O)c1ccccc1: prod_809
-  CO[C@@](O)(CC(C)C)[C@H](O)C(C)C: prod_423
-  CO[C@@](O)(c1ccccc1)[C@@H](C)O: prod_420
-  CO[C@@](O)(c1ccccc1)[C@H](O)c1ccccc1: prod_413
-  CO[C@@]1(O)CCCCC[C@@H]1O: prod_699
-  CO[C@@]1(O)CCCC[C@@H]1O: prod_697
-  CO[C@@]1(O)c2ccccc2CCC[C@@H]1O: prod_669
-  CO[C@@]1(O)c2ccccc2CC[C@@H]1O: prod_666
-  CO[C@@]1(O)c2ccccc2CC[C@]1(C)O: prod_364
-  CO[C@@]1(O)c2ccccc2OC[C@@H]1O: prod_662
-  CO[C@](O)(CC(C)C)[C@@H](O)C(C)C: prod_424
-  CO[C@](O)(c1ccccc1)[C@@H](O)c1ccccc1: prod_414
-  CO[C@](O)(c1ccccc1)[C@H](C)O: prod_421
-  CO[C@](O)(c1ccccc1)[C@H](O)c1ccccc1: prod_415
-  CO[C@]1(O)CCCCC[C@H]1O: prod_674
-  CO[C@]1(O)CCCC[C@H]1O: prod_672
-  CO[C@]1(O)c2ccccc2CCC[C@H]1O: prod_693
-  CO[C@]1(O)c2ccccc2CC[C@@]1(C)O: prod_365
-  CO[C@]1(O)c2ccccc2CC[C@H]1O: prod_687
-  CO[C@]1(O)c2ccccc2OC[C@H]1O: prod_676
+  CON(C)C(=O)/C=C/[C@H](O)[C@@H](O)c1ccccc1: prod_655
+  COP(=O)(OC)OC[C@@H](O)[C@@](C)(O)CO[Si](C)(C)C(C)(C)C: prod_496
+  COP(=O)(OC)[C@@H](O)[C@H](O)c1ccccc1: prod_808
+  CO[C@@](O)(CC(C)C)[C@H](O)C(C)C: prod_422
+  CO[C@@](O)(c1ccccc1)[C@@H](C)O: prod_419
+  CO[C@@](O)(c1ccccc1)[C@H](O)c1ccccc1: prod_412
+  CO[C@@]1(O)CCCCC[C@@H]1O: prod_698
+  CO[C@@]1(O)CCCC[C@@H]1O: prod_696
+  CO[C@@]1(O)c2ccccc2CCC[C@@H]1O: prod_668
+  CO[C@@]1(O)c2ccccc2CC[C@@H]1O: prod_665
+  CO[C@@]1(O)c2ccccc2CC[C@]1(C)O: prod_363
+  CO[C@@]1(O)c2ccccc2OC[C@@H]1O: prod_661
+  CO[C@](O)(CC(C)C)[C@@H](O)C(C)C: prod_423
+  CO[C@](O)(c1ccccc1)[C@@H](O)c1ccccc1: prod_413
+  CO[C@](O)(c1ccccc1)[C@H](C)O: prod_420
+  CO[C@](O)(c1ccccc1)[C@H](O)c1ccccc1: prod_414
+  CO[C@]1(O)CCCCC[C@H]1O: prod_673
+  CO[C@]1(O)CCCC[C@H]1O: prod_671
+  CO[C@]1(O)c2ccccc2CCC[C@H]1O: prod_692
+  CO[C@]1(O)c2ccccc2CC[C@@]1(C)O: prod_364
+  CO[C@]1(O)c2ccccc2CC[C@H]1O: prod_686
+  CO[C@]1(O)c2ccccc2OC[C@H]1O: prod_675
   COc1c(C)c(C)c(OC)c(C#C[C@](C)(O)CO)c1C: prod_198
   COc1c(C)c(C)c(OC)c(CCC[C@](C)(O)CO)c1C: prod_204
-  COc1c(C)c(C)c(OC)c(CCC[C@](C)(O)[C@@H](O)CO)c1C: prod_525
+  COc1c(C)c(C)c(OC)c(CCC[C@](C)(O)[C@@H](O)CO)c1C: prod_524
   COc1c(C)c(C)c(OC)c(CC[C@](C)(O)CO)c1C: prod_197
-  COc1c(C)c(C)c(OC)c(CC[C@](C)(O)[C@@H](O)CO)c1C: prod_524
+  COc1c(C)c(C)c(OC)c(CC[C@](C)(O)[C@@H](O)CO)c1C: prod_523
   COc1c(C)c(C)c2c(c1C)[C@@](O)(CO)C(C)(C)O2: prod_190
   COc1c(C)c(C)c2c(c1C)[C@](O)(CO)C(C)(C)O2: prod_189
-  COc1c(Cl)cc([C@@H](O)[C@H](C)O)cc1Cl: prod_751
-  COc1c(OCc2ccccc2)cc([C@H](O)CO)cc1OCc1ccccc1: prod_43
+  COc1c(Cl)cc([C@@H](O)[C@H](C)O)cc1Cl: prod_750
+  COc1c(OCc2ccccc2)cc([C@H](O)CO)cc1OCc1ccccc1: prod_42
   COc1cc(CO)c(-c2ccc([C@H](O)CO)o2)c(OC)c1: prod_125
   COc1cc(CO[Si](C)(C)C(C)(C)C)c(-c2ccc([C@H](O)CO)o2)c(OC)c1: prod_122
-  COc1cc(CO[Si](C)(C)C(C)(C)C)c([C@@H](O)CO)c(OC)c1: prod_289
-  COc1cc([C@@H](O)CO)c(OC)c2ccccc12: prod_578
-  COc1cc([C@H](O)CO)c(OC)c2ccccc12: prod_579
-  COc1cc([C@H](O)CO)cc(OC)c1OC: prod_32
-  COc1ccc(C(=O)OC[C@@](C)(O)CO)cc1: prod_938
-  COc1ccc(C(=O)OC[C@@]2(O)CCC(OC)(OC)C[C@@H]2O)cc1: prod_518
-  COc1ccc(COCC[C@@H](O)[C@H](O)C(=O)OC(C)(C)C)cc1OC: prod_64
-  COc1ccc(COCC[C@H](O)[C@@H](O)CCl)cc1: prod_58
-  COc1ccc(NC(=O)[C@H](O)[C@@H](O)c2ccccc2)cc1: prod_884
-  COc1ccc(OCC[C@H](O)CO)cc1: prod_756
+  COc1cc(CO[Si](C)(C)C(C)(C)C)c([C@@H](O)CO)c(OC)c1: prod_288
+  COc1cc([C@@H](O)CO)c(OC)c2ccccc12: prod_577
+  COc1cc([C@H](O)CO)c(OC)c2ccccc12: prod_578
+  COc1cc([C@H](O)CO)cc(OC)c1OC: prod_31
+  COc1ccc(C(=O)OC[C@@](C)(O)CO)cc1: prod_937
+  COc1ccc(C(=O)OC[C@@]2(O)CCC(OC)(OC)C[C@@H]2O)cc1: prod_517
+  COc1ccc(COCC[C@@H](O)[C@H](O)C(=O)OC(C)(C)C)cc1OC: prod_63
+  COc1ccc(COCC[C@H](O)[C@@H](O)CCl)cc1: prod_57
+  COc1ccc(NC(=O)[C@H](O)[C@@H](O)c2ccccc2)cc1: prod_883
+  COc1ccc(OCC[C@H](O)CO)cc1: prod_755
   COc1ccc(OCC[C@](C)(O)CO)c(C(C)(C)C)c1: prod_196
   COc1ccc(OCC[C@](C)(O)CO)cc1: prod_179
-  COc1ccc(OC[C@@H](O)CO)cc1: prod_243
+  COc1ccc(OC[C@@H](O)CO)cc1: prod_242
   COc1ccc(OC[C@@]2(O)CCC(OC)(OC)C[C@@H]2O)cc1: prod_121
-  COc1ccc(OC[C@H](O)[C@](C)(O)C#Cc2c(C)c(OC)c(C)c(C)c2OC)cc1: prod_976
+  COc1ccc(OC[C@H](O)[C@](C)(O)C#Cc2c(C)c(OC)c(C)c(C)c2OC)cc1: prod_975
   COc1ccc(OC[C@](C)(O)CO)c(C(C)(C)C)c1: prod_191
   COc1ccc(OC[C@](C)(O)CO)cc1: prod_159
-  COc1ccc([C@@H](O)C2(O)CC2)cc1: prod_329
-  COc1ccc([C@@H](O)C2(O)CC2)cc1OC: prod_331
-  COc1ccc([C@@H](O)CO)cc1: prod_238
-  COc1ccc([C@@H](O)CO)cc1OC: prod_581
+  COc1ccc([C@@H](O)C2(O)CC2)cc1: prod_328
+  COc1ccc([C@@H](O)C2(O)CC2)cc1OC: prod_330
+  COc1ccc([C@@H](O)CO)cc1: prod_237
+  COc1ccc([C@@H](O)CO)cc1OC: prod_580
   COc1ccc([C@@H](O)[C@H](C)O)cc1Cl: prod_215
-  COc1ccc([C@H](O)C2(O)CC2)cc1: prod_330
-  COc1ccc([C@H](O)C2(O)CC2)cc1OC: prod_332
+  COc1ccc([C@@](O)(CO)c2ccc(F)cc2)cc1: prod_989
+  COc1ccc([C@@](O)(CO)c2ccccc2)cc1: prod_981
+  COc1ccc([C@H](O)C2(O)CC2)cc1: prod_329
+  COc1ccc([C@H](O)C2(O)CC2)cc1OC: prod_331
   COc1ccc([C@H](O)CO)cc1Br: prod_114
-  COc1ccc([C@]2(O)CCCC[C@H]2O)cc1: prod_491
+  COc1ccc([C@](O)(CO)c2ccc(SC)cc2)cc1: prod_988
+  COc1ccc([C@]2(O)CCCC[C@H]2O)cc1: prod_490
   COc1ccc2c(c1)OC(C)(C)[C@@H](O)[C@H]2O: prod_103
-  COc1ccc2c(c1OC)C(=O)O[C@@]1(O)c3cc4c(cc3CC[C@@]21O)OCO4: prod_645
-  COc1ccc2c(c1OC)C(=O)O[C@]1(O)c3cc4c(cc3CC[C@]21O)OCO4: prod_646
-  COc1ccc2cc(C(=O)OC[C@@](C)(O)CO)ccc2c1: prod_934
+  COc1ccc2c(c1OC)C(=O)O[C@@]1(O)c3cc4c(cc3CC[C@@]21O)OCO4: prod_644
+  COc1ccc2c(c1OC)C(=O)O[C@]1(O)c3cc4c(cc3CC[C@]21O)OCO4: prod_645
+  COc1ccc2cc(C(=O)OC[C@@](C)(O)CO)ccc2c1: prod_933
   COc1ccc2cc([C@](C)(O)CO)ccc2c1: prod_187
   COc1cccc(OCC[C@](C)(O)CO)c1: prod_176
   COc1cccc(OC[C@](C)(O)CO)c1: prod_160
-  COc1cccc([C@@H](O)CO)c1: prod_31
-  COc1cccc([C@@H](O)CO)c1OC(C)C: prod_268
+  COc1cccc([C@H](O)CO)c1: prod_30
+  COc1cccc([C@H](O)CO)c1OC(C)C: prod_267
   COc1cccc2c1C(=O)c1ccc(C[C@@](C)(O)CO)c(OC)c1C2=O: prod_208
-  COc1cccc2c1C[C@](O)(C(=O)OCc1ccccc1)[C@@H](O)C2: prod_529
-  COc1ccccc1CC/C=C(\C)CC[C@H](O)C(C)(C)O: prod_540
+  COc1cccc2c1C[C@](O)(C(=O)OCc1ccccc1)[C@@H](O)C2: prod_528
+  COc1ccccc1CC/C=C(\C)CC[C@H](O)C(C)(C)O: prod_539
   COc1ccccc1OCC[C@](C)(O)CO: prod_177
-  COc1ccccc1OC[C@@H](O)CO: prod_248
-  COc1ccccc1OC[C@H](O)CO: prod_389
+  COc1ccccc1OC[C@@H](O)CO: prod_247
+  COc1ccccc1OC[C@H](O)CO: prod_388
   COc1ccccc1OC[C@](C)(O)CO: prod_161
-  COc1ccccc1[C@@H](O)C1(O)CC1: prod_327
-  COc1ccccc1[C@H](O)C1(O)CC1: prod_328
-  COc1ccccc1[C@H](O)CO: prod_298
-  COc1nc(CC[C@@H](O)CO)ccc1NC(=O)OCc1ccccc1: prod_300
-  COc1nc(CC[C@H](O)CO)ccc1NC(=O)OCc1ccccc1: prod_301
-  CSC(=O)/C=C/[C@@H](O)[C@@H](C)O: prod_651
+  COc1ccccc1[C@@H](O)C1(O)CC1: prod_326
+  COc1ccccc1[C@H](O)C1(O)CC1: prod_327
+  COc1ccccc1[C@H](O)CO: prod_297
+  COc1ccccc1[C@](O)(CO)c1ccccc1: prod_991
+  COc1nc(CC[C@@H](O)CO)ccc1NC(=O)OCc1ccccc1: prod_299
+  COc1nc(CC[C@H](O)CO)ccc1NC(=O)OCc1ccccc1: prod_300
+  CS(=O)(=O)c1ccc([C@](O)(CO)c2ccccc2)cc1: prod_985
+  CSC(=O)/C=C/[C@@H](O)[C@@H](C)O: prod_650
   CSc1cc([C@@](C)(O)CO)cs1: prod_139
   CSc1cc([C@](C)(O)CO)cs1: prod_140
+  CSc1ccc([C@@](O)(CO)c2ccc(F)cc2)cc1: prod_990
+  CSc1ccc([C@@](O)(CO)c2ccccc2)cc1: prod_980
   CSc1ncc([C@@](C)(O)CO)s1: prod_137
   CSc1ncc([C@](C)(O)CO)s1: prod_138
   C[C@@H](O)CO: prod_221
-  C[C@@H](O)[C@@H](C)O: prod_398
-  C[C@@H](O)[C@@H](O)c1ccccc1: prod_94
-  C[C@@H](O)[C@@](C)(O)C(=O)OC(C)(C)C: prod_356
-  C[C@@H](O)[C@@](O)(O[Si](C)(C)C(C)(C)C)c1ccccc1: prod_422
-  C[C@@H](O)[C@@]1(O)C(=O)OCc2ccccc21: prod_377
-  C[C@@H](O)[C@H](O)/C=C/C(C)(C)O: prod_762
-  C[C@@H](O)[C@H](O)C(=O)OCc1ccccc1: prod_833
-  C[C@@H](O)[C@H](O)C(C)(C)C: prod_400
-  C[C@@H](O)[C@H](O)C1OCc2ccccc2CO1: prod_846
-  C[C@@H](O)[C@H](O)C=C(Br)Br: prod_635
+  C[C@@H](O)[C@@H](C)O: prod_397
+  C[C@@H](O)[C@@H](O)c1ccccc1: prod_93
+  C[C@@H](O)[C@@](C)(O)C(=O)OC(C)(C)C: prod_355
+  C[C@@H](O)[C@@](O)(O[Si](C)(C)C(C)(C)C)c1ccccc1: prod_421
+  C[C@@H](O)[C@@]1(O)C(=O)OCc2ccccc21: prod_376
+  C[C@@H](O)[C@H](O)/C=C/C(C)(C)O: prod_761
+  C[C@@H](O)[C@H](O)C(=O)OCc1ccccc1: prod_832
+  C[C@@H](O)[C@H](O)C(C)(C)C: prod_399
+  C[C@@H](O)[C@H](O)C1OCc2ccccc2CO1: prod_845
+  C[C@@H](O)[C@H](O)C=C(Br)Br: prod_634
   C[C@@H](O)[C@H](O)CC#N: prod_0
-  C[C@@H](O)[C@H](O)CCOS(C)(=O)=O: prod_630
-  C[C@@H](O)[C@H](O)CCl: prod_402
-  C[C@@H](O)[C@H](O)c1ccc(-c2ccccc2)c(F)c1: prod_62
-  C[C@@H](O)[C@]1(O)C(=O)OCc2ccccc21: prod_339
-  OCc1ccccc1-c1ccc([C@H](O)CO)o1: prod_123
+  C[C@@H](O)[C@H](O)CCOS(C)(=O)=O: prod_629
+  C[C@@H](O)[C@H](O)CCl: prod_401
+  C[C@@H](O)[C@H](O)c1ccc(-c2ccccc2)c(F)c1: prod_61
+  C[C@@H](O)[C@]1(O)C(=O)OCc2ccccc21: prod_338
+  C[C@@H](O)c1ccc(-c2ccccc2CO)o1: prod_123
   CC(C)(C)[Si](C)(C)OCc1ccccc1-c1ccc([C@H](O)CO)o1: prod_124
   C[C@@](O)(C#Cc1ccccc1)CO: prod_164
-  C[C@@](O)(CC(F)(F)F)[C@H](O)c1ccc(S(C)(=O)=O)cc1: prod_969
-  C[C@@](O)(CO)C1CCCCC1: prod_395
+  C[C@@](O)(CC(F)(F)F)[C@H](O)c1ccc(S(C)(=O)=O)cc1: prod_968
+  C[C@@](O)(CO)C1CCCCC1: prod_394
   C[C@@](O)(CO)CCOCc1ccccc1: prod_178
   C[C@@](O)(CO)CCOc1ccccc1: prod_162
-  C[C@@](O)(CO)COc1ccc(N2CCC(Oc3ccc(OC(F)(F)F)cc3)CC2)cc1: prod_549
+  C[C@@](O)(CO)COc1ccc(N2CCC(Oc3ccc(OC(F)(F)F)cc3)CC2)cc1: prod_548
   C[C@@](O)(CO)COc1ccccc1: prod_152
   C[C@@](O)(CO)CP(=O)(c1ccccc1)c1ccccc1: prod_195
-  C[C@@](O)(CO)Cn1ccc(NC(=O)c2ccccc2)nc1=O: prod_445
-  C[C@@](O)(CO)Cn1ccc(NCc2ccccc2)nc1=O: prod_452
+  C[C@@](O)(CO)Cn1ccc(NC(=O)c2ccccc2)nc1=O: prod_444
+  C[C@@](O)(CO)Cn1ccc(NCc2ccccc2)nc1=O: prod_451
   C[C@@](O)(CO)c1ccc(F)cc1F: prod_158
   C[C@@](O)(CO)c1ccccc1: prod_22
-  C[C@@](O)(Cc1ccccc1)[C@](C)(O)Cc1ccccc1: prod_359
-  C[C@@](O)(c1ccccc1)[C@H](O)c1ccccc1: prod_514
-  C[C@@]1(O)c2ccccc2CC[C@@]1(O)c1ccccc1: prod_361
-  C[C@@]1(O)c2ccccc2C[C@@]1(O)c1ccccc1: prod_363
-  C[C@H](O)[C@@H](O)C(=O)OCc1ccccc1: prod_834
-  C[C@H](O)[C@@H](O)C1=NOCC1: prod_812
-  C[C@H](O)[C@@H](O)C1OCc2ccccc2CO1: prod_847
-  C[C@H](O)[C@@H](O)C=C(Br)Br: prod_634
-  C[C@H](O)[C@@H](O)CCCO: prod_660
-  C[C@H](O)[C@@H](O)CCOS(C)(=O)=O: prod_631
-  C[C@H](O)[C@@H](O)CP(=O)(c1ccccc1)c1ccccc1: prod_877
-  C[C@H](O)[C@@H](O)P(=O)(OCc1ccccc1)OCc1ccccc1: prod_478
-  C[C@H](O)[C@@H](O)c1ccccc1: prod_401
-  C[C@H](O)[C@@](O)(C(=O)OCc1ccccc1)C(F)(F)F: prod_345
-  C[C@H](O)[C@@]1(O)C(=O)OCc2ccccc21: prod_338
-  C[C@H](O)[C@H](O)c1ccccc1: prod_93
-  C[C@H](O)[C@]1(O)C(=O)OCc2ccccc21: prod_378
-  OC[C@](O)(CCl)c1ccccc1: prod_133
+  C[C@@](O)(Cc1ccccc1)[C@](C)(O)Cc1ccccc1: prod_358
+  C[C@@](O)(c1ccccc1)[C@H](O)c1ccccc1: prod_513
+  C[C@@]1(O)c2ccccc2CC[C@@]1(O)c1ccccc1: prod_360
+  C[C@@]1(O)c2ccccc2C[C@@]1(O)c1ccccc1: prod_362
+  C[C@H](O)[C@@H](O)C(=O)OCc1ccccc1: prod_833
+  C[C@H](O)[C@@H](O)C1=NOCC1: prod_811
+  C[C@H](O)[C@@H](O)C1OCc2ccccc2CO1: prod_846
+  C[C@H](O)[C@@H](O)C=C(Br)Br: prod_633
+  C[C@H](O)[C@@H](O)CCCO: prod_659
+  C[C@H](O)[C@@H](O)CCOS(C)(=O)=O: prod_630
+  C[C@H](O)[C@@H](O)CP(=O)(c1ccccc1)c1ccccc1: prod_876
+  C[C@H](O)[C@@H](O)P(=O)(OCc1ccccc1)OCc1ccccc1: prod_477
+  C[C@H](O)[C@@H](O)c1ccccc1: prod_400
+  C[C@H](O)[C@@](O)(C(=O)OCc1ccccc1)C(F)(F)F: prod_344
+  C[C@H](O)[C@@]1(O)C(=O)OCc2ccccc21: prod_337
+  C[C@H](O)[C@H](O)c1ccccc1: prod_92
+  C[C@H](O)[C@]1(O)C(=O)OCc2ccccc21: prod_377
+  OC[C@@](O)(CCl)c1ccccc1: prod_133
   C[C@](O)(CO)C(F)(F)F: prod_135
-  C[C@](O)(CO)C1CCCCC1: prod_394
+  C[C@](O)(CO)C1CCCCC1: prod_393
   C[C@](O)(CO)CCl: prod_134
-  C[C@](O)(CO)COC(=O)c1ccc(Oc2ccccc2)cc1: prod_936
-  C[C@](O)(CO)COC(=O)c1ccc2c(c1)OCO2: prod_935
+  C[C@](O)(CO)COC(=O)c1ccc(Oc2ccccc2)cc1: prod_935
+  C[C@](O)(CO)COC(=O)c1ccc2c(c1)OCO2: prod_934
   C[C@](O)(CO)COCc1ccccc1: prod_132
-  C[C@](O)(CO)COc1ccc(N2CCC(Oc3ccc(OC(F)(F)F)cc3)CC2)cc1: prod_550
+  C[C@](O)(CO)COc1ccc(N2CCC(Oc3ccc(OC(F)(F)F)cc3)CC2)cc1: prod_549
   C[C@](O)(CO)c1ccccc1: prod_21
-  C[C@](O)(c1ccccc1)[C@H](O)N1CCOC1=O: prod_958
-  C[C@]1(O)CCCC[C@H]1O: prod_407
-  C[C@]1(O)CCc2ccccc2[C@@]1(C)O: prod_360
-  C[C@]1(O)c2ccccc2CC[C@]1(O)c1ccccc1: prod_362
-  C[Si](C)(C)C[C@@H](O)[C@H](O)c1ccccc1: prod_749
-  C[Si](C)(C)C[C@H](O)[C@@H](O)C1CCCCC1: prod_748
-  C[Si](C)(C)C[C@H](O)[C@@H](O)c1ccccc1: prod_843
-  C[Si](C)(C)C[C@]1(O)CCCC[C@H]1O: prod_335
+  C[C@](O)(c1ccccc1)[C@H](O)N1CCOC1=O: prod_957
+  C[C@]1(O)CCCC[C@H]1O: prod_406
+  C[C@]1(O)CCc2ccccc2[C@@]1(C)O: prod_359
+  C[C@]1(O)c2ccccc2CC[C@]1(O)c1ccccc1: prod_361
+  C[Si](C)(C)C[C@@H](O)[C@H](O)c1ccccc1: prod_748
+  C[Si](C)(C)C[C@H](O)[C@@H](O)C1CCCCC1: prod_747
+  C[Si](C)(C)C[C@H](O)[C@@H](O)c1ccccc1: prod_842
+  C[Si](C)(C)C[C@]1(O)CCCC[C@H]1O: prod_334
   C[Si](C)(C)[C@@H](O)CO: prod_224
-  C[Si](C)(C)[C@@](O)(CO)Cn1ccc(NC(=O)c2ccccc2)nc1=O: prod_559
+  C[Si](C)(C)[C@@](O)(CO)Cn1ccc(NC(=O)c2ccccc2)nc1=O: prod_558
   C[Si](C)(C)[C@H](O)CO: prod_223
-  C[Si](c1ccccc1)(c1ccccc1)[C@@H](O)CO: prod_279
-  C[Si](c1ccccc1)(c1ccccc1)[C@H](O)CO: prod_280
-  Cc1[nH]c2cccc([C@H](O)CO)c2c1C: prod_261
-  Cc1c(C)c(C)c(C#C[C@](C)(O)CO)c(C)c1C: prod_776
+  C[Si](c1ccccc1)(c1ccccc1)[C@@H](O)CO: prod_278
+  C[Si](c1ccccc1)(c1ccccc1)[C@H](O)CO: prod_279
+  Cc1[nH]c2cccc([C@H](O)CO)c2c1C: prod_260
+  Cc1c(C)c(C)c(C#C[C@](C)(O)CO)c(C)c1C: prod_775
   Cc1cc(C)c(C)c(C#C[C@](C)(O)CO)c1C: prod_188
-  Cc1cc(C)cc([C@]2(O)CCCC[C@H]2O)c1: prod_408
+  Cc1cc(C)cc([C@]2(O)CCCC[C@H]2O)c1: prod_407
   Cc1cc(Cl)nc2c1C[C@H](O)[C@@H]2O: prod_214
-  Cc1cc2c([C@H](O)CO)cccc2n1C(=O)OC(C)(C)C: prod_284
-  Cc1cc2cccc([C@H](O)CO)c2n1[Si](C)(C)C(C)(C)C: prod_288
-  Cc1cc2cccc([C@H](O)CO)c2nc1C: prod_271
-  Cc1ccc(C[C@@](C)(O)C2(O)CC2)c(O[Si](C)(C)C(C)(C)C)c1: prod_384
-  Cc1ccc(OC[C@@H](O)CO)cc1: prod_244
-  Cc1ccc(S(=O)(=O)OC[C@@H](O)CO)cc1: prod_390
-  Cc1ccc(S(=O)(=O)n2cc([C@H](O)CO)c3cc(Br)ccc32)cc1: prod_299
-  Cc1ccc(S(=O)(=O)n2cc([C@H](O)CO)c3ccc(Br)cc32)cc1: prod_752
-  Cc1ccc([C@@H](O)CO)cc1: prod_583
-  Cc1ccc([C@@H](O)[C@H](O)c2ccc(C)cc2)cc1: prod_882
-  Cc1ccc([C@H](O)CO)cc1: prod_584
-  Cc1ccc([C@H](O)[C@@H](O)C(=O)C=[N+]=[N-])cc1: prod_462
-  Cc1ccc([C@](O)(CCO[Si](C)(C)C(C)(C)C)[C@H](O)N2CCOC2=O)cc1: prod_964
-  Cc1ccc([C@]2(O)CCCC[C@H]2O)cc1: prod_490
-  Cc1cccc(C)c1OC[C@@H](O)CO: prod_255
-  Cc1ccccc1CC[C@@H](O)CO: prod_256
-  Cc1ccccc1OC[C@@H](O)CO: prod_249
-  Cc1cn(C[C@](O)(CO)c2ccccc2)c(=O)n(C(=O)c2ccccc2)c1=O: prod_566
-  Cc1cn(C[C@](O)(CO)c2ccccc2)c(=O)nc1NC(=O)c1ccccc1: prod_560
-  Cc1oc2c([C@H](O)CO)cccc2c1C: prod_36
-  Cc1oc2cccc([C@H](O)CO)c2c1C: prod_259
-  Cn1c2ccccc2c2cccc([C@H](O)CO)c21: prod_278
-  N#CCCCCCCCCC[C@@H](O)CO: prod_33
-  N#CCCCCCCC[C@@H](O)CO: prod_738
-  N#CC[C@]1(O)CCCC[C@H]1O: prod_306
+  Cc1cc2c([C@H](O)CO)cccc2n1C(=O)OC(C)(C)C: prod_283
+  Cc1cc2cccc([C@H](O)CO)c2n1[Si](C)(C)C(C)(C)C: prod_287
+  Cc1cc2cccc([C@H](O)CO)c2nc1C: prod_270
+  Cc1ccc(C[C@](C)(O)C2(O)CC2)c(O[Si](C)(C)C(C)(C)C)c1: prod_383
+  Cc1ccc(OC[C@@H](O)CO)cc1: prod_243
+  Cc1ccc(S(=O)(=O)OC[C@@H](O)CO)cc1: prod_389
+  Cc1ccc(S(=O)(=O)n2cc([C@H](O)CO)c3cc(Br)ccc32)cc1: prod_298
+  Cc1ccc(S(=O)(=O)n2cc([C@H](O)CO)c3ccc(Br)cc32)cc1: prod_751
+  Cc1ccc([C@@H](O)CO)cc1: prod_582
+  Cc1ccc([C@@H](O)[C@H](O)c2ccc(C)cc2)cc1: prod_881
+  Cc1ccc([C@H](O)CO)cc1: prod_583
+  Cc1ccc([C@H](O)[C@@H](O)C(=O)C=[N+]=[N-])cc1: prod_461
+  Cc1ccc([C@](O)(CCO[Si](C)(C)C(C)(C)C)[C@H](O)N2CCOC2=O)cc1: prod_963
+  Cc1ccc([C@]2(O)CCCC[C@H]2O)cc1: prod_489
+  Cc1cccc(C)c1OC[C@@H](O)CO: prod_254
+  Cc1ccccc1CC[C@@H](O)CO: prod_255
+  Cc1ccccc1OC[C@@H](O)CO: prod_248
+  Cc1cn(C[C@](O)(CO)c2ccccc2)c(=O)n(C(=O)c2ccccc2)c1=O: prod_565
+  Cc1cn(C[C@](O)(CO)c2ccccc2)c(=O)nc1NC(=O)c1ccccc1: prod_559
+  Cc1oc2c([C@H](O)CO)cccc2c1C: prod_35
+  Cc1oc2cccc([C@H](O)CO)c2c1C: prod_258
+  Cn1c2ccccc2c2cccc([C@H](O)CO)c21: prod_277
+  N#CCCCCCCCCC[C@@H](O)CO: prod_32
+  N#CCCCCCCC[C@@H](O)CO: prod_737
+  N#CC[C@]1(O)CCCC[C@H]1O: prod_305
   N#CC[C@]1(O)CCC[C@H]1O: prod_106
-  N#Cc1c(C[C@H](O)CO)c(NC(=O)c2ccccc2)cc(OCc2ccccc2)c1NC(=O)c1ccccc1: prod_296
-  N#Cc1ccc(OC[C@@H](O)CO)cc1: prod_247
-  N#Cc1ccc([C@@H](O)CO)cc1: prod_586
-  N#Cc1ccccc1OC[C@@H](O)CO: prod_250
-  NC(=O)[C@H](O)[C@@H](O)c1ccccc1: prod_823
-  O=C(C[C@@H](O)CO)C1(Sc2ccccc2)CCCC1: prod_40
-  O=C(Cc1ccccc1)[C@@H](O)CO: prod_27
-  O=C(Cc1ccccc1)[C@H](O)CO: prod_28
-  O=C(NCc1ccccc1)[C@H](O)[C@@H](O)c1ccccc1: prod_883
-  O=C(Nc1ccn(C[C@H](O)CO)c(=O)n1)c1ccccc1: prod_444
-  O=C(Nc1ccn(C[C@](O)(CO)C2CCCCC2)c(=O)n1)c1ccccc1: prod_558
-  O=C(Nc1ccn(C[C@](O)(CO)c2ccccc2)c(=O)n1)c1ccccc1: prod_447
-  O=C(Nc1nc(=O)n(C[C@](O)(CO)c2ccccc2)cc1Br)c1ccccc1: prod_563
-  O=C(Nc1nc(=O)n(C[C@](O)(CO)c2ccccc2)cc1Cl)c1ccccc1: prod_562
-  O=C(Nc1nc(=O)n(C[C@](O)(CO)c2ccccc2)cc1F)c1ccccc1: prod_561
-  O=C(OCC[C@@H](O)[C@H](O)c1ccccc1)c1ccccc1: prod_885
-  O=C(OC[C@@H](O)[C@@H](O)CO)c1ccccc1: prod_101
+  N#Cc1c(C[C@H](O)CO)c(NC(=O)c2ccccc2)cc(OCc2ccccc2)c1NC(=O)c1ccccc1: prod_295
+  N#Cc1ccc(OC[C@@H](O)CO)cc1: prod_246
+  N#Cc1ccc([C@@H](O)CO)cc1: prod_585
+  N#Cc1ccccc1OC[C@@H](O)CO: prod_249
+  NC(=O)[C@H](O)[C@@H](O)c1ccccc1: prod_822
+  O=C(C[C@@H](O)CO)C1(Sc2ccccc2)CCCC1: prod_39
+  O=C(Cc1ccccc1)[C@@H](O)CO: prod_26
+  O=C(Cc1ccccc1)[C@H](O)CO: prod_27
+  O=C(NCc1ccccc1)[C@H](O)[C@@H](O)c1ccccc1: prod_882
+  O=C(Nc1ccn(C[C@H](O)CO)c(=O)n1)c1ccccc1: prod_443
+  O=C(Nc1ccn(C[C@](O)(CO)C2CCCCC2)c(=O)n1)c1ccccc1: prod_557
+  O=C(Nc1ccn(C[C@](O)(CO)c2ccccc2)c(=O)n1)c1ccccc1: prod_446
+  O=C(Nc1nc(=O)n(C[C@](O)(CO)c2ccccc2)cc1Br)c1ccccc1: prod_562
+  O=C(Nc1nc(=O)n(C[C@](O)(CO)c2ccccc2)cc1Cl)c1ccccc1: prod_561
+  O=C(Nc1nc(=O)n(C[C@](O)(CO)c2ccccc2)cc1F)c1ccccc1: prod_560
+  O=C(OCC[C@@H](O)[C@H](O)c1ccccc1)c1ccccc1: prod_884
+  O=C(OC[C@H](O)[C@H](O)CO)c1ccccc1: prod_101
   O=C(OC[C@](O)(CO)c1ccccc1)c1ccccc1: prod_193
-  O=C(OCc1ccccc1)N(C[C@@H](O)[C@H](O)c1ccccc1)C(=O)OCc1ccccc1: prod_743
-  O=C(OCc1ccccc1)[C@@H](O)CO: prod_242
-  O=C(OCc1ccccc1)[C@@H](O)[C@H](O)c1ccccc1: prod_879
-  O=C(OCc1ccccc1)[C@H](O)CO: prod_391
-  O=C(OCc1ccccc1)[C@H](O)[C@@H](O)c1ccccc1: prod_880
-  O=C([C@@H](O)[C@H](O)CCc1ccccc1)N1CCOCC1: prod_857
-  O=C(c1ccccc1)n1c(=O)c(Br)cn(C[C@](O)(CO)c2ccccc2)c1=O: prod_568
-  O=C(c1ccccc1)n1c(=O)c(Cl)cn(C[C@](O)(CO)c2ccccc2)c1=O: prod_567
-  O=C(c1ccccc1)n1c(=O)c(F)cn(C[C@](O)(CO)c2ccccc2)c1=O: prod_570
-  O=C(c1ccccc1)n1c(=O)c(I)cn(C[C@](O)(CO)c2ccccc2)c1=O: prod_569
-  O=C1C=C/C(=C/[C@@H](O)[C@H](O)c2ccccc2)O1: prod_772
-  O=C1C=C/C(=C\[C@@H](O)[C@H](O)c2ccccc2)O1: prod_773
-  O=C1CCC[C@@](O)(c2ccccc2)[C@@H]1O: prod_350
+  O=C(OCc1ccccc1)N(C[C@@H](O)[C@H](O)c1ccccc1)C(=O)OCc1ccccc1: prod_742
+  O=C(OCc1ccccc1)[C@@H](O)CO: prod_241
+  O=C(OCc1ccccc1)[C@@H](O)[C@H](O)c1ccccc1: prod_878
+  O=C(OCc1ccccc1)[C@H](O)CO: prod_390
+  O=C(OCc1ccccc1)[C@H](O)[C@@H](O)c1ccccc1: prod_879
+  O=C([C@@H](O)[C@H](O)CCc1ccccc1)N1CCOCC1: prod_856
+  O=C(c1ccccc1)n1c(=O)c(Br)cn(C[C@](O)(CO)c2ccccc2)c1=O: prod_567
+  O=C(c1ccccc1)n1c(=O)c(Cl)cn(C[C@](O)(CO)c2ccccc2)c1=O: prod_566
+  O=C(c1ccccc1)n1c(=O)c(F)cn(C[C@](O)(CO)c2ccccc2)c1=O: prod_569
+  O=C(c1ccccc1)n1c(=O)c(I)cn(C[C@](O)(CO)c2ccccc2)c1=O: prod_568
+  O=C1C=C/C(=C/[C@@H](O)[C@H](O)c2ccccc2)O1: prod_771
+  O=C1C=C/C(=C\[C@@H](O)[C@H](O)c2ccccc2)O1: prod_772
+  O=C1CCC[C@@](O)(c2ccccc2)[C@@H]1O: prod_349
   O=C1C[C@@H](O)[C@@H](O)CO1: prod_212
   O=C1C[C@H](O)[C@H](O)CO1: prod_213
-  O=C1OCCN1[C@@H](O)[C@@](O)(CCc1ccccc1)c1ccccc1: prod_961
-  O=C1OCCN1[C@@H](O)[C@@](O)(c1ccccc1)C1CCCCC1: prod_968
-  O=C1OCCN1[C@@H](O)[C@@](O)(c1ccccc1)c1ccc2ccccc2c1: prod_967
-  O=C1OCCN1[C@@H](O)[C@@](O)(c1ccccc1)c1cccs1: prod_960
-  O=P(C[C@@H](O)[C@H](O)c1ccccc1)(c1ccccc1)c1ccccc1: prod_902
-  O=P(C[C@@]1(O)CCCC[C@@H]1O)(c1ccccc1)c1ccccc1: prod_526
-  O=P(C[C@H](O)[C@@H](O)c1ccccc1)(c1ccccc1)c1ccccc1: prod_901
+  O=C1OCCN1[C@@H](O)[C@@](O)(CCc1ccccc1)c1ccccc1: prod_960
+  O=C1OCCN1[C@@H](O)[C@@](O)(c1ccccc1)C1CCCCC1: prod_967
+  O=C1OCCN1[C@@H](O)[C@@](O)(c1ccccc1)c1ccc2ccccc2c1: prod_966
+  O=C1OCCN1[C@@H](O)[C@@](O)(c1ccccc1)c1cccs1: prod_959
+  O=P(C[C@@H](O)[C@H](O)c1ccccc1)(c1ccccc1)c1ccccc1: prod_901
+  O=P(C[C@@]1(O)CCCC[C@@H]1O)(c1ccccc1)c1ccccc1: prod_525
+  O=P(C[C@H](O)[C@@H](O)c1ccccc1)(c1ccccc1)c1ccccc1: prod_900
   O=P(C[C@](O)(CO)c1ccccc1)(c1ccccc1)c1ccccc1: prod_209
-  O=P(C[C@]1(O)CCCC[C@H]1O)(c1ccccc1)c1ccccc1: prod_527
-  O=S(=O)(CC[C@H](O)[C@@H](O)c1ccccc1)c1ccccc1: prod_978
-  O=[N+]([O-])c1ccc(OC[C@@H](O)CO)cc1: prod_633
-  O=[N+]([O-])c1ccc(OC[C@H](O)CO)cc1: prod_632
-  O=[N+]([O-])c1ccc([C@@H](O)[C@H](O)c2ccc([N+](=O)[O-])cc2)cc1: prod_867
-  O=[N+]([O-])c1cccc(OC[C@@H](O)CO)c1: prod_457
-  O=[N+]([O-])c1cccc(OC[C@H](O)CO)c1: prod_456
-  O=[N+]([O-])c1ccccc1OC[C@@H](O)CO: prod_454
-  O=[N+]([O-])c1ccccc1OC[C@H](O)CO: prod_455
+  O=P(C[C@]1(O)CCCC[C@H]1O)(c1ccccc1)c1ccccc1: prod_526
+  O=S(=O)(CC[C@H](O)[C@@H](O)c1ccccc1)c1ccccc1: prod_977
+  O=[N+]([O-])c1ccc(OC[C@@H](O)CO)cc1: prod_632
+  O=[N+]([O-])c1ccc(OC[C@H](O)CO)cc1: prod_631
+  O=[N+]([O-])c1ccc([C@@H](O)[C@H](O)c2ccc([N+](=O)[O-])cc2)cc1: prod_866
+  O=[N+]([O-])c1cccc(OC[C@@H](O)CO)c1: prod_456
+  O=[N+]([O-])c1cccc(OC[C@H](O)CO)c1: prod_455
+  O=[N+]([O-])c1ccccc1OC[C@@H](O)CO: prod_453
+  O=[N+]([O-])c1ccccc1OC[C@H](O)CO: prod_454
   O=c1scc([C@H](O)CO)s1: prod_1
-  OCCCCCC[C@@H](O)CO: prod_6
-  OCCCC[C@@H](O)CO: prod_228
-  OCC[C@@H](O)[C@H](O)c1ccccc1: prod_828
-  OC[C@@H](O)/C=C\c1csc(Br)n1: prod_761
-  OC[C@@H](O)C1CCCCC1: prod_386
-  OC[C@@H](O)C1CCCCCCC1: prod_387
-  OC[C@@H](O)C1OCc2ccccc2CO1: prod_265
+  OCCCCCC[C@@H](O)CO: prod_5
+  OCCCC[C@@H](O)CO: prod_227
+  OCC[C@@H](O)[C@H](O)c1ccccc1: prod_827
+  OC[C@@H](O)/C=C\c1csc(Br)n1: prod_760
+  OC[C@@H](O)C1CCCCC1: prod_385
+  OC[C@@H](O)C1CCCCCCC1: prod_386
+  OC[C@@H](O)C1OCc2ccccc2CO1: prod_264
   OC[C@@H](O)CCCBr: prod_2
-  OC[C@@H](O)CCCCOC(c1ccccc1)(c1ccccc1)c1ccccc1: prod_294
-  OC[C@@H](O)CCl: prod_703
-  OC[C@@H](O)COc1cccc2ccccc12: prod_30
-  OC[C@@H](O)COc1ccccc1: prod_388
-  OC[C@@H](O)CSc1ccccc1: prod_234
-  OC[C@@H](O)[C@@H](O)COCc1ccccc1: prod_731
-  OC[C@@H](O)[C@@H](O)OCc1ccccc1: prod_91
-  OC[C@@H](O)[C@@H](O)c1ccccc1: prod_90
-  OC[C@@H](O)[C@H](O)c1ccccc1: prod_819
-  OC[C@@H](O)[Si](c1ccccc1)(c1ccccc1)c1ccccc1: prod_293
-  OC[C@@H](O)c1ccc(OCc2ccccc2)cc1: prod_283
-  OC[C@@H](O)c1ccc2ccccc2c1: prod_258
-  OC[C@@H](O)c1cccc2cc3ccccc3nc12: prod_277
-  OC[C@@H](O)c1cccc2ccc(C(F)(F)F)nc12: prod_260
-  OC[C@@H](O)c1ccccc1: prod_26
-  OC[C@@H](O)c1ccccc1Br: prod_459
-  OC[C@@H](O)c1ccco1: prod_3
+  OC[C@@H](O)CCCCOC(c1ccccc1)(c1ccccc1)c1ccccc1: prod_293
+  OC[C@@H](O)CCl: prod_702
+  OC[C@@H](O)COc1cccc2ccccc12: prod_29
+  OC[C@@H](O)COc1ccccc1: prod_387
+  OC[C@@H](O)CSc1ccccc1: prod_233
+  OC[C@@H](O)[C@@H](O)COCc1ccccc1: prod_730
+  OC[C@@H](O)[C@@H](O)OCc1ccccc1: prod_90
+  OC[C@@H](O)[C@@H](O)c1ccccc1: prod_89
+  OC[C@@H](O)[C@H](O)c1ccccc1: prod_818
+  OC[C@@H](O)[Si](c1ccccc1)(c1ccccc1)c1ccccc1: prod_292
+  OC[C@@H](O)c1ccc(OCc2ccccc2)cc1: prod_282
+  OC[C@@H](O)c1ccc2ccccc2c1: prod_257
+  OC[C@@H](O)c1cccc2cc3ccccc3nc12: prod_276
+  OC[C@@H](O)c1cccc2ccc(C(F)(F)F)nc12: prod_259
+  OC[C@@H](O)c1ccccc1: prod_25
+  OC[C@@H](O)c1ccccc1Br: prod_458
+  OC[C@@H](O)c1ccco1: prod_997
   OC[C@@](O)(CBr)c1ccccc1: prod_144
-  OC[C@@](O)(CCc1ccccc1)c1ccccc1: prod_940
+  OC[C@@](O)(CCc1ccccc1)c1ccccc1: prod_939
   OC[C@@](O)(COCc1ccccc1)c1ccccc1: prod_194
   OC[C@@](O)(c1ccccc1)C(F)(F)F: prod_143
   OC[C@@](O)(c1ccccc1)C12C[C@H]3C[C@@H](C1)C[C@@H](C2)C3: prod_205
   OC[C@@](O)(c1ccccc1)C1CCCCC1: prod_211
-  OC[C@@](O)(c1ccccc1)c1ccc(Br)cn1: prod_185
-  OC[C@@](O)(c1ccccc1)c1cccc(Br)n1: prod_184
-  OC[C@@](O)(c1ccccc1)c1ccccn1: prod_183
+  OC[C@](O)(c1ccccc1)c1ccc(Br)cn1: prod_185
+  OC[C@@](O)(c1ccccc1)c1ccc2ccccc2c1: prod_979
+  OC[C@](O)(c1ccccc1)c1cccc(Br)n1: prod_184
+  OC[C@](O)(c1ccccc1)c1ccccn1: prod_183
   OC[C@@](O)(c1nc(-c2ccc(F)cc2F)cs1)c1ccc(F)cc1F: prod_203
   OC[C@@]1(O)CCCc2ccccc21: prod_163
   OC[C@@]1(O)CCc2ccccc21: prod_151
-  OC[C@H](O)C#CC1CCCCC1: prod_240
-  OC[C@H](O)C#Cc1ccccc1: prod_239
+  OC[C@H](O)C#CC1CCCCC1: prod_239
+  OC[C@H](O)C#Cc1ccccc1: prod_238
   OC[C@H](O)C(Cl)(Cl)Cl: prod_219
   OC[C@H](O)C(Cl)Cl: prod_217
   OC[C@H](O)C(F)(F)F: prod_218
-  OC[C@H](O)C12C[C@H]3C[C@@H](C1)C[C@@H](C2)C3: prod_267
-  OC[C@H](O)C1CCCC1: prod_229
+  OC[C@H](O)C12C[C@H]3C[C@@H](C1)C[C@@H](C2)C3: prod_266
+  OC[C@H](O)C1CCCC1: prod_228
   OC[C@H](O)C1CCCCC1: prod_110
-  OC[C@H](O)C1CCCCCCC1: prod_252
+  OC[C@H](O)C1CCCCCCC1: prod_251
   OC[C@H](O)CBr: prod_216
-  OC[C@H](O)CCCCCCC1OCCO1: prod_736
-  OC[C@H](O)CCCCCCCCC1OCCO1: prod_38
-  OC[C@H](O)CCc1ccc(Cl)cc1: prod_246
-  OC[C@H](O)CCc1ccccc1: prod_245
-  OC[C@H](O)CCc1ccccc1Cl: prod_251
+  OC[C@H](O)CCCCCCC1OCCO1: prod_735
+  OC[C@H](O)CCCCCCCCC1OCCO1: prod_37
+  OC[C@H](O)CCc1ccc(Cl)cc1: prod_245
+  OC[C@H](O)CCc1ccccc1: prod_244
+  OC[C@H](O)CCc1ccccc1Cl: prod_250
   OC[C@H](O)CCl: prod_220
   OC[C@H](O)CI: prod_108
-  OC[C@H](O)COCCOc1ccc(Br)cc1: prod_34
-  OC[C@H](O)COCc1ccccc1: prod_253
-  OC[C@H](O)COc1ccc(Cl)cc1: prod_237
-  OC[C@H](O)COc1cccc2ccccc12: prod_29
-  OC[C@H](O)COc1ccccc1: prod_235
-  OC[C@H](O)COc1ccccc1C1CCCC1: prod_276
-  OC[C@H](O)COc1ccccc1Cl: prod_236
-  OC[C@H](O)Cc1ccc2c(c1)OCO2: prod_254
-  OC[C@H](O)Cc1ccccc1: prod_233
-  OC[C@H](O)[C@H](O)COCc1ccccc1: prod_730
-  OC[C@H](O)[C@H](O)OCc1ccccc1: prod_86
-  OC[C@H](O)[C@H](O)c1ccccc1: prod_84
-  OC[C@H](O)[Si](c1ccccc1)(c1ccccc1)c1ccccc1: prod_292
-  OC[C@H](O)c1ccc(Br)cc1: prod_585
-  OC[C@H](O)c1ccc(Cl)cc1: prod_231
-  OC[C@H](O)c1ccc(F)cc1: prod_582
+  OC[C@H](O)COCCOc1ccc(Br)cc1: prod_33
+  OC[C@H](O)COCc1ccccc1: prod_252
+  OC[C@H](O)COc1ccc(Cl)cc1: prod_236
+  OC[C@H](O)COc1cccc2ccccc12: prod_28
+  OC[C@H](O)COc1ccccc1: prod_234
+  OC[C@H](O)COc1ccccc1C1CCCC1: prod_275
+  OC[C@H](O)COc1ccccc1Cl: prod_235
+  OC[C@H](O)Cc1ccc2c(c1)OCO2: prod_253
+  OC[C@H](O)Cc1ccccc1: prod_232
+  OC[C@H](O)[C@H](O)COCc1ccccc1: prod_729
+  OC[C@H](O)[C@H](O)COCc1ccccc1: prod_85
+  OC[C@H](O)[C@H](O)c1ccccc1: prod_83
+  OC[C@H](O)[Si](c1ccccc1)(c1ccccc1)c1ccccc1: prod_291
+  OC[C@H](O)c1ccc(Br)cc1: prod_584
+  OC[C@H](O)c1ccc(Cl)cc1: prod_230
+  OC[C@H](O)c1ccc(F)cc1: prod_581
   OC[C@H](O)c1ccc2ccccc2c1: prod_111
-  OC[C@H](O)c1cccc2ccccc12: prod_5
-  OC[C@H](O)c1ccccc1: prod_25
-  OC[C@H](O)c1ccccc1Br: prod_458
-  OC[C@H](O)c1ccco1: prod_4
+  OC[C@H](O)c1cccc2ccccc12: prod_4
+  OC[C@H](O)c1ccccc1: prod_24
+  OC[C@H](O)c1ccccc1Br: prod_457
+  OC[C@H](O)c1ccco1: prod_3
   OC[C@](O)(CCl)c1ccc(F)cc1F: prod_157
   OC[C@](O)(Cn1cncn1)c1ccc(F)cc1F: prod_156
   OC[C@](O)(c1ccccc1)C(F)(F)F: prod_142
@@ -1921,86 +1944,95 @@ prod_id_smiles_map:
   OC[C@](O)(c1ccccc1)C1CCC1: prod_171
   OC[C@](O)(c1ccccc1)C1CCCC1: prod_173
   OC[C@](O)(c1ccccc1)C1CCCCC1: prod_175
-  O[C@@H](CCc1ccccc1)C1(O)CC1: prod_352
-  O[C@@H](COCc1ccccc1)[C@@H](O)C(F)(F)F: prod_702
-  O[C@@H](c1ccc(Br)cc1)C1(O)CC1: prod_324
-  O[C@@H](c1ccc(Cl)cc1)C1(O)CC1: prod_326
-  O[C@@H](c1ccc(F)cc1)C1(O)CC1: prod_322
-  O[C@@H](c1ccc2c(c1)OCO2)C1(O)CC1: prod_337
-  O[C@@H](c1ccc2ccccc2c1)C1(O)CC1: prod_501
-  O[C@@H](c1cccc(F)c1)C1(O)CC1: prod_319
-  O[C@@H](c1ccccc1)C1(O)CC1: prod_334
-  O[C@@H](c1ccccc1)[C@@H](O)CSc1ccccc1: prod_435
+  OC[C@](O)(c1ccccc1)c1ccc(Br)cc1: prod_987
+  OC[C@](O)(c1ccccc1)c1ccc(Cl)cc1: prod_986
+  OC[C@](O)(c1ccccc1)c1ccc(F)c(F)c1: prod_983
+  OC[C@](O)(c1ccccc1)c1ccc(F)cc1: prod_984
+  OC[C@](O)(c1ccccc1)c1ccc(F)cc1F: prod_993
+  OC[C@](O)(c1ccccc1)c1ccccc1F: prod_992
+  OC[C@](O)(c1ccccc1)c1ccco1: prod_982
+  O[C@@H](CCc1ccccc1)C1(O)CC1: prod_351
+  O[C@@H](COCc1ccccc1)[C@@H](O)C(F)(F)F: prod_701
+  O[C@@H](c1ccc(Br)cc1)C1(O)CC1: prod_323
+  O[C@@H](c1ccc(Cl)cc1)C1(O)CC1: prod_325
+  O[C@@H](c1ccc(F)cc1)C1(O)CC1: prod_321
+  O[C@@H](c1ccc2c(c1)OCO2)C1(O)CC1: prod_336
+  O[C@@H](c1ccc2ccccc2c1)C1(O)CC1: prod_500
+  O[C@@H](c1cccc(F)c1)C1(O)CC1: prod_318
+  O[C@@H](c1ccccc1)C1(O)CC1: prod_333
+  O[C@H](CSc1ccccc1)[C@H](O)c1ccccc1: prod_434
   O[C@@H](c1ccccc1)[C@@H](O)c1ccccc1: prod_18
-  O[C@@H](c1ccccc1F)C1(O)CC1: prod_320
-  O[C@@H]1CC/C=C/CC/C=C/CC[C@H]1O: prod_724
-  O[C@@H]1CC/C=C\CC/C=C/CC[C@H]1O: prod_725
-  O[C@@H]1CC/C=C\CC/C=C\CC[C@H]1O: prod_726
-  O[C@@H]1CC/C=C\CCCC[C@H]1O: prod_723
-  O[C@@H]1CCCCCC/C=C/CCCCCC[C@H]1O: prod_727
-  O[C@@H]1CCCCCC[C@@]1(O)c1ccccc1: prod_412
-  O[C@@H]1CCCCC[C@@]1(O)c1ccccc1: prod_411
-  O[C@@H]1CCCC[C@@]1(O)c1cc2ccccc2c2ccccc12: prod_410
-  O[C@@H]1CCCC[C@@]1(O)c1ccc(C(F)(F)F)cc1: prod_492
-  O[C@@H]1CCCC[C@@]1(O)c1cccc2ccccc12: prod_409
-  O[C@@H]1CCCC[C@@]1(O)c1ccccc1: prod_9
-  O[C@@H]1CCC[C@@]1(O)c1ccccc1: prod_348
-  O[C@@H]1CCc2ccccc2[C@@]1(O)Oc1ccccc1: prod_692
-  O[C@@H]1COc2ccccc2[C@@]1(O)OCc1ccccc1: prod_686
-  O[C@@H]1OCCC[C@@]1(O)Cc1ccccc1: prod_353
-  O[C@@H]1OCC[C@@]1(O)Cc1ccccc1: prod_342
-  O[C@@H]1c2cccc(c2)OCCCCCCOc2cccc(c2)[C@H]1O: prod_71
-  O[C@H](C1SCCCS1)[C@H](O)c1ccccc1: prod_439
-  O[C@H](CCc1ccccc1)C1(O)CC1: prod_351
-  O[C@H](CCl)[C@H](O)CCOCc1ccccc1: prod_844
-  O[C@H](CCl)[C@H](O)CCl: prod_403
-  O[C@H](CCl)[C@H](O)c1ccccc1: prod_404
-  O[C@H](CN1CCN(c2ccccc2)CC1)[C@H](O)c1ccccc1: prod_898
-  O[C@H](CSCc1ccccc1)[C@H](O)c1ccccc1: prod_436
-  O[C@H](c1ccc(Br)cc1)C1(O)CC1: prod_323
-  O[C@H](c1ccc(Br)cc1)[C@H](O)c1ccc(Br)cc1: prod_865
-  O[C@H](c1ccc(C(F)(F)F)cc1)[C@H](O)c1ccc(C(F)(F)F)cc1: prod_881
-  O[C@H](c1ccc(Cl)cc1)C1(O)CC1: prod_325
-  O[C@H](c1ccc(Cl)cc1)[C@H](O)c1ccc(Cl)cc1: prod_864
-  O[C@H](c1ccc(F)cc1)C1(O)CC1: prod_321
-  O[C@H](c1ccc2c(c1)OCO2)C1(O)CC1: prod_336
-  O[C@H](c1ccc2ccccc2c1)C1(O)CC1: prod_500
-  O[C@H](c1ccc2ccccc2c1Br)[C@H](O)c1ccc2ccccc2c1Br: prod_903
-  O[C@H](c1cccc(F)c1)C1(O)CC1: prod_318
-  O[C@H](c1ccccc1)C1(O)CC1: prod_333
+  O[C@@H](c1ccccc1F)C1(O)CC1: prod_319
+  O[C@@H]1CC/C=C/CC/C=C/CC[C@H]1O: prod_723
+  O[C@@H]1CC/C=C\CC/C=C/CC[C@H]1O: prod_724
+  O[C@@H]1CC/C=C\CC/C=C\CC[C@H]1O: prod_725
+  O[C@@H]1CC/C=C\CCCC[C@H]1O: prod_722
+  O[C@@H]1CCCCCC/C=C/CCCCCC[C@H]1O: prod_726
+  O[C@@H]1CCCCCC[C@@]1(O)c1ccccc1: prod_411
+  O[C@@H]1CCCCC[C@@]1(O)c1ccccc1: prod_410
+  O[C@@H]1CCCC[C@@]1(O)c1cc2ccccc2c2ccccc12: prod_409
+  O[C@@H]1CCCC[C@@]1(O)c1ccc(C(F)(F)F)cc1: prod_491
+  O[C@@H]1CCCC[C@@]1(O)c1cccc2ccccc12: prod_408
+  O[C@@H]1CCCC[C@@]1(O)c1ccccc1: prod_8
+  O[C@@H]1CCC[C@@]1(O)c1ccccc1: prod_347
+  O[C@@H]1CCc2ccccc2[C@@]1(O)Oc1ccccc1: prod_691
+  O[C@@H]1COc2ccccc2[C@@]1(O)OCc1ccccc1: prod_685
+  O[C@@H]1OCCC[C@@]1(O)Cc1ccccc1: prod_352
+  O[C@@H]1OCC[C@@]1(O)Cc1ccccc1: prod_341
+  O[C@@H]1c2cccc(c2)OCCCCCCOc2cccc(c2)[C@H]1O: prod_70
+  O[C@H](C)[C@H](O)CC#N: prod_0
+  O[C@H](C1SCCCS1)[C@H](O)c1ccccc1: prod_438
+  O[C@H](CCc1ccccc1)C1(O)CC1: prod_350
+  O[C@H](CCl)[C@H](O)CCOCc1ccccc1: prod_843
+  O[C@H](CCl)[C@H](O)CCl: prod_402
+  O[C@H](CCl)[C@H](O)c1ccccc1: prod_403
+  O[C@H](CN1CCN(c2ccccc2)CC1)[C@H](O)c1ccccc1: prod_897
+  O[C@H](CSCc1ccccc1)[C@H](O)c1ccccc1: prod_435
+  O[C@H](c1ccc(Br)cc1)C1(O)CC1: prod_322
+  O[C@H](c1ccc(Br)cc1)[C@H](O)c1ccc(Br)cc1: prod_864
+  O[C@H](c1ccc(C(F)(F)F)cc1)[C@H](O)c1ccc(C(F)(F)F)cc1: prod_880
+  O[C@H](c1ccc(Cl)cc1)C1(O)CC1: prod_324
+  O[C@H](c1ccc(Cl)cc1)[C@H](O)c1ccc(Cl)cc1: prod_863
+  O[C@H](c1ccc(F)cc1)C1(O)CC1: prod_320
+  O[C@H](c1ccc2c(c1)OCO2)C1(O)CC1: prod_335
+  O[C@H](c1ccc2ccccc2c1)C1(O)CC1: prod_499
+  O[C@H](c1ccc2ccccc2c1Br)[C@H](O)c1ccc2ccccc2c1Br: prod_902
+  O[C@H](c1cccc(F)c1)C1(O)CC1: prod_317
+  O[C@H](c1ccccc1)C1(O)CC1: prod_332
   O[C@H](c1ccccc1)[C@H](O)c1ccccc1: prod_17
-  O[C@H](c1ccccc1Br)[C@H](O)c1ccccc1Br: prod_866
-  O[C@H](c1ccccc1F)C1(O)CC1: prod_317
-  O[C@H]1/C=C\CCCC[C@H]1O: prod_722
-  O[C@H]1C=C(c2ccccc2)CCC[C@H]1O: prod_720
-  O[C@H]1C=C(c2ccccc2)CC[C@H]1O: prod_717
-  O[C@H]1C=C(c2ccccc2)C[C@H]1O: prod_709
-  O[C@H]1C=CC2(CC2)[C@H]1O: prod_710
-  O[C@H]1C=CC2(CCCC2)[C@H]1O: prod_711
-  O[C@H]1C=CC=CC[C@H]1O: prod_721
-  O[C@H]1C=CCCC[C@H]1O: prod_719
-  O[C@H]1C=CCC[C@H]1O: prod_716
-  O[C@H]1C=CC[C@H]1O: prod_707
+  O[C@H](c1ccccc1Br)[C@H](O)c1ccccc1Br: prod_865
+  O[C@H](c1ccccc1F)C1(O)CC1: prod_316
+  O[C@H]1/C=C\CCCC[C@H]1O: prod_721
+  O[C@H]1C=C(c2ccccc2)CCC[C@H]1O: prod_719
+  O[C@H]1C=C(c2ccccc2)CC[C@H]1O: prod_716
+  O[C@H]1C=C(c2ccccc2)C[C@H]1O: prod_708
+  O[C@H]1C=CC2(CC2)[C@H]1O: prod_709
+  O[C@H]1C=CC2(CCCC2)[C@H]1O: prod_710
+  O[C@H]1C=CC=CC[C@H]1O: prod_720
+  O[C@H]1C=CCCC[C@H]1O: prod_718
+  O[C@H]1C=CCC[C@H]1O: prod_715
+  O[C@H]1C=CC[C@H]1O: prod_706
   O[C@H]1CCCC[C@]1(O)c1ccccc1: prod_10
-  O[C@H]1CCCC[C@]1(O)c1ccccc1Cl: prod_629
-  O[C@H]1CCc2ccccc2[C@H]1O: prod_96
-  O[C@H]1Cc2ccccc2[C@H]1O: prod_92
-  O[C@H]1OCCC[C@]1(O)Cc1ccccc1: prod_354
-  O[C@H]1OCC[C@]1(O)Cc1ccccc1: prod_343
-  '[2H]C([2H])(OC(C)=O)[C@@H](O)[C@](C)(O)C([2H])([2H])OC(C)=O': prod_311
-  '[2H]C([2H])(OC(C)=O)[C@H](O)[C@@](C)(O)C([2H])([2H])OC(C)=O': prod_312
-  '[2H]C([2H])([2H])[C@](O)(COC(C)=O)[C@]([2H])(O)COC(C)=O': prod_314
-  '[2H][C@@H](O)[C@@H](O)COCc1ccccc1': prod_79
-  '[2H][C@@H](O)[C@H](O)COC(=O)c1ccccc1': prod_46
-  '[2H][C@@H](O)[C@H](O)COCc1ccccc1': prod_534
-  '[2H][C@H](O)[C@@H](O)COCc1ccccc1': prod_535
-  '[2H][C@H](O)[C@H](O)COC(=O)c1ccccc1': prod_95
-  '[2H][C@H](O)[C@H](O)COCc1ccccc1': prod_77
-  '[N-]=[N+]=CC(=O)[C@H](O)[C@@H](O)c1ccc(-c2ccccc2)cc1': prod_463
-  '[N-]=[N+]=CC(=O)[C@H](O)[C@@H](O)c1ccccc1': prod_460
-  '[N-]=[N+]=CC(=O)[C@H](O)[C@H](O)c1ccccc1': prod_461
-  '[N-]=[N+]=NCCCC[C@@H](O)CO': prod_227
-  '[N-]=[N+]=NCCCC[C@H](O)CO': prod_226
+  O[C@H]1CCCC[C@]1(O)c1ccccc1Cl: prod_628
+  O[C@H]1CCc2ccccc2[C@H]1O: prod_95
+  O[C@H]1Cc2ccccc2[C@H]1O: prod_91
+  O[C@H]1OCCC[C@]1(O)Cc1ccccc1: prod_353
+  O[C@H]1OCC[C@]1(O)Cc1ccccc1: prod_342
+  '[2H]C([2H])(OC(C)=O)[C@@H](O)[C@](C)(O)C([2H])([2H])OC(C)=O': prod_310
+  '[2H]C([2H])(OC(C)=O)[C@H](O)[C@@](C)(O)C([2H])([2H])OC(C)=O': prod_311
+  '[2H]C([2H])([2H])[C@](O)(COC(C)=O)[C@]([2H])(O)COC(C)=O': prod_313
+  '[2H][C@@H](O)[C@@H](O)COCc1ccccc1': prod_78
+  '[2H][C@@H](O)[C@H](O)COC(=O)c1ccccc1': prod_45
+  '[2H][C@@H](O)[C@H](O)COCc1ccccc1': prod_533
+  '[2H][C@H](O)[C@@H](O)COCc1ccccc1': prod_534
+  '[2H][C@H](O)[C@H](O)COC(=O)c1ccccc1': prod_94
+  '[2H][C@H](O)[C@H](O)COCc1ccccc1': prod_76
+  '[N-]=[N+]=CC(=O)[C@H](O)[C@@H](O)c1ccc(-c2ccccc2)cc1': prod_462
+  '[N-]=[N+]=CC(=O)[C@H](O)[C@@H](O)c1ccccc1': prod_459
+  '[N-]=[N+]=CC(=O)[C@H](O)[C@H](O)c1ccccc1': prod_460
+  '[N-]=[N+]=NCCCC[C@@H](O)CO': prod_226
+  '[N-]=[N+]=NCCCC[C@H](O)CO': prod_225
+  'CCOC(=O)C[C@@H](O)[C@H](O)CC': prod_994
 react_can_smiles_map:
   (((2-methoxy-5-vinyl-1,3-phenylene)bis(oxy))bis(methylene))dibenzene: C=Cc1cc(OCc2ccccc2)c(OC)c(OCc2ccccc2)c1
   (((2-methylallyl)oxy)methyl)benzene: C=C(C)COCc1ccccc1
@@ -2056,6 +2088,8 @@ react_can_smiles_map:
   (4,4-dimethoxycyclohex-1-en-1-yl)methyl acetate: COC1(OC)CC=C(COC(C)=O)CC1
   (4,4-dimethoxycyclohex-1-en-1-yl)methyl benzoate: COC1(OC)CC=C(COC(=O)c2ccccc2)CC1
   (4,4-dimethoxycyclohex-1-en-1-yl)methyl pivalate: COC1(OC)CC=C(COC(=O)C(C)(C)C)CC1
+  (4-(1-(4-fluorophenyl)vinyl)phenyl)(methyl)sulfane: C=C(c1ccc(F)cc1)c1ccc(SC)cc1
+  (4-(1-(4-methoxyphenyl)vinyl)phenyl)(methyl)sulfane: C=C(c1ccc(OC)cc1)c1ccc(SC)cc1
   (4E,6E)-octa-4,6-dien-3-one: C/C=C/C=C/C(=O)CC
   (6Z,10Z)-6-ethyl-2-methyldodeca-2,6,10-triene: C/C=C\CC/C=C(/CC)CCC=C(C)C
   (8Z,10E)-tetradeca-8,10-dien-1-yl acetate: CCC/C=C/C=C\CCCCCCCOC(C)=O
@@ -2248,6 +2282,7 @@ react_can_smiles_map:
   1,2,3,4,5-pentamethyl-6-(3-methylbut-3-en-1-yn-1-yl)benzene: C=C(C)C#Cc1c(C)c(C)c(C)c(C)c1C
   1,2,3-trimethoxy-5-vinylbenzene: C=Cc1cc(OC)c(OC)c(OC)c1
   1,2,4,5-tetramethyl-3-(3-methylbut-3-en-1-yn-1-yl)benzene: C=C(C)C#Cc1c(C)c(C)cc(C)c1C
+  1,2-difluoro-4-(1-phenylvinyl)benzene: C=C(c1ccccc1)c1ccc(F)c(F)c1
   1,2-dihydronaphthalene: C1=Cc2ccccc2CC1
   1,2-dimethoxy-4-vinylbenzene: C=Cc1ccc(OC)c(OC)c1
   1,2-dimethoxy-5,6-dihydro-13H-[1,3]dioxolo[4',5':4,5]benzo[1,2-h]benzo[c]chromen-13-one: COc1ccc2c3c(oc(=O)c2c1OC)-c1cc2c(cc1CC3)OCO2
@@ -2289,29 +2324,37 @@ react_can_smiles_map:
   1-(cyclopropylidenemethyl)-3-fluorobenzene: Fc1cccc(C=C2CC2)c1
   1-(cyclopropylidenemethyl)-4-fluorobenzene: Fc1ccc(C=C2CC2)cc1
   1-(cyclopropylidenemethyl)-4-methoxybenzene: COc1ccc(C=C2CC2)cc1
+  1-(methylsulfonyl)-4-(1-phenylvinyl)benzene: C=C(c1ccccc1)c1ccc(S(C)(=O)=O)cc1
   1-(pentyloxy)cyclohept-1-ene: CCCCCOC1=CCCCCC1
   1-(pentyloxy)cyclohex-1-ene: CCCCCOC1=CCCCC1
   1-(tert-butyl)-3-vinylbenzene: C=Cc1cccc(C(C)(C)C)c1
   1-(tert-butyl)-4-vinylbenzene: C=Cc1ccc(C(C)(C)C)cc1
   1-(tert-butyldimethylsilyl)-2-methyl-7-vinyl-1H-indole: C=Cc1cccc2cc(C)n([Si](C)(C)C(C)(C)C)c12
   1-bromo-2-vinylbenzene: C=Cc1ccccc1Br
+  1-bromo-4-(1-phenylvinyl)benzene: C=C(c1ccccc1)c1ccc(Br)cc1
   1-bromo-4-(cyclopropylidenemethyl)benzene: Brc1ccc(C=C2CC2)cc1
   1-bromo-4-vinylbenzene: C=Cc1ccc(Br)cc1
   1-chloro-3-methylbut-2-ene: CC(C)=CCCl
+  1-chloro-4-(1-phenylvinyl)benzene: C=C(c1ccccc1)c1ccc(Cl)cc1
   1-chloro-4-(cyclopropylidenemethyl)benzene: Clc1ccc(C=C2CC2)cc1
   1-chloro-4-vinylbenzene: C=Cc1ccc(Cl)cc1
   1-cinnamyl-4-phenylpiperazine: C(=C/c1ccccc1)\CN1CCN(c2ccccc2)CC1
+  1-fluoro-2-(1-phenylvinyl)benzene: C=C(c1ccccc1)c1ccccc1F
+  1-fluoro-4-(1-(4-methoxyphenyl)vinyl)benzene: C=C(c1ccc(F)cc1)c1ccc(OC)cc1
+  1-fluoro-4-(1-phenylvinyl)benzene: C=C(c1ccccc1)c1ccc(F)cc1
   1-fluoro-4-vinylbenzene: C=Cc1ccc(F)cc1
   1-isobutyl-4-(prop-1-en-2-yl)benzene: C=C(C)c1ccc(CC(C)C)cc1
   1-isopropyl-4-methylcyclohexa-1,4-diene: CC1=CCC(C(C)C)=CC1
   1-methoxy-2-((2-methylallyl)oxy)benzene: C=C(C)COc1ccccc1OC
   1-methoxy-2-((3-methylbut-3-en-1-yl)oxy)benzene: C=C(C)CCOc1ccccc1OC
+  1-methoxy-2-(1-phenylvinyl)benzene: C=C(c1ccccc1)c1ccccc1OC
   1-methoxy-2-vinylbenzene: C=Cc1ccccc1OC
   1-methoxy-3-((2-methylallyl)oxy)benzene: C=C(C)COc1cccc(OC)c1
   1-methoxy-3-((3-methylbut-3-en-1-yl)oxy)benzene: C=C(C)CCOc1cccc(OC)c1
   1-methoxy-3-vinylbenzene: C=Cc1cccc(OC)c1
   1-methoxy-4-((2-methylallyl)oxy)benzene: C=C(C)COc1ccc(OC)cc1
   1-methoxy-4-((3-methylbut-3-en-1-yl)oxy)benzene: C=C(C)CCOc1ccc(OC)cc1
+  1-methoxy-4-(1-phenylvinyl)benzene: C=C(c1ccccc1)c1ccc(OC)cc1
   1-methoxy-4-vinylbenzene: C=Cc1ccc(OC)cc1
   1-methoxycyclohept-1-ene: COC1=CCCCCC1
   1-methoxycyclohex-1-ene: COC1=CCCCC1
@@ -2338,6 +2381,7 @@ react_can_smiles_map:
   2,3-dimethyl-7-vinylbenzofuran: C=Cc1cccc2c(C)c(C)oc12
   2,3-dimethyl-8-vinylquinoline: C=Cc1cccc2cc(C)c(C)nc12
   2,3-dimethyloct-2-ene: CCCCCC(C)=C(C)C
+  2,4-difluoro-1-(1-phenylvinyl)benzene: C=C(c1ccccc1)c1ccc(F)cc1F
   2,4-difluoro-1-(prop-1-en-2-yl)benzene: C=C(C)c1ccc(F)cc1F
   2,4-dimethylpent-1-ene: C=C(C)CC(C)C
   2,5-dimethylhexa-2,4-diene: CC(C)=CC=C(C)C
@@ -2348,6 +2392,8 @@ react_can_smiles_map:
   2-(((triisopropylsilyl)oxy)methyl)allyl 4-(dimethylamino)benzoate: C=C(COC(=O)c1ccc(N(C)C)cc1)CO[Si](C(C)C)(C(C)C)C(C)C
   2-((benzyloxy)methyl)allyl 4-(dimethylamino)benzoate: C=C(COCc1ccccc1)COC(=O)c1ccc(N(C)C)cc1
   2-((prop-2-yn-1-yloxy)methyl)allyl 4-(dimethylamino)benzoate: C#CCOCC(=C)COC(=O)c1ccc(N(C)C)cc1
+  2-(1-phenylvinyl)furan: C=C(c1ccccc1)c1ccco1
+  2-(1-phenylvinyl)naphthalene: C=C(c1ccccc1)c1ccc2ccccc2c1
   2-(1-phenylvinyl)pyridine: C=C(c1ccccc1)c1ccccn1
   2-(2,2-diethoxyvinyl)naphthalene: CCOC(=Cc1ccc2ccccc2c1)OCC
   2-(2,4-difluorophenyl)allyl acetate: C=C(COC(C)=O)c1ccc(F)cc1F
@@ -2720,6 +2766,7 @@ react_can_smiles_map:
   methyl 8-methoxy-1,4-dihydronaphthalene-2-carboxylate: COC(=O)C1=CCc2cccc(OC)c2C1
   methyl cyclohexa-1,3-diene-1-carboxylate: COC(=O)C1=CC=CCC1
   methyl octadec-17-enoate: C=CCCCCCCCCCCCCCCCC(=O)OC
+  methyl(4-(1-phenylvinyl)phenyl)sulfane: C=C(c1ccccc1)c1ccc(SC)cc1
   methyldiphenyl(vinyl)silane: C=C[Si](C)(c1ccccc1)c1ccccc1
   nonylidenecyclopropane: CCCCCCCCC=C1CC1
   oct-1-en-2-ylbenzene: C=C(CCCCCC)c1ccccc1
@@ -2940,7 +2987,6 @@ react_id_smiles_map:
   C=C(CC)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C: react_175
   C=C(CC)COc1ccccc1: react_316
   C=C(CC)Cn1ccc(NC(=O)c2ccccc2)nc1=O: react_366
-  C=C(CC)OC(=O)C(C)(C)C: react_99
   C=C(CC)OCc1ccccc1: react_98
   C=C(CC)O[Si](c1ccccc1)(c1ccccc1)C(C)(C)C: react_97
   C=C(CC)c1ccccc1: react_118
@@ -2999,6 +3045,9 @@ react_id_smiles_map:
   C=C(Cn1ccc(NC(=O)c2ccccc2)nc1=O)[Si](C)(C)C: react_448
   C=C(Cn1ccc(NC(=O)c2ccccc2)nc1=O)c1ccccc1: react_360
   C=C(Cn1cncn1)c1ccc(F)cc1F: react_124
+  C=C(c1ccc(F)cc1)c1ccc(OC)cc1: react_784
+  C=C(c1ccc(F)cc1)c1ccc(SC)cc1: react_785
+  C=C(c1ccc(OC)cc1)c1ccc(SC)cc1: react_783
   C=C(c1ccccc1)C(C)(C)C: react_137
   C=C(c1ccccc1)C(C)C: react_135
   C=C(c1ccccc1)C(F)(F)F: react_111
@@ -3007,9 +3056,21 @@ react_id_smiles_map:
   C=C(c1ccccc1)C1CCC1: react_138
   C=C(c1ccccc1)C1CCCC1: react_140
   C=C(c1ccccc1)C1CCCCC1: react_142
+  C=C(c1ccccc1)c1ccc(Br)cc1: react_782
   C=C(c1ccccc1)c1ccc(Br)cn1: react_152
+  C=C(c1ccccc1)c1ccc(Cl)cc1: react_781
+  C=C(c1ccccc1)c1ccc(F)c(F)c1: react_778
+  C=C(c1ccccc1)c1ccc(F)cc1: react_779
+  C=C(c1ccccc1)c1ccc(F)cc1F: react_788
+  C=C(c1ccccc1)c1ccc(OC)cc1: react_776
+  C=C(c1ccccc1)c1ccc(S(C)(=O)=O)cc1: react_780
+  C=C(c1ccccc1)c1ccc(SC)cc1: react_775
+  C=C(c1ccccc1)c1ccc2ccccc2c1: react_774
   C=C(c1ccccc1)c1cccc(Br)n1: react_151
+  C=C(c1ccccc1)c1ccccc1F: react_787
+  C=C(c1ccccc1)c1ccccc1OC: react_786
   C=C(c1ccccc1)c1ccccn1: react_150
+  C=C(c1ccccc1)c1ccco1: react_777
   C=C(c1nc(-c2ccc(F)cc2F)cs1)c1ccc(F)cc1F: react_169
   C=C/C=C/C=C\CCCCC: react_607
   C=C/C=C/CCCC(=O)OCC: react_604
@@ -3228,7 +3289,6 @@ react_id_smiles_map:
   CC/C=C/CCSc1ccccc1: react_351
   CC/C=C\CCO: react_60
   CC/C=C\CCOC: react_62
-  CC/C=C\CO: react_58
   CC1=C(C)c2ccccc2CC1: react_295
   CC1=C(O[Si](C)(C)C(C)(C)C)c2ccccc2C1: react_301
   CC1=C(O[Si](C)(C)C(C)(C)C)c2ccccc2CC1: react_299
@@ -3322,7 +3382,6 @@ react_id_smiles_map:
   CCCCCCCCCC/C=C/CO: react_676
   CCCCCCCCCC/C=C/CO[Si](C)(C)C(C)(C)C: react_600
   CCCCCCCCCC/C=C\CCCC(=O)OC: react_76
-  CCCCCCCCCC/C=C\CO: react_579
   CCCCCCCCCC=C(OC)OC: react_402
   CCCCCCCCCCC#CCCC/C=C/C(=O)OCC: react_54
   CCCCCCCCCCC/C=C/CO: react_686
@@ -3446,7 +3505,7 @@ react_id_smiles_map:
   COC(=O)C/C=C/c1ccccc1: react_395
   COC(=O)C1=CC=CCC1: react_564
   COC(=O)C1=CCc2cccc(OC)c2C1: react_397
-  COC(=O)C=C1C=CC=C1: react_561
+  COC(=O)/C=C1/C=CCC1: react_561
   COC(=O)CC/C=C/c1ccc(OC)c(OC)c1: react_730
   COC(=O)CC1=CCCC1: react_483
   COC(=O)CCC/C=C/c1ccccc1: react_677
@@ -3454,7 +3513,6 @@ react_id_smiles_map:
   COC(C/C=C/CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)OC: react_712
   COC/C(C)=C/c1ccccc1: react_507
   COC/C=C\COCc1ccccc1: react_578
-  COC/C=C\OCc1ccccc1: react_66
   COC/C=C\c1ccccc1: react_64
   COC1(OC)CC=C(CO)CC1: react_88
   COC1(OC)CC=C(COC(=O)C(C)(C)C)CC1: react_89
@@ -3539,7 +3597,6 @@ react_id_smiles_map:
   O=[N+]([O-])c1ccc(/C=C/c2ccc([N+](=O)[O-])cc2)cc1: react_681
   OC/C=C/c1ccccc1: react_645
   OC/C=C\COCc1ccccc1: react_576
-  OC/C=C\OCc1ccccc1: react_65
   OC/C=C\c1ccccc1: react_63
   OCC/C=C/c1ccccc1: react_653
   '[2H]/C(COC(C)=O)=C(/COC(C)=O)C([2H])([2H])[2H]': react_264

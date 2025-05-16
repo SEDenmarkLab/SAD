@@ -40,6 +40,7 @@ def add_entry_to_database(csv_file_name:str, naming_yaml_file_name: str, overwri
             final_df = None
             yml = None
             return final_df, yml
+        
     #If there is no common name you want to add, this creates the canonical smiles and then it adds the new smiles and reactant id to the dictionary
     elif react_name == '':
         react_smiles = input('1b. What is the reactant smiles? ')
@@ -55,6 +56,7 @@ def add_entry_to_database(csv_file_name:str, naming_yaml_file_name: str, overwri
                 final_df = None
                 yml = None
                 return final_df, yml
+            
         #If it is not in the library, it assigns it a new reactant id
         else:
             yml['react_id_smiles_map'][can_react_smiles] = f'react_{len(yml["react_id_smiles_map"])}'
@@ -68,6 +70,7 @@ def add_entry_to_database(csv_file_name:str, naming_yaml_file_name: str, overwri
                     final_df = None
                     yml = None
                     return final_df, yml
+                
     #This adds the common name with a canonical smiles string and a new reactant with the canonical smiles string and reactant id to the dictionary
     else:
         react_smiles = input('1c. What is the reactant smiles? ')
@@ -84,14 +87,14 @@ def add_entry_to_database(csv_file_name:str, naming_yaml_file_name: str, overwri
                 final_df = None
                 yml = None
                 return final_df, yml
+            
         else:
             yml['react_id_smiles_map'][can_react_smiles] = f'react_{len(yml["react_id_smiles_map"])}'
             react_id = yml['react_id_smiles_map'][can_react_smiles]
-    # print(yml['react_can_smiles_map']['a_trans_methyl_styrene'])
 
     all_values.extend([react_id,can_react_smiles])
 
-    # product
+    # Product
     prod_name = input("2a. What is the IUPAC product name? (Hit Enter if you don't want to add a common name to the library) ")
     if prod_name in yml['prod_can_smiles_map']:
         can_prod_smiles = yml['prod_can_smiles_map'][prod_name]
@@ -104,6 +107,7 @@ def add_entry_to_database(csv_file_name:str, naming_yaml_file_name: str, overwri
             final_df = None
             yml = None
             return final_df, yml
+        
     elif prod_name == '':
         prod_smiles = input('2b. What is the product smiles? ')
         can_prod_smiles = find_canonical_smiles(prod_smiles)
@@ -120,6 +124,7 @@ def add_entry_to_database(csv_file_name:str, naming_yaml_file_name: str, overwri
         else:
             yml['prod_id_smiles_map'][can_prod_smiles] = f'prod_{len(yml["prod_id_smiles_map"])}'
             prod_id = yml['prod_id_smiles_map'][can_prod_smiles]
+
     else:
         prod_smiles = input('2c. What is the product smiles? ')
         can_prod_smiles = find_canonical_smiles(prod_smiles)
@@ -140,7 +145,7 @@ def add_entry_to_database(csv_file_name:str, naming_yaml_file_name: str, overwri
 
     all_values.extend([prod_id, can_prod_smiles])
 
-    #cat
+    #Catalyst Questions
     cat_question_1 = input('3a. What is the commercial catalyst mixture? (Type "a" (DHQ-PHAL mix), "b" (DHQD-PHAL mix), or "c" (non-standard/non-commercial mixture)) ')
     if cat_question_1 == 'a':
         cat_id = 'cat_0'
@@ -179,7 +184,7 @@ def add_entry_to_database(csv_file_name:str, naming_yaml_file_name: str, overwri
 
     all_values.extend([cat_id,cat_des,cat_standard,cat_notes])
 
-    #solvent 1
+    #Solvent 1
     sol1_name = input("4a. What is solvent 1 name? (Hit Enter if you don't want to add a common name to the library) ")
     if sol1_name in yml['sol1_can_smiles_map']:
         can_sol1_smiles = yml['sol1_can_smiles_map'][sol1_name]
@@ -232,15 +237,15 @@ def add_entry_to_database(csv_file_name:str, naming_yaml_file_name: str, overwri
 
     all_values.extend([sol2_id,can_sol2_smiles])
 
-    #sol ratio
+    #Solvent Ratio
     if sol2_name == 'None':
         sol_ratio = 'None'
     else:
         sol_ratio = eval(input('What is the ratio of solvent 1 to solvent 2? Input as ratio (i.e. 7/1 or 3/2) '))
 
     all_values.append(sol_ratio)
-    #oxidant
-    ###Another change in p4###
+
+    #Oxidant
     if cat_standard == 'Yes':
         can_ox_smiles = yml['ox_can_smiles_map']['standard']
         ox_id = yml['ox_id_smiles_map'][can_ox_smiles]
@@ -250,6 +255,7 @@ def add_entry_to_database(csv_file_name:str, naming_yaml_file_name: str, overwri
         if ox_name in yml['ox_can_smiles_map']:
             can_ox_smiles = yml['ox_can_smiles_map'][ox_name]
             ox_id = yml['ox_id_smiles_map'][can_ox_smiles]
+
         elif ox_name == '':
             ox_smiles = input('6b. What is the oxidant smiles? ')
             can_ox_smiles = find_canonical_smiles(ox_smiles)
@@ -257,6 +263,7 @@ def add_entry_to_database(csv_file_name:str, naming_yaml_file_name: str, overwri
                 ox_id = yml['ox_id_smiles_map'][can_ox_smiles]
             else:
                 yml['ox_id_smiles_map'][can_ox_smiles] = f'ox_{len(yml["ox_id_smiles_map"])}'
+
         else:
             ox_smiles = input('6c. What is the oxidant smiles? ')
             can_ox_smiles = find_canonical_smiles(ox_smiles)
@@ -269,7 +276,7 @@ def add_entry_to_database(csv_file_name:str, naming_yaml_file_name: str, overwri
 
     all_values.extend([ox_id,can_ox_smiles])
 
-    #oxidant solution
+    #Oxidant solution
     if cat_des in ['alpha','beta']:
         can_ox_sol_smiles = 'None'
         ox_sol_id = 'None'
@@ -278,6 +285,7 @@ def add_entry_to_database(csv_file_name:str, naming_yaml_file_name: str, overwri
         if ox_sol_name in yml['ox_sol_can_smiles_map']:
             can_ox_sol_smiles = yml['ox_sol_can_smiles_map'][ox_sol_name]
             ox_sol_id = yml['ox_sol_id_smiles_map'][can_ox_sol_smiles]
+
         elif ox_sol_name == '':
             ox_smiles = input("What is the oxidant solution's smiles? ")
             can_ox_sol_smiles = find_canonical_smiles(ox_smiles)
@@ -285,6 +293,7 @@ def add_entry_to_database(csv_file_name:str, naming_yaml_file_name: str, overwri
                 ox_sol_id = yml['ox_sol_id_smiles_map'][can_ox_sol_smiles]
             else:
                 yml['ox_sol_id_smiles_map'][can_ox_sol_smiles] = f'ox_{len(yml["ox_sol_id_smiles_map"])}'
+
         else:
             ox_smiles = input("7b. What is the oxidant solution's smiles? ")
             can_ox_sol_smiles = find_canonical_smiles(ox_smiles)
@@ -297,7 +306,7 @@ def add_entry_to_database(csv_file_name:str, naming_yaml_file_name: str, overwri
 
     all_values.extend([ox_sol_id,can_ox_sol_smiles])
 
-    #oxidant to oxidant solution
+    #Oxidant to Oxidant solution
     if cat_des in ['alpha','beta']:
         ox_to_ox_sol = 'None'
     else:
@@ -309,14 +318,16 @@ def add_entry_to_database(csv_file_name:str, naming_yaml_file_name: str, overwri
 
     all_values.append(ox_to_ox_sol)
 
-    #additive
+    #Additive
     adtv_name = input("9a. What is the additive solution's name? (Hit [Enter] if there is no additive) ")
     if adtv_name  == '':
         can_adtv_smiles = 'None'
         adtv_id = 'None'
+
     elif adtv_name in yml['adtv_can_smiles_map']:
         can_adtv_smiles = yml['adtv_can_smiles_map'][adtv_name]
         adtv_id = yml['adtv_id_smiles_map'][can_adtv_smiles]
+
     elif adtv_name == '':
         adtv_smiles = input("9b. What is the additive's smiles? ")
         can_adtv_smiles = find_canonical_smiles(adtv_smiles)
@@ -324,6 +335,7 @@ def add_entry_to_database(csv_file_name:str, naming_yaml_file_name: str, overwri
             adtv_id = yml['adtv_id_smiles_map'][can_adtv_smiles]
         else:
             yml['adtv_id_smiles_map'][can_adtv_smiles] = f'adtv_{len(yml["adtv_id_smiles_map"])}'
+
     else:
         adtv_smiles = input("9c. What is the additive solution's smiles? ")
         can_adtv_smiles = find_canonical_smiles(adtv_smiles)
@@ -338,7 +350,7 @@ def add_entry_to_database(csv_file_name:str, naming_yaml_file_name: str, overwri
 
     #Temperature (Celsius)
     temp_question = input("10. What is the temperature of the reaction? (Give in Celsius, or if not reported, Hit [Enter]) ")
-    ####Need to remove "Not Reported" in later iterations as I can't calculate ddG
+
     if temp_question == '':
         temp="Not Reported"
     else:
@@ -384,6 +396,7 @@ def add_entry_to_database(csv_file_name:str, naming_yaml_file_name: str, overwri
         except:
             raise ValueError('Question 14 Error: Unable to convert percent product into float and value given not blank')
 
+    all_values.extend([perc_prod])
 
     # #Molarity
     # molarity_question = input('15a. Is the molarity given? (Type yes or no) ')
@@ -396,9 +409,9 @@ def add_entry_to_database(csv_file_name:str, naming_yaml_file_name: str, overwri
     #     raise ValueError('Question 15a Error: Please give a valid answer for the molarity question (i.e. 1 or 0) ')
 
     # all_values.extend([conv, perc_prod])
-    all_values.extend([perc_prod])
 
-    #diastereoselectivity
+
+    #Diastereoselectivity
     de_question_1 = input('16a. Does this reaction form a compound with more than 1 stereocenter? (If Yes, type "y", if No, hit [Enter]) ')
     if de_question_1 == 'y':
         multi_stereo = 'Yes'
@@ -423,6 +436,7 @@ def add_entry_to_database(csv_file_name:str, naming_yaml_file_name: str, overwri
                 ddG_dr = ((-1)*(temp+273.15)*(8.314))*math.log(dr)*(0.000239)
         else:
             raise ValueError('Question 17b Error: Only calibrated for "y" and hit [Enter] arguments ')
+        
     elif de_question_1 == '':
         multi_stereo = 'No'
         de = 'N/A'
@@ -441,20 +455,17 @@ def add_entry_to_database(csv_file_name:str, naming_yaml_file_name: str, overwri
     if isinstance(temp,str):
         ddG_er = float("nan")
     else:
-        ddG_er = ((temp+273.15)*(8.314))*math.log(er)*(0.000239)
+        ddG_er = ((-1)*(temp+273.15)*(8.314))*math.log(er)*(0.000239)
     all_values.extend([ee,er,ddG_er, multi_stereo, de, dr, ddG_dr])
 
-    #olefin class
-    olefin_type = input('18 What type of alkene is this? (Options are: mono, cis_di, trans_di, gem_di, tri, tetra) ')
-    if olefin_type not in ['mono' , 'cis_di' , 'trans_di' , 'gem_di' , 'tri' , 'tetra']:
-        raise ValueError('Question 18 Error: Must be equal to mono, cis_di, trans_di, gem_di, tri, tetra')
+    #Olefin class
+    olefin_type = input('18 What type of alkene is this? (Options are: Mono, Cis, Trans, Gem, Tri, Tetra) ')
+    if olefin_type not in ['Mono' , 'Cis' , 'Trans' , 'Gem' , 'Tri' , 'Tetra']:
+        raise ValueError('Question 18 Error: Must be equal to Mono, Cis, Trans, Gem, Tri, Tetra')
 
     #DOI
     doi = input('20. What is the DOI of this paper? ')
     all_values.extend([olefin_type,doi])
-    ###Removed in p4
-    # if len(all_values) != len(original_df.columns):
-    #     raise ValueError('The code did not populate all_values to align with all possible columns')
 
     #Additional notes (Added in p4)
     ad_notes = input('21. Do you have additional notes about this paper? Hit [Enter] if No (consider normalizing remarks, such as "product cyclizes") ')
@@ -474,12 +485,8 @@ def add_entry_to_database(csv_file_name:str, naming_yaml_file_name: str, overwri
         no_doi_or_note_test_df = final_df[final_df.columns[:-2]]
         duplicates = no_doi_or_note_test_df[no_doi_or_note_test_df.duplicated(keep=False)]
         print(duplicates.values)
-        # print(duplicates)
         dup_test_df = no_doi_or_note_test_df.drop_duplicates()
-        # print(dup_test_df)
-        # print(final_df)
-        # print(dup_test_df.index.shape)
-        # print(final_df.index.shape)
+
         #These are the duplicates
         ###This is attempting to find if everything outside of the doi and additional notes matches
         if dup_test_df.index.shape != final_df.index.shape:
@@ -490,7 +497,7 @@ def add_entry_to_database(csv_file_name:str, naming_yaml_file_name: str, overwri
                 final_df = None
                 yml = None
                 return final_df, yml
-        ####Made p4 changes
+
         if overwrite_prev_files:
             final_df.to_csv(csv_file_name,index=False)
             with open(naming_yaml_file_name, 'wt') as f:
@@ -503,16 +510,39 @@ def add_entry_to_database(csv_file_name:str, naming_yaml_file_name: str, overwri
             print('Returning updated dataframe and yml file')
             return final_df,yml
 
+'''
+This workflow is dependent on the following naming scheme:
+
+SAD_Database_{number}.csv
+SAD_Database_{number}.yaml
+
+This will search for the highest number of these and use that one as the starting point.
+It will then iterate upwards until it reaches a maximum number. This script is not optimized
+by any means, but allows consistent enumeration of new entries to the database. You can also 
+implement shortcuts, which have already been done for certain entries and can be viewed in SAD_Database.yaml:
+
+m = methanesulfonamide (additive)
+k = potassium ferricyanide (oxidant)
+t = tBuOH (Solvent 1)
+w = water (Solvent 2)
+
+You can add names to most categories continue using those as references for easier tabulation.
+Many IUPAC names are stored for a variety of reactants and products.
+
+'''
+
 all_csvs = glob('*.csv')
 all_yamls = glob('*.yaml')
 csv_yaml_max = max(list(int(csv.split('.csv')[0].split('_')[5]) for csv in all_csvs))
 # raise ValueError()
-csv_file_name = f'p8_reduced_database_column_update_{csv_yaml_max}.csv'
-yml_file_name = f'database_fixed_update_{csv_yaml_max}.yaml'
+csv_file_name = f'SAD_Database_{csv_yaml_max}.csv'
+yml_file_name = f'SAD_Database_{csv_yaml_max}.yaml'
 new_file_idx = csv_yaml_max + 1
 
 print(f'Using {csv_file_name} as the starting file')
-while new_file_idx < 1002:
+
+#This allows a limit to be set for how many you are willing to do
+while new_file_idx < 1100:
     print(f'Creating new reaction and new yaml/csv files with index {new_file_idx}')
     final_df, yml = add_entry_to_database(csv_file_name=csv_file_name, naming_yaml_file_name=yml_file_name, overwrite_prev_files=False)
     if not isinstance(final_df, pd.DataFrame):
@@ -522,9 +552,9 @@ while new_file_idx < 1002:
         print('Current data added to row')
         print(final_df)
         print(final_df.iloc[new_file_idx-2])
-        final_df.to_csv(f'p8_reduced_database_column_update_{new_file_idx}.csv',index=False)
-        with open(f'database_fixed_update_{new_file_idx}.yaml', 'wt') as f:
+        final_df.to_csv(f'SAD_Database_{new_file_idx}.csv',index=False)
+        with open(f'SAD_Database_{new_file_idx}.yaml', 'wt') as f:
             yaml.dump(yml,f)
-        csv_file_name = f'p8_reduced_database_column_update_{new_file_idx}.csv'
-        yml_file_name = f'database_fixed_update_{new_file_idx}.yaml'
+        csv_file_name = f'SAD_Database_{new_file_idx}.csv'
+        yml_file_name = f'SAD_Database_{new_file_idx}.yaml'
         new_file_idx += 1

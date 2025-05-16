@@ -1,4 +1,5 @@
 from rdkit import Chem
+
 def find_canonical_smiles(original_smiles: str):
     mol = Chem.MolFromSmiles(original_smiles)
     can_smiles = Chem.MolToSmiles(mol, canonical=True)
