@@ -1,12 +1,6 @@
 # Sharpless Asymmetric Dihydroxylation (SAD) Modeling Codebase
+This repository acts as serialization of the code applied for Literature Scraping, Descriptor Calculation, and Modeling of the Sharpless Asymmetric Database.
+All code was written and rerun by Blake Ocampo and is accurate as of 5/16/2025.
 
-This repository acts as documentation for code applied for Literature Scraping, Descriptor Calculation, and Modeling of the Sharpless Asymmetric Database written by Blake Ocampo. 
-
-Relevant packages Utilized for Descriptor Calculation and Analysis:
-
-* Molli 0.2 developed by Alex Shved for easy maintenance of 3D coordinates with personal modifications for High-Throughput DFT Calculations
-* Radial Distribution Function developed by Nicholas "Ian" Rinehart with personal modifications for alkene carbon RDF descriptor calculations.
-* Kneed Algorithm for Elbow Detection in Distortion Analysis (https://github.com/arvkevi/kneed)
-* E3FP Fingerprinting Method for Experimental Alkene Structural Similarity Evaluation (J. Med. Chem. 2017, 60, 7393–7409)
-
-The current iteration of code is reproducible through the modeling stage and is accurate for results through 5/3/23.
+## For all work using this database, please cite the current reprint reference:
+Ocampo, B.\*‡; Altundas, B.‡; Bock, M. J.; Feiz, S.; Denmark, S. E.\*; Data-Driven Prediction of Enantioselectivity for the Sharpless Asymmetric Dihydroxylation: Model Development and Experimental Validation. *Chemrxiv*, **2025**, [**DOI**: 10.26434/chemrxiv-2025-zp7rn](https://chemrxiv.org/engage/chemrxiv/article-details/6807d32550018ac7c5a6a893)
